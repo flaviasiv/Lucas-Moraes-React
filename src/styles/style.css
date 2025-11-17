@@ -18,6 +18,29 @@
 html{
     scroll-behavior: smooth;
 }
+
+/* Locomotive Scroll specific styles */
+html.has-scroll-smooth {
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+html.has-scroll-dragging {
+    user-select: none;
+}
+
+.has-scroll-smooth body {
+    overflow: hidden;
+}
+
+[data-scroll-container] {
+    min-height: 100vh;
+}
+
 body{
     font-family: "Neue";
     font-family: 'Neue', sans-serif;
