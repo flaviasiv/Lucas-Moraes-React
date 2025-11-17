@@ -1,37 +1,249 @@
+import { Link } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
 import '../styles/lata.css';
 import '../styles/font.css';
 
 const Lata = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div>
       <div className="cover">
-        <video src="/assets/lata/01-lata.mp4" autoPlay playsInline muted loop></video>
+        <video src="/assets/lata/01-lata05.mp4" autoPlay playsInline muted loop></video>
       </div>
       <main>
-        <div className="about">
-          <div className="aboutgrid about1">
-            <h1>LATA 05</h1>
-            <h6 id="h6-m">2023 / BRANDING / ART DIRECTION</h6>
-            <h5>(PT/BR)</h5>
-            <p className="about1">
-              Um evento secreto, sem local, data ou temática pré definida que
-              contará apenas com convidados nas primeira edições e usará das
-              apresentações surpresas como a principal forma de instigar novas
-              pessoas e difundir a marca.
-            </p>
+        <div className="aboutcontainer container">
+          <div className="firstabout about">
+            <div className="aboutgrid about1" id="aboutgrid1">
+              <h1>LATA 05</h1>
+              <h6 id="h6-m">2023 / BRANDING / ART DIRECTION</h6>
+              <h5>(PT/BR)</h5>
+              <p className="about1" id="about1">
+                Lata 05 é um movimento artístico nada convencional, que trará uma sobreposição de gêneros musicais para movimentar a arte nacional. Criar um habitat com novos sabores musicais em um formato de laboratório, onde irá acontecer a confecção de uma nova arte brasileira.
+                <br />
+                <br />
+                Um evento secreto, sem local, data ou temática pré definida que contará apenas com convidados nas primeira edições e usará das apresentações surpresas como a principal forma de instigar novas pessoas e difundir a marca.
+              </p>
+            </div>
           </div>
-          <div className="aboutgrid about2">
+          <div className="aboutgrid about2" id="aboutgrid1">
             <h6 id="h6-w">2023 / BRANDING / ART DIRECTION</h6>
             <h5>(ENG)</h5>
-            <p>
-              A secret event, with no pre-defined location, date or theme, which
-              will only feature guests in the first editions and will use
-              surprise presentations as the main way to instigate new people and
-              spread the brand.
+            <p className="about1" id="about1" id="p2-1">
+              Lata 05 is an unconventional artistic movement that will bring an overlap of musical genres to energize national art. Creating a habitat with new musical flavors in a laboratory format, where the crafting of a new Brazilian art will take place.
+              <br />
+              <br />A secret event, without a disclosed location, date, or predefined theme, which will only include invited guests in the first editions and will rely on surprise performances as the primary way to intrigue new people and spread the brand.
             </p>
           </div>
         </div>
-        {/* Continue com o resto do conteúdo */}
+        <div className="frames1 frames1-1">
+          <video className="img1" src="/assets/lata/02-lata05.mp4" autoPlay playsInline muted loop></video>
+        </div>
+        <div className="frames1">
+          <video src="/assets/lata/03-lata05.mp4" autoPlay playsInline muted loop></video>
+        </div>
+        <div className="frames2">
+          <img src="/assets/lata/Frame1.png" alt="" draggable="false" />
+        </div>
+        <div className="about desafiogrid container">
+          <div className="aboutgrid about1">
+            <h6>// DESAFIO</h6>
+            <p className="about1" id="about1">
+              Desenvolver um produto de uma geração pós pandêmica nacional. Uma exaltação da identidade brasileira da melhor forma possível. Bom gosto para música, consumo e estilo, utilizando da cultura das colaborações para apoiar marcas nacionais, expor artistas locais emergentes e surpreender o público com apresentações de artistas já consagrados.
+            </p>
+          </div>
+          <div className="aboutgrid about2">
+            <p>
+              A product of a post-national pandemic generation. An exaltation of the Brazilian identity in the best possible way. Good taste in music, consumption, and style, using the culture of collaborations to support national brands, showcase emerging local artists, and surprise the audience with performances by already established artists.
+              <br />
+              <br />
+              "An unconventional way to move art" is an invitation to the development of a versatile and provocative brand. A combination of elements that subtly pay homage to Brazilian culture
+            </p>
+          </div>
+        </div>
+        <div className="frames1 frames1-1">
+          <video src="/assets/lata/04-lata05.mp4" autoPlay playsInline muted loop></video>
+        </div>
+        <div className="about tipografia container">
+          <div className="aboutgrid about1">
+            <h6>// SOLUÇÃO</h6>
+            <h5>(PT/BR)</h5>
+            <p className="about1" id="about1">
+              Uma forma não convencional de movimentar a arte' é um convite para o desenvolvimento de uma marca versátil e provocativa com elementos que sutilmente homenageiam a cultura brasileira.
+              <br />
+              <br />O logo foi construído com a intercepção entre o clássico e o moderno com uma flexibilidade e fácil adaptação em seu próprio espaço.
+              <br />
+              <br />
+              Uma fonte serifada distorcida é capaz de despertar essa sensação pois é a soma do tradicional com um movimento imprevisível - como o futuro.
+            </p>
+          </div>
+          <div className="aboutgrid about2">
+            <h5>(ENG)</h5>
+            <p>
+              The logo was built with the intersection of the classic and the modern, providing flexibility and easy adaptation in its own space.
+              <br />
+              <br />A distorted serif font is capable of evoking this sensation as it is the combination of the traditional with an unpredictable movement - like the future.
+            </p>
+          </div>
+        </div>
+        <div className="frames1">
+          <video src="/assets/lata/05-lata05.mp4" autoPlay playsInline muted loop></video>
+          <img src="/assets/lata/frame2.jpg" alt="imagem capa lata 05" draggable="false" />
+          <img src="/assets/lata/frame3.jpg" alt="imagem capa lata 05" draggable="false" />
+          <img src="/assets/lata/frame4.jpg" alt="imagem capa lata 05" draggable="false" />
+          <video src="/assets/lata/06-lata05.mp4" autoPlay playsInline muted loop></video>
+        </div>
+        <div className="about tipografia container">
+          <div className="aboutgrid about1">
+            <h6></h6>
+            <h5>(PT/BR)</h5>
+            <p className="about1" id="about1">
+              A escolha de imagens deverá ser feita visando transmitir sempre a sensação de pessoas vivendo bons momentos.
+            </p>
+          </div>
+          <div className="aboutgrid about2">
+            <h5>(ENG)</h5>
+            <p>The selection of images should be made with the aim of always conveying the feeling of people living good moments.</p>
+          </div>
+        </div>
+        <div className="frames1">
+          <video src="/assets/lata/07-lata05.mp4" autoPlay playsInline muted loop></video>
+          <img src="/assets/lata/frame5.jpg" alt="imagem capa lata 05" draggable="false" />
+          <video src="/assets/lata/08-lata05.mp4" autoPlay playsInline muted loop></video>
+          <img src="/assets/lata/frame6.jpg" alt="imagem capa lata 05" draggable="false" />
+        </div>
+        <button onClick={scrollToTop} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
+          <div className="seta">
+            <img src="/assets/seta.png" alt="" draggable="false" />
+          </div>
+        </button>
+        <div className="others">
+          <h1>// OUTROS PROJETOS</h1>
+          <Swiper
+            className="mySwiper1"
+            spaceBetween={0}
+            loop={true}
+            autoplay={{
+              delay: 1000,
+              disableOnInteraction: false,
+            }}
+            slidesPerView="auto"
+            modules={[Autoplay]}
+          >
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/supernova">
+                  <img src="/assets/Rectangle1.jpg" alt="araguaia" />
+                  <h2>SUPERNOVA</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/botteghe">
+                  <img src="/assets/Rectangle2.jpg" alt="araguaia" />
+                  <h2>BOTTEGHE DEL CAFFÈ</h2>
+                  <p>Branding, Packaging, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/lata">
+                  <img src="/assets/Rectangle3.jpg" alt="araguaia" />
+                  <h2>LATA 05</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/clickscorres">
+                  <img src="/assets/Rectangle4.png" alt="araguaia" />
+                  <h2>CLICKS & CORRES</h2>
+                  <p>Photography, Personal Project</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/buddynutrition">
+                  <img src="/assets/Rectangle5.png" alt="araguaia" />
+                  <h2>BUDDY NUTRITION</h2>
+                  <p>Branding, Art direction, Packaging, Design System</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/estadio97">
+                  <img src="/assets/Rectangle6.png" alt="araguaia" />
+                  <h2>ESTÁDIO 97</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/supernova">
+                  <img src="/assets/Rectangle1.jpg" alt="araguaia" />
+                  <h2>SUPERNOVA</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/botteghe">
+                  <img src="/assets/Rectangle2.jpg" alt="araguaia" />
+                  <h2>BOTTEGHE DEL CAFFÈ</h2>
+                  <p>Branding, Packaging, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/lata">
+                  <img src="/assets/Rectangle3.jpg" alt="araguaia" />
+                  <h2>LATA 05</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/clickscorres">
+                  <img src="/assets/Rectangle4.png" alt="araguaia" />
+                  <h2>CLICKS & CORRES</h2>
+                  <p>Photography, Personal Project</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/buddynutrition">
+                  <img src="/assets/Rectangle5.png" alt="araguaia" />
+                  <h2>BUDDY NUTRITION</h2>
+                  <p>Branding, Art direction, Packaging, Design System</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/estadio97">
+                  <img src="/assets/Rectangle6.png" alt="araguaia" />
+                  <h2>ESTÁDIO 97</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </main>
     </div>
   );

@@ -1,18 +1,19 @@
+import { Link } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
 import '../styles/botteghe.css';
 import '../styles/font.css';
 
 const Botteghe = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div>
       <div className="cover">
-        <video
-          src="/assets/botteghe/01-botteghe.mp4"
-          autoPlay
-          preload="auto"
-          playsInline
-          muted
-          loop
-        ></video>
+        <video src="/assets/botteghe/01-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
       </div>
       <main>
         <div className="aboutcontainer container">
@@ -25,26 +26,19 @@ const Botteghe = () => {
               <h6 id="h6-m">2023 / BRANDING / ART DIRECTION</h6>
               <h5>(PT/BR)</h5>
               <p className="about1" id="about1">
-                Com uma inclinação natural pela proteção ao meio ambiente –
-                Botteghe Del Caffè é uma marca de cosméticos com produtos a base
-                do óleo extraído do café verde em uma fazenda familiar no sul de
-                Minas Gerais.
+                Com uma inclinação natural pela proteção ao meio ambiente – Botteghe Del Caffè é uma marca de cosméticos com produtos a base do óleo extraído do café verde em uma fazenda familiar no sul de Minas Gerais.
                 <br />
                 <br />
-                Em parceria com produtores locais de azeite, seus produtos,
-                respaldados por um{' '}
+                Em parceria com produtores locais de azeite, seus produtos, respaldados por um{' '}
                 <a
                   style={{ textDecoration: 'underline' }}
                   href="https://www.teses.usp.br/teses/disponiveis/60/60137/tde-06092013-092132/publico/Tese_Completa.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  estudo realizado pela Faculdade de Ciências Farmacêuticas da
-                  USP
+                  estudo realizado pela Faculdade de Ciências Farmacêuticas da USP
                 </a>
-                , oferecem hidratação, proteção, manutenção, cicatrização e
-                melhoria da barreira cutânea, com propriedades antioxidantes e
-                fotoprotetoras aprimoradas para uso terapêutico e cosmético.
+                , oferecem hidratação, proteção, manutenção, cicatrização e melhoria da barreira cutânea, com propriedades antioxidantes e fotoprotetoras aprimoradas para uso terapêutico e cosmético.
               </p>
             </div>
           </div>
@@ -52,13 +46,10 @@ const Botteghe = () => {
             <h6 id="h6-w">2023 / BRANDING / ART DIRECTION</h6>
             <h5>(ENG)</h5>
             <p className="about1" id="p2-1">
-              Botteghe Del Caffè is an environmentally conscious cosmetics brand
-              that utilizes green coffee oil from a family farm in southern
-              Minas Gerais.
+              Botteghe Del Caffè is an environmentally conscious cosmetics brand that utilizes green coffee oil from a family farm in southern Minas Gerais.
               <br />
               <br />
-              Collaborating with local olive oil producers, their products,
-              backed by a{' '}
+              Collaborating with local olive oil producers, their products, backed by a{' '}
               <a
                 style={{ textDecoration: 'underline' }}
                 href="https://www.teses.usp.br/teses/disponiveis/60/60137/tde-06092013-092132/publico/Tese_Completa.pdf"
@@ -67,23 +58,220 @@ const Botteghe = () => {
               >
                 study from USP
               </a>
-              , offer hydration, protection, maintenance, healing, and improved
-              cutaneous barrier, with heightened antioxidant and photoprotective
-              properties for therapeutic and cosmetic use.
+              , offer hydration, protection, maintenance, healing, and improved cutaneous barrier, with heightened antioxidant and photoprotective properties for therapeutic and cosmetic use.
             </p>
           </div>
         </div>
         <div className="frames1 frames1-1">
-          <video
-            src="/assets/botteghe/02-botteghe.mp4"
-            autoPlay
-            preload="auto"
-            playsInline
-            muted
-            loop
-          ></video>
+          <video src="/assets/botteghe/02-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
         </div>
-        {/* Continue com o resto do conteúdo */}
+        <div className="frames1">
+          <img className="img1" src="/assets/botteghe/Frame3.png" alt="imagem capa botteghe" draggable="false" />
+        </div>
+        <div className="frames2">
+          <img src="/assets/botteghe/Frame4.png" alt="" draggable="false" />
+        </div>
+        <div className="about desafiogrid container">
+          <div className="aboutgrid about1">
+            <h6>// DESAFIO</h6>
+            <p className="about1" id="about1">
+              A fazenda São Luís do Palmela, com mais de 40 anos de dedicação à cafeicultura em Campanha-MG, destaca-se por seus 140 hectares, que incluem a sede e amplas áreas de preservação.
+              <br />
+              <br />
+              A família proprietária sempre priorizou produtos que agregam valor, cuidam das plantações e respeitam a natureza local e a saúde dos colaboradores.
+              <br />
+              <br />
+              Diante desse comprometimento, surge a necessidade de uma marca vibrante que reflita claramente esses princípios, representando a excelência e os potenciais científicos na cafeicultura, o respeito ao meio ambiente e à saúde da equipe
+            </p>
+          </div>
+          <br />
+          <div className="aboutgrid about2">
+            <p>
+              The São Luís do Palmela farm, with over 40 years dedicated to coffee cultivation in Campanha-MG, stands out for its 140 hectares, encompassing the headquarters and extensive preservation areas.
+              <br />
+              <br />
+              The owning family has consistently prioritized products that add value, care for the plantations, and respect the local environment and the health of collaborators.
+              <br />
+              <br />
+              Given this commitment, there arises the need for a vibrant brand that clearly reflects these principles, representing excellence and scientific potential in coffee cultivation, as well as a commitment to environmental conservation and the well-being of the team.
+            </p>
+          </div>
+        </div>
+        <div className="frames1 frames1-1">
+          <img src="/assets/botteghe/Frame5.png" alt="imagem capa botteghe" draggable="false" />
+        </div>
+        <div className="frame2-2">
+          <img src="/assets/botteghe/gif3.gif" alt="imagem capa botteghe" draggable="false" />
+          <video src="/assets/botteghe/03-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+        </div>
+        <div className="frames1"></div>
+        <div className="frames3">
+          <video src="/assets/botteghe/04-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+          <img src="/assets/botteghe/frame8.png" alt="imagem capa botteghe" draggable="false" />
+        </div>
+        <div className="about tipografia container">
+          <div className="aboutgrid about1">
+            <h6>// SOLUÇÃO</h6>
+            <h5>(PT/BR)</h5>
+            <p className="about1" id="about1">
+              O ícone foi projetado para refletir e reforçar os princípios fundamentais da marca, valores como saúde e responsabilidade ambiental. Foi concebido de forma a ser facilmente aplicado em diferentes contextos, como em materiais de marketing, embalagens, mídias sociais, etc.
+              <br />
+              <br />
+              A escolha de elementos específicos, como saúde, brilho da pele e raízes, sugere uma conexão com a responsabilidade ambiental e sugere um compromisso com práticas sustentáveis.
+            </p>
+          </div>
+          <div className="aboutgrid about2">
+            <h5>(ENG)</h5>
+            <p>
+              The icon was designed to reflect and reinforce the fundamental principles of the brand, values such as health, and environmental responsibility. It was conceived to be easily applied in various contexts, such as marketing materials, packaging, social media, etc.
+              <br />
+              <br />
+              The selection of specific elements, such as health, skin radiance, and roots, implies a connection to environmental responsibility and suggests a commitment to sustainable practices.
+            </p>
+          </div>
+        </div>
+        <div className="frames1">
+          <img src="/assets/botteghe/08ec6a2c417565846ce6d744ebc776fd.gif" alt="" />
+          <img src="/assets/botteghe/frame9.png" alt="" draggable="false" />
+          <video src="/assets/botteghe/05-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+          <img className="img-sm" src="/assets/botteghe/frame10.png" alt="" draggable="false" />
+          <img src="/assets/botteghe/frame11.png" alt="" draggable="false" />
+        </div>
+        <div className="frames4">
+          <img className="img-4-1" src="/assets/botteghe/frame12.png" alt="" draggable="false" />
+          <img className="img-4-2" src="/assets/botteghe/frame13.png" alt="" draggable="false" />
+        </div>
+        <div className="frames1">
+          <video src="/assets/botteghe/06-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+        </div>
+        <button onClick={scrollToTop} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
+          <div className="seta">
+            <img src="/assets/botteghe/seta.png" alt="" draggable="false" />
+          </div>
+        </button>
+        <div className="others">
+          <h1>// OUTROS PROJETOS</h1>
+          <Swiper
+            className="mySwiper1"
+            spaceBetween={0}
+            loop={true}
+            autoplay={{
+              delay: 1000,
+              disableOnInteraction: false,
+            }}
+            slidesPerView="auto"
+            modules={[Autoplay]}
+          >
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/supernova">
+                  <img src="/assets/Rectangle1.jpg" alt="araguaia" />
+                  <h2>SUPERNOVA</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/botteghe">
+                  <img src="/assets/Rectangle2.jpg" alt="araguaia" />
+                  <h2>BOTTEGHE DEL CAFFÈ</h2>
+                  <p>Branding, Packaging, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/lata">
+                  <img src="/assets/Rectangle3.jpg" alt="araguaia" />
+                  <h2>LATA 05</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/clickscorres">
+                  <img src="/assets/Rectangle4.png" alt="araguaia" />
+                  <h2>CLICKS & CORRES</h2>
+                  <p>Photography, Personal Project</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/buddynutrition">
+                  <img src="/assets/Rectangle5.png" alt="araguaia" />
+                  <h2>BUDDY NUTRITION</h2>
+                  <p>Branding, Art direction, Packaging, Design System</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/estadio97">
+                  <img src="/assets/Rectangle6.png" alt="araguaia" />
+                  <h2>ESTÁDIO 97</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/supernova">
+                  <img src="/assets/Rectangle1.jpg" alt="araguaia" />
+                  <h2>SUPERNOVA</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/botteghe">
+                  <img src="/assets/Rectangle2.jpg" alt="araguaia" />
+                  <h2>BOTTEGHE DEL CAFFÈ</h2>
+                  <p>Branding, Packaging, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/lata">
+                  <img src="/assets/Rectangle3.jpg" alt="araguaia" />
+                  <h2>LATA 05</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/clickscorres">
+                  <img src="/assets/Rectangle4.png" alt="araguaia" />
+                  <h2>CLICKS & CORRES</h2>
+                  <p>Photography, Personal Project</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/buddynutrition">
+                  <img src="/assets/Rectangle5.png" alt="araguaia" />
+                  <h2>BUDDY NUTRITION</h2>
+                  <p>Branding, Art direction, Packaging, Design System</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper1">
+              <div className="slide1">
+                <Link to="/estadio97">
+                  <img src="/assets/Rectangle6.png" alt="araguaia" />
+                  <h2>ESTÁDIO 97</h2>
+                  <p>Branding, Art direction</p>
+                </Link>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </main>
     </div>
   );
