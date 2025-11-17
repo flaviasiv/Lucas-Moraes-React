@@ -49,7 +49,7 @@ main{
     margin-top: 64px;
 }
 #aboutgrid1{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.8fr 0.2fr 1fr;
     grid-template-rows: auto;
 }
 #aboutgrid1 h1{
@@ -72,8 +72,8 @@ main{
     grid-row-start: 1;
     font-size: 16px;
     font-style: normal;
-    margin: -60px auto;
-    margin-left: 55px;
+    margin: -70px auto;
+    margin-left: 5px;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
@@ -143,12 +143,14 @@ main{
     font-weight: 500;
     line-height: normal;
 }
+.aboutgrid p a{text-decoration: underline;}
 #h6-m{display: none;}
 @media screen and (max-width:900px) {
     .aboutgrid {
         display: flex;
         flex-direction: column;
-        margin: auto;
+        margin: 60px auto;
+        padding: 20px;
     }
     .container{
         padding: 120px 45px 120px 16px;
