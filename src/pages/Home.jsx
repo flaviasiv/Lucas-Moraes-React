@@ -11,6 +11,12 @@ const Home = () => {
   const currentYear = new Date().getFullYear();
   const age = currentYear - birthYear;
 
+  // Scroll to top without changing URL
+  const scrollToTop = (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const skills = [
     'Photoshop',
     'Illustrator',
@@ -203,7 +209,7 @@ const Home = () => {
       </div>
 
       <div className="seta setah">
-        <a href="#home">
+        <a href="#home" onClick={scrollToTop}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"

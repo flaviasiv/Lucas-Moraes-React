@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import '../styles/header.css';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -11,6 +13,30 @@ const Header = () => {
 
   const closeMenu = () => {
     setMenuOpen(false);
+  };
+
+  // Scroll to section without changing URL
+  const scrollToSection = (e, sectionId) => {
+    e.preventDefault();
+    closeMenu();
+
+    // If not on home page, navigate to home first
+    if (location.pathname !== '/') {
+      navigate('/');
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    } else {
+      // Already on home page, just scroll
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
   };
 
   // Close menu when clicking outside
@@ -47,7 +73,7 @@ const Header = () => {
                   <Link to="/" onClick={closeMenu}>HOME</Link>
                 </li>
                 <li>
-                  <a href="#works" onClick={closeMenu}>WORKS</a>
+                  <a href="#works" onClick={(e) => scrollToSection(e, 'works')}>WORKS</a>
                 </li>
                 <li>
                   <a href="mailto:vaziodesignstudio@gmail.com">SAY HI!</a>
