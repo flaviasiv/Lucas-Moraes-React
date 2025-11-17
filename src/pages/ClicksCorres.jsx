@@ -5,7 +5,7 @@ const ClicksCorres = () => {
   return (
     <div>
       <div className="cover">
-        <video
+        <video className='covervideo'
           src="/assets/corres/01-cc.mp4"
           autoPlay
           playsInline
