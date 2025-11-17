@@ -6,6 +6,11 @@ import 'swiper/css/free-mode';
 import '../styles/style.css';
 
 const Home = () => {
+  // Calculate age based on birth year 1995
+  const birthYear = 1995;
+  const currentYear = new Date().getFullYear();
+  const age = currentYear - birthYear;
+
   const skills = [
     'Photoshop',
     'Illustrator',
@@ -84,7 +89,7 @@ const Home = () => {
       </div>
       <div className="logo">
         <p>
-          LUCAS MORAES // 30 <br />
+          LUCAS MORAES // {age} <br />
           (BASED IN SÃO PAULO, BRAZIL)
         </p>
       </div>
