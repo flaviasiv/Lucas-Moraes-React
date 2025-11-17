@@ -111,11 +111,6 @@ const Estadio97 = () => {
           </div>
           <img src="/assets/estadio97/frames7.png" alt="" draggable="false" />
         </div>
-        <button onClick={scrollToTop} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
-          <div className="seta">
-            <img src="/assets/seta.png" alt="" draggable="false" />
-          </div>
-        </button>
         <ProjectsSlider />
       </main>
     </div>

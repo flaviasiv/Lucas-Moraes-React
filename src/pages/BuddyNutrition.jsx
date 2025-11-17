@@ -234,12 +234,6 @@ const BuddyNutrition = () => {
         <div className="frames1">
           <img src="/assets/buddy/fr8.png" alt="" draggable="false" />
         </div>
-
-        <button onClick={scrollToTop} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
-          <div className="seta">
-            <img src="/assets/seta.png" alt="" draggable="false" />
-          </div>
-        </button>
         <ProjectsSlider />
       </main>
     </div>

@@ -141,11 +141,6 @@ const Botteghe = () => {
         <div className="frames1">
           <video src="/assets/botteghe/06-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
         </div>
-        <button onClick={scrollToTop} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
-          <div className="seta">
-            <img src="/assets/botteghe/seta.png" alt="" draggable="false" />
-          </div>
-        </button>
         <ProjectsSlider />
       </main>
     </div>

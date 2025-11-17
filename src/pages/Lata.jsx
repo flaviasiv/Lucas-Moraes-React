@@ -30,7 +30,7 @@ const Lata = () => {
           <div className="aboutgrid about2" id="aboutgrid1">
             <h6 id="h6-w">2023 / BRANDING / ART DIRECTION</h6>
             <h5>(ENG)</h5>
-            <p className="about1" id="about1" id="p2-1">
+            <p className="about1" id="p2-1">
               Lata 05 is an unconventional artistic movement that will bring an overlap of musical genres to energize national art. Creating a habitat with new musical flavors in a laboratory format, where the crafting of a new Brazilian art will take place.
               <br />
               <br />A secret event, without a disclosed location, date, or predefined theme, which will only include invited guests in the first editions and will rely on surprise performances as the primary way to intrigue new people and spread the brand.
@@ -113,11 +113,6 @@ const Lata = () => {
           <video src="/assets/lata/08-lata05.mp4" autoPlay playsInline muted loop></video>
           <img src="/assets/lata/frame6.jpg" alt="imagem capa lata 05" draggable="false" />
         </div>
-        <button onClick={scrollToTop} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
-          <div className="seta">
-            <img src="/assets/seta.png" alt="" draggable="false" />
-          </div>
-        </button>
         <ProjectsSlider />
       </main>
     </div>

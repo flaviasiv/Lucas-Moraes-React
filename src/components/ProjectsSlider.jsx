@@ -5,6 +5,10 @@ import 'swiper/css';
 import '../styles/ProjectsSlider.css';
 
 const ProjectsSlider = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const projects = [
     {
       to: '/supernova',
@@ -45,6 +49,12 @@ const ProjectsSlider = () => {
   ];
 
   return (
+    <div>
+        <button className='btnSeta' onClick={scrollToTop} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
+          <div className="seta">
+            <img src="/assets/seta.png" alt="" draggable="false" />
+          </div>
+        </button>
     <div className="others">
       <h1>// OUTROS PROJETOS</h1>
       <Swiper
@@ -71,6 +81,7 @@ const ProjectsSlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+    </div>
     </div>
   );
 };

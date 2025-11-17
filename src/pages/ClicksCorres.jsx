@@ -159,12 +159,6 @@ const ClicksCorres = () => {
           <img src="/assets/corres/frames14.png" alt="" draggable="false" />
           <img src="/assets/corres/frames15.png" alt="" draggable="false" />
         </div>
-
-        <button onClick={scrollToTop} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
-          <div className="seta">
-            <img src="/assets/seta.png" alt="" draggable="false" />
-          </div>
-        </button>
         <ProjectsSlider />
       </main>
     </div>

@@ -3,10 +3,6 @@ import '../styles/supernova.css';
 import '../styles/font.css';
 
 const Supernova = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <div>
       <div className="cover">
@@ -160,11 +156,6 @@ const Supernova = () => {
           <video src="/assets/supernova/07-spnv.mp4" autoPlay playsInline muted loop></video>
           <video src="/assets/supernova/08-spnv.mp4" autoPlay playsInline muted loop></video>
         </div>
-        <button onClick={scrollToTop} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
-          <div className="seta">
-            <img src="/assets/seta.png" alt="" draggable="false" />
-          </div>
-        </button>
         <ProjectsSlider />
       </main>
     </div>
