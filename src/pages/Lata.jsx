@@ -3,10 +3,6 @@ import '../styles/lata.css';
 import '../styles/font.css';
 
 const Lata = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <div>
       <div className="cover">

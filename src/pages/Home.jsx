@@ -7,6 +7,7 @@ import 'locomotive-scroll/dist/locomotive-scroll.css';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import '../styles/style.css';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const scrollRef = useRef(null);
@@ -273,6 +274,8 @@ const Home = () => {
             </svg>
           </a>
         </div>
+
+        <Footer />
     </main>
   );
 };

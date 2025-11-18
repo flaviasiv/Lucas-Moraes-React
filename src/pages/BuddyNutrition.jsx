@@ -6,10 +6,6 @@ import '../styles/buddy.css';
 import '../styles/font.css';
 
 const BuddyNutrition = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <div>
       <div className="cover">

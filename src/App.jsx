@@ -23,6 +23,9 @@ function ScrollToTop() {
 }
 
 function AppContent() {
+  const { pathname } = useLocation();
+  const isHome = pathname === '/';
+
   return (
     <>
       <ScrollToTop />
@@ -36,7 +39,7 @@ function AppContent() {
         <Route path="/clickscorres" element={<ClicksCorres />} />
         <Route path="/estadio97" element={<Estadio97 />} />
       </Routes>
-      <Footer />
+      {!isHome && <Footer />}
     </>
   );
 }

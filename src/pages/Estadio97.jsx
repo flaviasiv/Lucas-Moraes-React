@@ -1,15 +1,9 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import ProjectsSlider from '../components/ProjectsSlider';
 import '../styles/e97.css';
 import '../styles/font.css';
 
 const Estadio97 = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <div>
       <div className="cover">

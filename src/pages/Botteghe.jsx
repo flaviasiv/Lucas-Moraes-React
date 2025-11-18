@@ -3,10 +3,6 @@ import '../styles/botteghe.css';
 import '../styles/font.css';
 
 const Botteghe = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <div>
       <div className="cover">

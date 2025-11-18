@@ -3,10 +3,6 @@ import '../styles/corresclicks.css';
 import '../styles/font.css';
 
 const ClicksCorres = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <div>
       <div className="cover">
