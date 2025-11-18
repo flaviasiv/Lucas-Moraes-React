@@ -2,67 +2,44 @@ import { Link } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
-import LocomotiveScroll from 'locomotive-scroll';
-import 'locomotive-scroll/dist/locomotive-scroll.css';
+import Lenis from '@studio-freight/lenis';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import '../styles/style.css';
-import Footer from '../components/Footer';
 
 const Home = () => {
-  const scrollRef = useRef(null);
-  const locomotiveScrollRef = useRef(null);
+  const lenisRef = useRef(null);
 
   // Calculate age based on birth year 1995
   const birthYear = 1995;
   const currentYear = new Date().getFullYear();
   const age = currentYear - birthYear;
 
-  // Initialize Locomotive Scroll
+  // Initialize Lenis smooth scroll
   useEffect(() => {
-    // Small delay to ensure DOM is fully loaded
-    const timer = setTimeout(() => {
-      if (scrollRef.current) {
-        locomotiveScrollRef.current = new LocomotiveScroll({
-          el: scrollRef.current,
-          smooth: true,
-          multiplier: 0.6, // Controls scroll speed (lower = slower)
-          lerp: 0.08, // Controls smoothness (lower = smoother but slower)
-          reloadOnContextChange: true,
-          smartphone: {
-            smooth: true,
-          },
-          tablet: {
-            smooth: true,
-          },
-        });
+    lenisRef.current = new Lenis({
+      duration: 0.3,
+      easing: (t) => t,
+      lerp: 0.5,
+      wheelMultiplier: 1.5,
+    });
 
-        // Update on window resize
-        window.addEventListener('resize', () => {
-          if (locomotiveScrollRef.current) {
-            locomotiveScrollRef.current.update();
-          }
-        });
-      }
-    }, 100);
+    function raf(time) {
+      lenisRef.current?.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
 
     return () => {
-      clearTimeout(timer);
-      if (locomotiveScrollRef.current) {
-        locomotiveScrollRef.current.destroy();
-      }
+      lenisRef.current?.destroy();
     };
   }, []);
 
-  // Scroll to top without changing URL
+  // Scroll to top
   const scrollToTop = (e) => {
     e.preventDefault();
-    if (locomotiveScrollRef.current) {
-      locomotiveScrollRef.current.scrollTo(0, {
-        duration: 1500,
-        easing: [0.25, 0.0, 0.35, 1.0],
-      });
-    }
+    lenisRef.current?.scrollTo(0, { duration: 1.5 });
   };
 
   const skills = [
@@ -133,15 +110,15 @@ const Home = () => {
   ];
 
   return (
-    <main ref={scrollRef} data-scroll-container>
-        <div className="logoimg" data-scroll data-scroll-speed="1">
+    <main>
+        <div className="logoimg">
           <img
             src="/assets/profile-lucas-moraes.jpg"
             alt="Lucas profile picture"
             draggable="false"
           />
         </div>
-        <div className="logo" data-scroll data-scroll-speed="0.5">
+        <div className="logo">
           <p>
             LUCAS MORAES // {age} <br />
             (BASED IN SÃO PAULO, BRAZIL)
@@ -168,7 +145,7 @@ const Home = () => {
           ))}
         </Swiper>
 
-        <div className="sobre" id="about" data-scroll data-scroll-speed="0.8">
+        <div className="sobre" id="about">
           <h2 className="sobreT1 Th1">// ABOUT ME</h2>
           <p className="sobreT3">(PT/BR)</p>
           <p className="sobreT4">
@@ -179,7 +156,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="sobre sobre2" id="about" data-scroll data-scroll-speed="0.6">
+        <div className="sobre sobre2" id="about">
           <h2 className="sobreT1">
             <div className="sobreT6">
               <video
@@ -211,7 +188,7 @@ const Home = () => {
           </h2>
         </div>
 
-        <div className="work" id="works" data-scroll data-scroll-speed="0.7">
+        <div className="work" id="works">
           <h2 className="Th1">// WORKS</h2>
         </div>
 
@@ -220,8 +197,6 @@ const Home = () => {
             <div
               key={project.id}
               className={`work${index === 0 || index === 2 ? 'T1' : index + 1} workcard`}
-              data-scroll
-              data-scroll-speed={(index % 2 === 0) ? "0.9" : "0.7"}
             >
               <Link to={project.link} className="imgwork">
                 <video src={project.video} autoPlay playsInline muted loop></video>
@@ -258,7 +233,7 @@ const Home = () => {
           ))}
         </div>
 
-        <div className="seta setah" data-scroll data-scroll-speed="0.5">
+        <div className="seta setah">
           <a href="#home" onClick={scrollToTop}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -274,8 +249,6 @@ const Home = () => {
             </svg>
           </a>
         </div>
-
-        <Footer />
     </main>
   );
 };

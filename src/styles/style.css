@@ -1,32 +1,14 @@
 @font-face {
   font-family: 'CommitMono';
-  src: 
+  src:
   local('CommitMono');
   src: url('../fonts/CommitMono-Regular.eot') format('truetype');
-  src: url('../fonts/CommitMono-Regular.eot?#iefix') format('embedded-opentype'); 
+  src: url('../fonts/CommitMono-Regular.eot?#iefix') format('embedded-opentype');
   src:url('../fonts/CommitMono-Regular.eot'),
        url('../fonts/CommitMono-Regular.woff') format('woff'),
        url('../fonts/CommitMono-Bold.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-}
-/* Locomotive Scroll specific styles */
-html.has-scroll-smooth {
-    overflow: hidden;
-}
-
-html.has-scroll-dragging {
-    user-select: none;
-}
-
-.has-scroll-smooth body {
-    overflow: hidden;
-}
-
-[data-scroll-container] {
-    min-height: 100vh;
-    width: 100%;
-    overflow: hidden;
 }
 
 body{
