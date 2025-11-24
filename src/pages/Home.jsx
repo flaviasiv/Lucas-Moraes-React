@@ -1,45 +1,20 @@
 import { Link } from 'react-router-dom';
-import { useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
-import Lenis from '@studio-freight/lenis';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import '../styles/style.css';
 
 const Home = () => {
-  const lenisRef = useRef(null);
-
   // Calculate age based on birth year 1995
   const birthYear = 1995;
   const currentYear = new Date().getFullYear();
   const age = currentYear - birthYear;
 
-  // Initialize Lenis smooth scroll
-  useEffect(() => {
-    lenisRef.current = new Lenis({
-      duration: 0.3,
-      easing: (t) => t,
-      lerp: 0.5,
-      wheelMultiplier: 1.5,
-    });
-
-    function raf(time) {
-      lenisRef.current?.raf(time);
-      requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-
-    return () => {
-      lenisRef.current?.destroy();
-    };
-  }, []);
-
   // Scroll to top
   const scrollToTop = (e) => {
     e.preventDefault();
-    lenisRef.current?.scrollTo(0, { duration: 1.5 });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const skills = [
