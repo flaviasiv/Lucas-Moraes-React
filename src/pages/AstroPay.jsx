@@ -32,6 +32,9 @@ const AstroPay = () => {
           </div>
         </div>
 
+        <div className="frames1">
+          <video src="/assets/astropay/ap-portifa-hero2.mp4" autoPlay playsInline muted loop></video>
+        </div>
         {/* MOTION PLAYBOOK */}
         <div className="about container section-motion-playbook">
           <div className="aboutgrid about1">
@@ -49,9 +52,23 @@ const AstroPay = () => {
           </div>
         </div>
 
-        {/* Placeholder para vídeos do Motion Playbook */}
-        <div className="frames1">
-          <div className="video-placeholder"></div>
+        {/* Row 1: 1/3 + 2/3 */}
+        <div className="motion-grid-row">
+          <div className="frames1 grid-single">
+            <img src="/assets/astropay/hero2.gif" alt="Motion playbook animation" />
+          </div>
+        </div>
+        <div className="motion-grid-row">
+          <div className="frames1 grid-two">
+            <img src="/assets/astropay/hero3.gif" alt="Motion playbook animation" />
+            <img src="/assets/astropay/hero4.gif" alt="Motion playbook animation" />
+          </div>
+        </div>
+
+        {/* Row 2: Full width dividido em 2 */}
+        <div className="frames1 grid-full">
+          <img src="/assets/astropay/hero5.gif" alt="Motion playbook animation" />
+          <video src="/assets/astropay/hero6.mp4" autoPlay playsInline muted loop></video>
         </div>
 
         {/* SOCIAL & PAID MEDIA */}

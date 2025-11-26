@@ -146,15 +146,44 @@ h6 {
     margin: 0;
 }
 
-/* Frames/Media sections */
-.frames1 {
+/* Motion Grid Row - Container para organizar 1/3 + 2/3 */
+.motion-grid-row {
     width: 100%;
     max-width: 1500px;
     margin: auto;
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Frames/Media sections */
+.frames1 {
+    display: grid;
+    gap: 20px;
+}
+
+/* Grid item 1: ocupa 1/3 da row (já definido pelo grid-template-columns do pai) */
+.frames1.grid-single {
+    grid-template-columns: 1fr;
+}
+
+/* Grid item 2: ocupa 2/3 da row, dividido em 2 colunas internamente */
+.frames1.grid-two {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* Grid item 3: largura total dividida em 2 */
+.frames1.grid-full {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: 80px;
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -162,8 +191,10 @@ h6 {
 .frames1 video,
 .frames1 img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* Seções específicas */
@@ -210,9 +241,25 @@ h6 {
         margin-top: 40px;
     }
 
-    .frames1 {
+    .motion-grid-row {
+        grid-template-columns: 1fr;
         padding-left: 20px;
         padding-right: 20px;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .frames1 {
+        padding-left: 0;
+        padding-right: 0;
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+    }
+
+    .frames1.grid-full {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
     }
 
     .about {
