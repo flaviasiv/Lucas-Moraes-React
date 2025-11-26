@@ -29,58 +29,64 @@ const Home = () => {
 
   const projects = [
     {
-      id: 'supernova',
-      title: 'SUPERNOVA',
-      category: 'Branding, Art Direction',
+      id: 'astropay',
+      title: 'ASTROPAY',
+      category: 'Motion Graphics, Branding & Art Direction',
       description:
-        'Supernova Entertainment é uma gravadora/produtora musical localizada em São Paulo (BRA) marcada pela ascensão astronômica de seus artistas.',
-      video: '/assets/home/thumb-supernova.mp4',
-      link: '/supernova',
+        'AstroPay is a global digital payments company based in London (UK), known for connecting people and businesses through fast, secure and accessible solutions.',
+      video: '/assets/home/THUMB-ASTRO.mp4',
+      link: '/astropay',
+      buttonText: 'VIEW CASE',
     },
     {
-      id: 'botteghe',
-      title: 'BOTTEGHE DEL CAFFÈ',
-      category: 'Branding, Art Direction',
+      id: 'supernova',
+      title: 'SUPERNOVA',
+      category: 'Branding, Art direction',
       description:
-        'Com uma inclinação natural pela proteção ao meio ambiente – Botteghe Del Caffè é uma marca de cosméticos com produtos a base do óleo extraído do café verde em uma fazenda familiar no sul de Minas Gerais.',
-      video: '/assets/home/thumb-botteghe.mp4',
-      link: '/botteghe',
+        'Supernova Entertainment is a music label and production studio based in São Paulo (BRA), known for the astronomical rise of its artists.',
+      video: '/assets/home/thumb-supernova.mp4',
+      link: '/supernova',
+      buttonText: 'VIEW CASE',
+    },
+    {
+      id: 'lata',
+      title: 'LATA 05',
+      category: 'Branding, Art direction',
+      description:
+        'A secret event with no fixed location, date or theme, featuring invitation-only first editions and surprise performances as the main way to spark curiosity and spread the brand.',
+      video: '/assets/home/thumb-lata.mp4',
+      link: '/lata',
+      buttonText: 'VIEW CASE',
+    },
+    {
+      id: 'estadio97',
+      title: 'ESTADIO 97',
+      category: 'Branding, Art direction',
+      description:
+        'Estádio 97 is one of Brazil\'s most traditional sports radio shows, a product of Energia 97 FM, a station deeply present in the everyday life of Brazilians across many contexts.',
+      video: '/assets/home/thumb-estadio97.mp4',
+      link: '/estadio97',
+      buttonText: 'VIEW CASE',
     },
     {
       id: 'buddy',
       title: 'BUDDY NUTRITION',
       category: 'Branding, Art direction, Packaging, Design System',
       description:
-        'A Buddy desenvolve suplementos caninos com as melhores fórmulas possíveis e faz recomendações personalizadas para que você descubra de um jeito descomplicado como cuidar da saúde e bem estar do seu bichinho.',
+        'Buddy creates high-quality canine supplements with the best possible formulas and offers personalized recommendations to help you care for your pet\'s health and well-being with ease.',
       video: '/assets/home/thumb-buddy.mp4',
       link: '/buddynutrition',
-    },
-    {
-      id: 'lata',
-      title: 'LATA 05',
-      category: 'Branding, Art Direction',
-      description:
-        'Um evento secreto, sem local, data ou temática pré definida que contará apenas com convidados nas primeira edições e usará das apresentações surpresas como a principal forma de instigar novas pessoas e difundir a marca.',
-      video: '/assets/home/thumb-lata.mp4',
-      link: '/lata',
+      buttonText: 'VER PROJETO',
     },
     {
       id: 'clicks',
       title: 'CLICKS & CORRES',
       category: 'Photography, Personal Project',
       description:
-        'Todos os registros foram feitos através do celular durante meses praticando corrida de rua pelo mesmo trajeto na zona norte de São Paulo durante a COVID-19.',
+        'All footage was captured on a phone over months of running the same route in the north side of São Paulo during the COVID-19 pandemic.',
       video: '/assets/home/thumb-cc.mp4',
       link: '/clickscorres',
-    },
-    {
-      id: 'estadio97',
-      title: 'ESTADIO 97',
-      category: 'Branding, Art Direction',
-      description:
-        'O Estádio 97 é um dos mais tradicionais programas esportivos de rádio do Brasil, um produto da Energia 97 FM, emissora de rádio que está presente no cotidiano do brasileiro nos mais diversos contextos...',
-      video: '/assets/home/thumb-estadio97.mp4',
-      link: '/estadio97',
+      buttonText: 'VIEW CASE',
     },
   ];
 
@@ -121,13 +127,10 @@ const Home = () => {
         </Swiper>
 
         <div className="sobre" id="about">
-          <h2 className="sobreT1 Th1">// ABOUT ME</h2>
-          <p className="sobreT3">(PT/BR)</p>
+          <h2 className="sobreT1 Th1">// ABOUT</h2>
+          <p className="sobreT3">(ENG)</p>
           <p className="sobreT4">
-            Designer multidisciplinar e diretor de arte com mais de 10 anos de
-            experiência colaborando em agências, estúdios e marcas desenvolvendo
-            uma variedade de projetos legais envolvendo identidade visual, design
-            estratégico, desenvolvimento de produtos e por aí vai.
+            Multidisciplinary designer and art director with over 10 years of experience collaborating with agencies, studios, and brands on a variety of cool projects involving visual identity, strategic design, product development, and more.
           </p>
         </div>
 
@@ -143,12 +146,10 @@ const Home = () => {
               ></video>
             </div>
           </h2>
-          <p className="sobreT3 sobre2T3">(ENG)</p>
+          <p className="sobreT3 sobre2T3">(PT/BR)</p>
           <p className="sobreT4 sobre2T4">
-            Multidisciplinary designer and art director with over 10 years of
-            experience collaborating with agencies, studios, and brands on a
-            variety of cool projects involving visual identity, strategic design,
-            product development, and more.
+            Designer multidisciplinar e diretor de arte
+com mais de 10 anos de experiência colaborando em agências, estúdios e marcas desenvolvendo uma variedade de projetos legais envolvendo identidade visual, design estratégico, desenvolvimento de produtos e por aí vai.
           </p>
           <h2 className="sobreT1">
             <div className="sobreT6-m">
@@ -199,7 +200,7 @@ const Home = () => {
                           fill="black"
                         />
                       </svg>
-                      VER PROJETO
+                      {project.buttonText}
                     </button>
                   </Link>
                 </p>

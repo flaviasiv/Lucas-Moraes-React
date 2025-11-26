@@ -10,6 +10,7 @@ import BuddyNutrition from './pages/BuddyNutrition';
 import Lata from './pages/Lata';
 import ClicksCorres from './pages/ClicksCorres';
 import Estadio97 from './pages/Estadio97';
+import AstroPay from './pages/AstroPay';
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -35,6 +36,7 @@ function AppContent() {
         <Route path="/lata" element={<Lata />} />
         <Route path="/clickscorres" element={<ClicksCorres />} />
         <Route path="/estadio97" element={<Estadio97 />} />
+        <Route path="/astropay" element={<AstroPay />} />
       </Routes>
       <Footer />
     </>
