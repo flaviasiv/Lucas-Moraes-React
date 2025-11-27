@@ -105,6 +105,17 @@ const AstroPay = () => {
             <video src="/assets/astropay/hero13.mp4" autoPlay playsInline muted loop></video>
             <video src="/assets/astropay/hero14.mp4" autoPlay playsInline muted loop></video>
           </div>
+          <div className="frames1 grid-left">
+            <img src="/assets/astropay/hero15.png" alt="" />
+            <img src="/assets/astropay/hero16.png" alt="" />
+          </div>
+          <div className="frames1 grid-right vfull">
+            <video src="/assets/astropay/hero17.mp4" autoPlay playsInline muted loop></video>
+          </div>
+          <div className="frames1 grid-left">
+            <video src="/assets/astropay/hero18.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero19.mp4" autoPlay playsInline muted loop></video>
+          </div>
         </div>
         {/* EDUCATIONAL BRAND TUTORIALS */}
         <div className="about container">
