@@ -304,9 +304,13 @@
 @media (max-width: 768px) {
     .astropay-page .aboutgrid,
     .astropay-page #aboutgrid1 {
-        grid-template-columns: 1fr;
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
         padding-left: 20px;
         padding-right: 20px;
+        height: 100%;
+    
     }
 
     .astropay-page #aboutgrid1 h1 {
@@ -332,9 +336,11 @@
     }
 
     .astropay-page .frames1 {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
         padding-left: 0;
         padding-right: 0;
-        grid-template-columns: 1fr !important;
         gap: 15px;
     }
 
@@ -352,8 +358,8 @@
     }
 
     .astropay-page .about {
-        margin-top: 60px;
-        margin-bottom: 40px;
+        padding: 100px 0;
+        gap: 0;
     }
 
     .astropay-page .cover {

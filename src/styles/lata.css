@@ -165,8 +165,9 @@
 }
 @media screen and (max-width:900px) {
     .aboutgrid {
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
         margin: 60px auto;
         padding: 20px;
     }

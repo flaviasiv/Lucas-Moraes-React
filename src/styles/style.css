@@ -148,31 +148,84 @@ margin-right: auto;
 font-family: 'Neue', sans-serif;
 }
 @media screen and (max-width:900px) {
-    .sobre {
+    .home-page
+    .logo {
+        margin: 50px 0;
+    }
+    .home-page .sobre {
         position: relative;
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
         width: auto;
-        max-width: 999px;
-        margin: auto 24px;
-        padding-bottom: 180px;
+        max-width: 100%;
+        margin: 60px 24px;
+        padding-bottom: 80px;
+        grid-template-columns: none !important;
+        column-gap: 0;
+        row-gap: 0;
     }
-    .sobreT4{
-        font-size: 26px
+    .home-page .sobre2 {
+        margin-top: 0;
+        padding-top: 0;
     }
-    .sobre2T4{
-        font-size: 16px
+    .home-page .sobreT1{
+        font-size: 24px;
+        text-align: right;
+        margin-bottom: 40px;
+        color: #292929;
+        width: 100%;
+        display: block;
+    }
+    .home-page .sobreT3{
+        font-size: 14px;
+        margin-bottom: 16px;
+        text-align: left;
+        color: #292929;
+        width: 100%;
+        display: block;
+    }
+    .home-page .sobreT4{
+        font-size: 26px;
+        line-height: 120%;
+        margin-bottom: 40px;
+        color: #292929;
+        font-weight: 400;
+        width: 100%;
+        display: block;
+    }
+    .home-page .sobre2T3{
+        font-size: 14px;
+        margin-bottom: 16px;
+        text-align: left;
+        color: #9A9A9A;
+        width: 100%;
+        display: block;
+    }
+    .home-page .sobre2T4{
+        font-size: 14px;
+        line-height: 120%;
+        color: #9A9A9A;
+        margin-bottom: 40px;
+        font-weight: 400;
+        width: 100%;
+        display: block;
     }
     .Th1{
-    font-family: 'Neue', sans-serif;
+        font-family: 'Neue', sans-serif;
         text-align: right;
         padding-bottom: 50px;
     }
-    .sobreT6{display: none;
+    .sobreT6{
+        display: none;
     }
     .sobreT6-m{
         display: block;
-        margin-top: 24px;
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+    .home-page .sobreT6-m video{
+        width: 100%;
+        max-width: 100%;
     }
     .logoimg img{
         max-width: 288px;
@@ -359,6 +412,9 @@ line-height: normal;
 @media screen and (max-width:900px) {
     .worksgrid{
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 80px;
     }
     .work {
         position: relative;
@@ -376,22 +432,57 @@ line-height: normal;
     .workcard{
         display: flex;
         flex-direction: column;
-        width: auto;
-        max-width: 999px;
-        margin: auto 24px;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0 24px;
     }
-    .cardsinfo h5{
-        margin-top: 5px;
-        margin-bottom: 32px;
+    .home-page .cardsinfo{
+        position: static;
+        width: 100%;
+        order: 2;
     }
-    .cardsinfo p{
-    position: relative;
-        margin-top: 32px;
+    .home-page .cardsinfo h2{
+        font-size: 24px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+        text-align: right;
     }
-    .imgwork-m{display: block;}
-    .imgwork{display: none;}
+    .home-page .cardsinfo h5{
+        margin-top: 8px;
+        margin-bottom: 16px;
+        font-size: 12px;
+        color: #9A9A9A;
+    }
+    .home-page .cardsinfo p{
+        position: static;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 100%;
+        font-size: 12px;
+        bottom: auto;
+    }
+    .home-page .imgwork-m{
+        display: block !important;
+        width: 100%;
+        margin-bottom: 0;
+        order: 1;
+    }
+    .home-page .imgwork-m video{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+    .home-page .imgwork{
+        display: none !important;
+    }
+    .home-page .workcard a button{
+        margin-top: 16px;
+    }
     .seta{
         margin-top: 120px;
-    border-top: 1px solid #292929;
+        border-top: 1px solid #292929;
     }
 }

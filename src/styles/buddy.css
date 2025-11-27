@@ -262,10 +262,11 @@ label{
 }
 @media screen and (max-width:900px) {
     .aboutgrid {
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
         margin: 60px auto;
         padding: 20px;
+        grid-template-columns: none !important;
     }
     #aboutgrid1 h1{
         font-size: 32px;
