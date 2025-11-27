@@ -187,6 +187,7 @@ a{
     .h6footer2{display: block;}
     footer{
         padding: 0;
+        overflow-x: hidden;
     }
     .contact h6 {
         font-size: 60px;
@@ -223,8 +224,14 @@ a{
         padding: 0;
     }
     .signatureH {
+        display: block !important;
         font-size: 22vw;
         padding: 0 20px;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        visibility: visible !important;
+        opacity: 1 !important;
     }
     .swiper1 {
       width: 340px;
@@ -234,6 +241,7 @@ a{
 @media screen and (max-width:790px) {
     footer{
         padding: 0;
+        overflow-x: hidden;
     }
     .contact h6 {
         width: 100%;
@@ -264,6 +272,12 @@ a{
         font-size: 12px;
     }
     .signatureH {
+        display: block !important;
         font-size: 21.5vw;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        visibility: visible !important;
+        opacity: 1 !important;
     }
 }

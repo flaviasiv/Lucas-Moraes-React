@@ -158,8 +158,7 @@ font-family: 'Neue', sans-serif;
         flex-direction: column !important;
         width: auto;
         max-width: 100%;
-        margin: 60px 24px;
-        padding-bottom: 80px;
+        margin: 0 24px;
         grid-template-columns: none !important;
         column-gap: 0;
         row-gap: 0;
@@ -215,17 +214,19 @@ font-family: 'Neue', sans-serif;
         text-align: right;
         padding-bottom: 50px;
     }
-    .sobreT6{
-        display: none;
+    .home-page .sobreT6{
+        display: none !important;
     }
-    .sobreT6-m{
-        display: block;
+    .home-page .sobreT6-m{
+        display: block !important;
         margin-top: 0;
         margin-bottom: 60px;
+        width: 100%;
     }
     .home-page .sobreT6-m video{
         width: 100%;
         max-width: 100%;
+        display: block;
     }
     .logoimg img{
         max-width: 288px;
@@ -410,32 +411,37 @@ line-height: normal;
 }
 .home-page .imgwork-m{display: none;}
 @media screen and (max-width:900px) {
-    .worksgrid{
-        padding: 0;
-        display: flex;
-        flex-direction: column;
+    .home-page .worksgrid{
+        padding: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
         row-gap: 80px;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
     }
-    .work {
+    .home-page .work {
         position: relative;
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        max-width: 999px;
-        margin: auto 24px;
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 24px;
         padding-top: 0;
+        grid-template-columns: none !important;
     }
-    .work h2{
-        text-align: right;
+    .home-page .work h2{
+        text-align: left;
         display: block;
     }
-    .workcard{
-        display: flex;
-        flex-direction: column;
+    .home-page .workcard{
+        display: flex !important;
+        flex-direction: column !important;
         width: 100%;
         max-width: 100%;
         margin: 0;
         padding: 0 24px;
+        grid-template-columns: none !important;
     }
     .home-page .cardsinfo{
         position: static;
@@ -446,7 +452,7 @@ line-height: normal;
         font-size: 24px;
         margin-top: 24px;
         margin-bottom: 8px;
-        text-align: right;
+        text-align: left;
     }
     .home-page .cardsinfo h5{
         margin-top: 8px;

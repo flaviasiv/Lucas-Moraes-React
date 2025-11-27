@@ -312,11 +312,13 @@
         height: 100%;
     
     }
-
+    .videosx, .frames1.f-mt video{width: 100% !important;height: 100% !important;}
     .astropay-page #aboutgrid1 h1 {
         font-size: 48px;
     }
-
+    .astropay-page .frames1.f-mt{flex-direction: column !important;padding: 0 24px;}
+    .frameimg{width: 100%; padding: 0 24px;}
+    .frameimg img{width: 100%;}
     .astropay-page .about1,
     .astropay-page .about2 {
         grid-column-start: 1;
