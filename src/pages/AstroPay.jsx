@@ -112,9 +112,9 @@ const AstroPay = () => {
           <div className="frames1 grid-right vfull">
             <video src="/assets/astropay/hero17.mp4" autoPlay playsInline muted loop></video>
           </div>
-          <div className="frames1 grid-left">
-            <video src="/assets/astropay/hero18.mp4" autoPlay playsInline muted loop></video>
-            <video src="/assets/astropay/hero19.mp4" autoPlay playsInline muted loop></video>
+          <div className="frames1 grid-left grid-t">
+            <video className='videosm' src="/assets/astropay/hero18.mp4" autoPlay playsInline muted loop></video>
+            <video className='videosx' src="/assets/astropay/hero19.mp4" autoPlay playsInline muted loop></video>
           </div>
         </div>
         {/* EDUCATIONAL BRAND TUTORIALS */}
@@ -134,10 +134,12 @@ const AstroPay = () => {
           </div>
         </div>
 
-        {/* Placeholder para vídeos Educational */}
-        <div className="frames1">
-          <div className="video-placeholder"></div>
-        </div>
+          <div className="frames4-f">
+            <video src="/assets/astropay/hero7.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero8.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero8.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero8.mp4" autoPlay playsInline muted loop></video>
+          </div>
 
         {/* SALES TEAM & GROWTH */}
         <div className="about container">

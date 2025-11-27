@@ -44,7 +44,7 @@
 /* Container */
 .astropay-page .container {
     max-width: 1500px;
-    padding: 0 !important;
+    padding: 0;
     margin: auto;
 }
 .astropay-page .aboutcontainer{
@@ -55,13 +55,12 @@
     max-width: 100%;
     width: 100%;
     margin: auto;
-    margin-top: 50px;
-    padding: 50px 0;
+    padding: 120px 0;
 }
 
 .astropay-page .aboutgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.8fr 0.2fr 1fr;
     max-width: 100%;
     width: 100%;
     max-width: 1500px;
@@ -225,11 +224,37 @@
     height: 100%;
     object-fit: cover;
 }
-
-/* Seções específicas */
-.astropay-page .section-motion-playbook {
-    margin-top: 80px;
+.videosm{
+    max-width: 208px !important;
+    height: 369.778px !important;
+    aspect-ratio: 208.00/369.78;
+    margin-top: 0 !important;
 }
+.videosx{
+    width: 440px !important;
+    height: 440px !important;
+    aspect-ratio: 1/1
+}
+
+.frames4-f{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: 80px;
+    gap: 24px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.frames4-f video{
+    width: 100%;
+    max-width: calc((100% - 72px) / 4);
+    flex: 1;
+    object-fit: cover;
+}
+/* Seções específicas */
 
 /* Responsive */
 @media (max-width: 1400px) {
