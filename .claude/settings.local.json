@@ -6,7 +6,9 @@
       "Bash(npx tailwindcss init -p)",
       "Bash(npm run dev:*)",
       "Bash(taskkill:*)",
-      "WebFetch(domain:www.figma.com)"
+      "WebFetch(domain:www.figma.com)",
+      "WebFetch(domain:lucaslucas.work)",
+      "Bash(git checkout:*)"
     ],
     "deny": [],
     "ask": []

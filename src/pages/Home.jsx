@@ -91,7 +91,7 @@ const Home = () => {
   ];
 
   return (
-    <main>
+    <main className="home-page">
         <div className="logoimg">
           <img
             src="/assets/profile-lucas-moraes.jpg"

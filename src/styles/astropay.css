@@ -1,6 +1,6 @@
 /* ASTROPAY PAGE STYLES */
 
-.cover {
+.astropay-page .cover {
     width: 100%;
     max-width: 9909px;
     margin: auto;
@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-.cover video {
+.astropay-page .cover video {
     width: 100%;
     max-width: 9909px;
     margin: auto;
@@ -18,9 +18,14 @@
     max-height: 600px;
     object-position: center;
 }
-
+.mw{
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: auto;
+}
 /* Placeholder para vídeos/imagens */
-.video-placeholder {
+.astropay-page .video-placeholder {
     width: 100%;
     height: 400px;
     background: #f0f0f0;
@@ -32,28 +37,31 @@
     border-radius: 8px;
 }
 
-.video-placeholder::before {
+.astropay-page .video-placeholder::before {
     content: '[Vídeo será adicionado aqui]';
 }
 
+/* Container */
+.astropay-page .container {
+    max-width: 1500px;
+    padding: 0 !important;
+    margin: auto;
+}
+.astropay-page .aboutcontainer{
+    padding-bottom: 100px !important;
+}
 /* About sections */
-.about {
+.astropay-page .about {
     max-width: 100%;
     width: 100%;
-    max-width: 1500px;
     margin: auto;
-    margin-top: 120px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    padding: 50px 0;
 }
 
-.aboutcontainer {
-    margin-top: 80px;
-}
-
-.aboutgrid {
+.astropay-page .aboutgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
     max-width: 100%;
     width: 100%;
     max-width: 1500px;
@@ -62,47 +70,45 @@
     padding-right: 50px;
 }
 
-#aboutgrid1 {
+.astropay-page #aboutgrid1 {
     grid-template-columns: 1.8fr 0.2fr 1fr;
-    grid-template-rows: auto;
 }
 
-#aboutgrid1 h1 {
+.astropay-page #aboutgrid1 h1 {
     grid-column-start: 1;
-    grid-row-start: 1;
     font-size: 74px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 92%;
+    line-height: 92%; /* 68.08px */
     text-transform: uppercase;
-    word-wrap: break-word;
-    white-space: -moz-pre-wrap;
-    white-space: pre-wrap;
+    word-wrap: break-word;      /* IE 5.5-7 */
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap;     
     margin: 0;
     color: #000;
 }
 
-.about1 {
-    grid-column-start: 1;
-    grid-row-start: 4;
+.astropay-page .about1 {
+    grid-column-start: 3;
     color: #000;
     font-size: 12px;
     font-weight: 400;
     line-height: 150%;
-    margin: 0;
+    margin: 0 auto;
 }
 
-.about2 {
+.astropay-page .about2 {
     color: #909090;
     font-size: 12px;
     grid-column-start: 3;
     grid-row-start: 4;
 }
 
-#p2-1 {
+.astropay-page #p2-1 {
     margin: 0;
 }
 
-h5 {
+.astropay-page h5 {
     font-size: 12px;
     font-weight: 500;
     line-height: 150%;
@@ -111,43 +117,40 @@ h5 {
     margin-bottom: 20px;
 }
 
-h6 {
+.astropay-page h6 {
     grid-column-start: 1;
-    grid-row-start: 2;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 150%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 20px;
 }
 
-#h6-m {
+.astropay-page #h6-m {
     display: block;
 }
 
-#h6-w {
+.astropay-page #h6-w {
     display: none;
 }
 
-.about1 h5 {
-    grid-column-start: 1;
-    grid-row-start: 3;
+.astropay-page .about1 h5 {
+    grid-column-start: 2;
 }
 
-.about2 h5 {
+.astropay-page .about2 h5 {
     grid-column-start: 3;
-    grid-row-start: 3;
 }
 
-.about2 p {
+.astropay-page .about2 p {
     font-weight: 400;
     line-height: 150%;
     margin: 0;
 }
 
 /* Motion Grid Row - Container para organizar 1/3 + 2/3 */
-.motion-grid-row {
+.astropay-page .motion-grid-row {
     width: 100%;
     max-width: 1500px;
     margin: auto;
@@ -160,25 +163,26 @@ h6 {
 }
 
 /* Frames/Media sections */
-.frames1 {
+.astropay-page .frames1 {
     display: grid;
+    max-width: 1500px;
     gap: 20px;
 }
 
 /* Grid item 1: ocupa 1/3 da row (já definido pelo grid-template-columns do pai) */
-.frames1.grid-single {
+.astropay-page .frames1.grid-single {
     grid-template-columns: 1fr;
 }
 
 /* Grid item 2: ocupa 2/3 da row, dividido em 2 colunas internamente */
-.frames1.grid-two {
+.astropay-page .frames1.grid-two {
     grid-template-columns: repeat(2, 1fr);
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
 /* Grid item 3: largura total dividida em 2 */
-.frames1.grid-full {
+.astropay-page .frames1.grid-full {
     width: 100%;
     max-width: 1500px;
     margin: auto;
@@ -188,60 +192,75 @@ h6 {
     padding-right: 50px;
 }
 
-.frames1 video,
-.frames1 img {
+/* Grid left: alinha à esquerda com espaçamento */
+.astropay-page .frames1.grid-left {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto 20px auto;
+    margin-left: 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+/* Grid right: alinha à direita com espaçamento */
+.astropay-page .frames1.grid-right {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto 20px auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-left: 50%;
+    padding-right: 50px;
+}
+
+.astropay-page .frames1 video,
+.astropay-page .frames1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* Seções específicas */
-.section-motion-playbook {
+.astropay-page .section-motion-playbook {
     margin-top: 80px;
-}
-
-/* Container */
-.container {
-    max-width: 1500px;
-    margin: auto;
 }
 
 /* Responsive */
 @media (max-width: 1400px) {
-    #h6-w {
+    .astropay-page #h6-w {
         display: block;
     }
 
-    #h6-m {
+    .astropay-page #h6-m {
         display: none;
     }
 }
 
 @media (max-width: 768px) {
-    .aboutgrid,
-    #aboutgrid1 {
+    .astropay-page .aboutgrid,
+    .astropay-page #aboutgrid1 {
         grid-template-columns: 1fr;
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    #aboutgrid1 h1 {
+    .astropay-page #aboutgrid1 h1 {
         font-size: 48px;
     }
 
-    .about1,
-    .about2 {
+    .astropay-page .about1,
+    .astropay-page .about2 {
         grid-column-start: 1;
     }
 
-    .about2 h5,
-    .about2 p {
+    .astropay-page .about2 h5,
+    .astropay-page .about2 p {
         margin-top: 40px;
     }
 
-    .motion-grid-row {
+    .astropay-page .motion-grid-row {
         grid-template-columns: 1fr;
         padding-left: 20px;
         padding-right: 20px;
@@ -249,39 +268,46 @@ h6 {
         margin-bottom: 20px;
     }
 
-    .frames1 {
+    .astropay-page .frames1 {
         padding-left: 0;
         padding-right: 0;
         grid-template-columns: 1fr !important;
         gap: 15px;
     }
 
-    .frames1.grid-full {
+    .astropay-page .frames1.grid-full {
         padding-left: 20px;
         padding-right: 20px;
         margin-bottom: 50px;
     }
 
-    .about {
+    .astropay-page .frames1.grid-left,
+    .astropay-page .frames1.grid-right {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .astropay-page .about {
         margin-top: 60px;
         margin-bottom: 40px;
     }
 
-    .cover {
+    .astropay-page .cover {
         max-height: 400px;
     }
 }
 
 @media (max-width: 480px) {
-    #aboutgrid1 h1 {
+    .astropay-page #aboutgrid1 h1 {
         font-size: 36px;
     }
 
-    .cover {
+    .astropay-page .cover {
         max-height: 300px;
     }
 
-    .video-placeholder {
+    .astropay-page .video-placeholder {
         height: 250px;
         font-size: 12px;
     }

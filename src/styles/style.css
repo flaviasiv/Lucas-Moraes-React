@@ -19,25 +19,25 @@ body{
 main{
     background: white;
 }
-.logoimg {
+.home-page .logoimg {
     padding-top: 160px;
     display: grid;
 }
 
-.logoimg img{
+.home-page .logoimg img{
     grid-column-start: 2;
     grid-column-end: 2;
     max-width: 340px;
 }
 
-.logo{
+.home-page .logo{
     margin-top:60px;
     overflow: hidden;
     margin-bottom: 160px;
     z-index: 1;
 }
 
-.logo p{
+.home-page .logo p{
     display: grid;
     grid-column-start: 2;
     grid-column-end: 2;
@@ -53,7 +53,7 @@ swiper-container {
 margin-left: auto;
 margin-right: auto;
 }
-.mySwiper2{
+.home-page .mySwiper2{
     position:relative;
     display: flex;
     width: 100%;
@@ -64,7 +64,7 @@ margin-right: auto;
     cursor: grab;
     padding-bottom: 80px;
 }
-.swiper2 {
+.home-page .swiper2 {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -74,13 +74,13 @@ margin-right: auto;
   padding-right: 24px;
   list-style: none;
 }
-.swiper2 li::before {
+.home-page .swiper2 li::before {
   content: "•"; /* Insert content that looks like bullets */
   padding-right: 8px;
   color: #000; /* Or a color you prefer */
 }
 
-.sobre {
+.home-page .sobre {
     display: grid;
     /*grid-template: 162px 162px / 100px 300px 380px 500px;*/
     grid-template-rows: 100px;
@@ -91,11 +91,11 @@ margin-right: auto;
     max-width: 1400px;
     margin: 80px auto;
 }
-.sobre video{
+.home-page .sobre video{
     max-width: 208px;
 }
 
-.sobreT1{
+.home-page .sobreT1{
     font-family: 'Neue', sans-serif;
     color: #292929;
     display: inline;
@@ -105,7 +105,7 @@ margin-right: auto;
     text-transform: uppercase;
 }
 
-.sobreT3 {
+.home-page .sobreT3 {
     color: #292929;
     grid-column-start: 2;
     grid-column-end: 2;
@@ -116,7 +116,7 @@ margin-right: auto;
     text-align: justify;
 }
 
-.sobreT4, .sobreT6 {
+.home-page .sobreT4, .sobreT6 {
     font-family: 'Neue', sans-serif;
     color: #292929;
     grid-column-start: 3;
@@ -125,12 +125,26 @@ margin-right: auto;
     font-size: 16px;
     line-height: 120%;
 }
-.sobre2T4, .sobre2T3{
+.home-page .sobreT6-left {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.home-page .sobre2-content {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2px;
+}
+.home-page .sobre2T4, .sobre2T3{
     font-size: 12px;
     color: #9A9A9A
 }
-.sobreT6-m{display:none;}
-.Th1{
+.home-page .sobreT6-m{display:none;}
+.home-page .Th1{
 font-family: 'Neue', sans-serif;
 }
 @media screen and (max-width:900px) {
@@ -164,7 +178,7 @@ font-family: 'Neue', sans-serif;
         max-width: 288px;
     }
 }
-.work {
+.home-page .work {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Neue';
@@ -174,7 +188,7 @@ font-family: 'Neue', sans-serif;
     padding-top: 190px;
 }
 
-.work h2{
+.home-page .work h2{
     text-transform: uppercase;
     color: #292929;
     display: inline;
@@ -183,7 +197,7 @@ font-family: 'Neue', sans-serif;
     font-weight: 600;
 }
 
-.worksgrid{
+.home-page .worksgrid{
     display: grid;
     row-gap: 160px;
     width: 100%;
@@ -192,16 +206,16 @@ font-family: 'Neue', sans-serif;
     color: #292929;
     margin:auto;
 }
-.workcard img{
+.home-page .workcard img{
     width: 100%;
     max-width: 700px;
     margin: auto;
 }
-.workcard a {
+.home-page .workcard a {
     color: #292929;
     text-decoration: none;
 }
-.workcard a button{
+.home-page .workcard a button{
     cursor: pointer;
     color: #292929;
     display: flex;
@@ -223,112 +237,112 @@ font-family: 'Neue', sans-serif;
     padding: 8px 24px;
     height: 30px;
 }
-.workcard a button svg{
+.home-page .workcard a button svg{
     max-height: 15px;
     margin: -2px 0;
     margin-right: 14px;
 }
-.workT1 {
+.home-page .workT1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.workT1 a {
+.home-page .workT1 a {
     grid-column-start: 2;
     grid-column-end: 2;
     align-items: center;
 }
 
-.workT1 a video {
+.home-page .workT1 a video {
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
-.work2 {
+.home-page .work2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.work2 a {
+.home-page .work2 a {
     flex-direction: right;
     grid-column-start: 1;
     grid-column-end: 1;
 }
-.work3 {
+.home-page .work3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.work3 .card3img{
+.home-page .work3 .card3img{
     grid-column-start: 2;
     grid-column-end: 2;
 }
-.work3 .cardsinfo{
+.home-page .work3 .cardsinfo{
     grid-column-start: 3;
 grid-row-start: 1;
 
 }
-.work4 {
+.home-page .work4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.work4 a {
+.home-page .work4 a {
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
-.work5 {
+.home-page .work5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.work5 a {
+.home-page .work5 a {
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
-.work6 {
+.home-page .work6 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.work6 .cardsinfo{
+.home-page .work6 .cardsinfo{
     grid-column-start: 2;
 grid-row-start: 1;
 }
 
-.work6 a {
+.home-page .work6 a {
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
-.work7 {
+.home-page .work7 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 160px;
 }
 
-.work7 a {
+.home-page .work7 a {
     grid-column-start: 2;
     grid-column-end: 2;
 }
-.workcard .cardsinfo{
+.home-page .workcard .cardsinfo{
     position: relative;
     display: flex;
     flex-direction: column;
 }
-.cardsinfo h2{
+.home-page .cardsinfo h2{
     font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-.cardsinfo h5{
+.home-page .cardsinfo h5{
     margin-top: 16px;
     color: #9A9A9A;
     font-weight: 500;
     line-height: 120%; 
 }
-.cardsinfo p{
+.home-page .cardsinfo p{
     bottom: 0;
     position: absolute;
     font-size: 12px;
@@ -336,12 +350,12 @@ line-height: normal;
     line-height: 120%;
     max-width: 307px;
 }
-.workcard video{
+.home-page .workcard video{
     display: flex;
     justify-content: end;
     width: 340px;
 }
-.imgwork-m{display: none;}
+.home-page .imgwork-m{display: none;}
 @media screen and (max-width:900px) {
     .worksgrid{
         padding: 0;

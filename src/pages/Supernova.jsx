@@ -4,7 +4,7 @@ import '../styles/font.css';
 
 const Supernova = () => {
   return (
-    <div>
+    <div className="supernova-page">
       <div className="cover">
         <video src="/assets/supernova/01-spnv.mp4" autoPlay playsInline muted loop></video>
       </div>
@@ -74,7 +74,7 @@ const Supernova = () => {
         <div className="about">
           <div className="aboutgrid about1">
             <p className="about1" id="about1">
-              Ascensão e dimensão são as palavras chaves nesse momento
+              Ascensão e dimensão são as palavras-chave nesse momento
               <br /> <br />
               Optei por uma tipografia que em nenhuma aplicação passaria por despercebida. Impactante e densa o suficiente para que comportasse a internalização do traçado da estrela ascendida.
             </p>

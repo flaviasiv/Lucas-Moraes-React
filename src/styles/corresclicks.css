@@ -175,8 +175,8 @@
 }
 .frames1 img, video{
     width: 100%;
-    max-width: 9999px;
-    margin: auto;
+    max-width: 100%;
+    /* margin: auto; */
 }
 .frames1-1{
     display: flex;

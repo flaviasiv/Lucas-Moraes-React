@@ -4,7 +4,7 @@ import '../styles/font.css';
 
 const AstroPay = () => {
   return (
-    <div>
+    <div className="astropay-page">
       <div className="cover">
         <video src="/assets/astropay/ASTROPAY_INTRO.mp4" autoPlay preload="auto" playsInline muted loop></video>
       </div>
@@ -72,6 +72,7 @@ const AstroPay = () => {
         </div>
 
         {/* SOCIAL & PAID MEDIA */}
+
         <div className="about container">
           <div className="aboutgrid about1">
             <h6>//SOCIAL & PAID MEDIA</h6>
@@ -87,12 +88,24 @@ const AstroPay = () => {
             </p>
           </div>
         </div>
-
-        {/* Placeholder para vídeos Social & Paid Media */}
-        <div className="frames1">
-          <div className="video-placeholder"></div>
+        <div className="mw">
+          <div className="frames1 grid-left">
+            <video src="/assets/astropay/hero7.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero8.mp4" autoPlay playsInline muted loop></video>
+          </div>
+          <div className="frames1 grid-right">
+            <video src="/assets/astropay/hero9.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero10.mp4" autoPlay playsInline muted loop></video>
+          </div>
+          <div className="frames1 grid-left">
+            <video src="/assets/astropay/hero11.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero12.mp4" autoPlay playsInline muted loop></video>
+          </div>
+          <div className="frames1 grid-right">
+            <video src="/assets/astropay/hero13.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero14.mp4" autoPlay playsInline muted loop></video>
+          </div>
         </div>
-
         {/* EDUCATIONAL BRAND TUTORIALS */}
         <div className="about container">
           <div className="aboutgrid about1">
