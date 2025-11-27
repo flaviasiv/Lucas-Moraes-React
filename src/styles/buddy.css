@@ -18,7 +18,7 @@
 .aboutgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    ;
     max-width: 100%;
     width: 100%;
     max-width: 1500px;
@@ -32,7 +32,7 @@
 }
 #aboutgrid1{
     grid-template-columns: 1.8fr 0.2fr 1fr;
-    grid-template-rows: auto;
+    ;
 }
 #aboutgrid1 h1{
     grid-column-start: 1;
@@ -264,8 +264,8 @@ label{
     .aboutgrid {
         display: flex !important;
         flex-direction: column !important;
-        margin: 60px auto;
-        padding: 20px;
+        margin: 40px auto;
+        padding: 0 24px;
         grid-template-columns: none !important;
     }
     #aboutgrid1 h1{
@@ -282,16 +282,16 @@ label{
         margin-left: 0;
         padding-left: 0px;
         font-weight: 600;
-        margin-bottom: 120px;
+        margin-bottom: 40px;
     }
     #aboutgrid1 h5, .about h6{
-        margin-bottom: 64px;
+        margin-bottom: 32px;
     }
     #aboutgrid1 p, .about p{
         font-family: 'Neue', sans-serif;
         font-size: 26px;
-        font-weight: 400;        
-        line-height: 120%; 
+        font-weight: 400;
+        line-height: 120%;
     }
     .about2 p{
         font-family: 'Neue', sans-serif;
@@ -301,10 +301,10 @@ label{
     }
     .aboutgrid h5{
         font-size: 14px;
-        margin-bottom: 32px;
+        margin-bottom: 24px;
     }
     .aboutgrid h6{
-        margin-bottom: 64px;
+        margin-bottom: 32px;
         text-align: right;
     }
     #aboutgrid1 #p2-1{
@@ -314,7 +314,7 @@ label{
         width: 100%;
         max-width: 1500px;
         margin: auto;
-        margin-bottom: 1200px;
+        margin-bottom: 80px;
     }
     .printsgrid .grid2{
         float: right;

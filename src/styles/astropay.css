@@ -307,10 +307,9 @@
         display: flex !important;
         flex-direction: column !important;
         grid-template-columns: none !important;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 24px;
         height: 100%;
-    
+
     }
     .videosx, .frames1.f-mt video{width: 100% !important;height: 100% !important;}
     .astropay-page #aboutgrid1 h1 {
@@ -326,13 +325,12 @@
 
     .astropay-page .about2 h5,
     .astropay-page .about2 p {
-        margin-top: 40px;
+        margin-top: 24px;
     }
 
     .astropay-page .motion-grid-row {
         grid-template-columns: 1fr;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 24px;
         gap: 15px;
         margin-bottom: 20px;
     }
@@ -347,20 +345,18 @@
     }
 
     .astropay-page .frames1.grid-full {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 50px;
+        padding: 0 24px;
+        margin-bottom: 40px;
     }
 
     .astropay-page .frames1.grid-left,
     .astropay-page .frames1.grid-right {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 24px;
         margin-bottom: 20px;
     }
 
     .astropay-page .about {
-        padding: 100px 0;
+        padding: 60px 0;
         gap: 0;
     }
 
