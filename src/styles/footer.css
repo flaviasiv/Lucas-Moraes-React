@@ -87,7 +87,7 @@ footer{
     color: transparent;
 }
 .signatureH {
-    display: inline-block;
+    display: block;
     text-transform: uppercase;
     color: #282828;
     margin: 0px auto;
@@ -95,9 +95,10 @@ footer{
     font-style: normal;
     font-weight: 500;
     max-width: 100%;
-    width: 100vw;
+    width: 100%;
     background: black;
     font-size: 21vw;
+    text-align: center;
 }
 .h6footer2{display: none;}
 /* swiper pag works - //OUTROS PROJETOS */
@@ -199,9 +200,9 @@ a{
         display: flex;
         flex-direction: column;
         white-space: wrap;
-        min-height: 390px;
-        padding-top: 100px;
-        padding: 100px 24px;
+        min-height: auto;
+        padding: 40px 24px;
+        margin-bottom: 40px;
     }
     .contactlink{
         display: flex;
@@ -254,9 +255,9 @@ a{
         display: flex;
         flex-direction: column;
         white-space: wrap;
-        min-height: 390px;
-        padding-top: 100px;
-        padding: 100px 24px;
+        min-height: auto;
+        padding: 40px 24px;
+        margin-bottom: 40px;
     }
     .contactlink{
         display: flex;
