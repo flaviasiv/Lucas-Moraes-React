@@ -158,9 +158,12 @@ const AstroPay = () => {
           </div>
         </div>
 
-        {/* Placeholder para vídeos Sales & Growth */}
-        <div className="frames1">
-          <div className="video-placeholder"></div>
+        <div className="frameimg">
+          <img src="/assets/astropay/img_1531.jpg" alt="" />
+        </div>
+        <div className="frames1 f-mt">
+            <video src="/assets/astropay/hero20.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero21.mp4" autoPlay playsInline muted loop></video>
         </div>
 
         {/* OUTROS PROJETOS - Essa seção normalmente fica no ProjectsSlider */}

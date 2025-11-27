@@ -7,7 +7,8 @@ footer{
     font-family: 'Neue', sans-serif;
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     max-width: 1500px;
     margin: auto;
@@ -16,48 +17,74 @@ footer{
     margin-bottom: 190px;
     padding-top: 50px;
     padding-left: 50px;
+    padding-right: 50px;
+    border-top: 1px solid #000;
+}
+.contact-left {
+    display: flex;
+    flex-direction: column;
 }
 .contact h6 {
-    color: #8B8B8B;
-    font-size: 16px;
-    width: 100%;
-    max-width: 300px;
-    font-weight: 600;
+    color: #282828;
+    font-size: 100px;
+    font-weight: 500;
     text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
 }
 .contactlink{
     display: flex;
-    position: absolute;
     flex-direction: column;
     width: 100%;
-    max-width: 400px;
-    text-align: right;
-    margin-right: 0;
-    right: 0;
-    padding-right: 50px;
-    float: right;
-}
-.contactlink p{
-    max-width: 350px;
+    max-width: 247px;
     text-align: left;
 }
-.contactlink a{
-    color: #8B8B8B;
-    display: flex;
-    border: 1px solid #8B8B8B;
+.contactlink p{
+    text-align: left;
+    color: #9A9A9A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%; 
+    margin-bottom: 24px;
+}
+.email-form {
     width: 100%;
-    max-width: 127px;
-    padding: 8px 20px;
-    font-size: 14px;
-    line-height: 120%;
-    border-radius: 32px;
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
-    white-space: nowrap;
-    margin-top: 32px;
+    max-width: 155px;
+}
+.email-input-wrapper {
+    display: flex;
     align-items: center;
     gap: 16px;
+    border: 1px solid #9A9A9A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    transition: border-color 0.3s ease;
+}
+.email-input-wrapper:hover,
+.email-input-wrapper:focus-within {
+    border-color: #fff;
+}
+.email-icon {
+    flex-shrink: 0;
+}
+.email-input-wrapper input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #9A9A9A;
+    font-family: 'Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.email-input-wrapper input::placeholder {
+    color: #9A9A9A;
+}
+.email-input-wrapper input:focus::placeholder {
+    color: transparent;
 }
 .signatureH {
     display: inline-block;
@@ -162,7 +189,8 @@ a{
         padding: 0;
     }
     .contact h6 {
-        max-width: 120px;
+        font-size: 60px;
+        max-width: 200px;
         margin-bottom: 64px;
     }
     .contact {
@@ -170,7 +198,7 @@ a{
         display: flex;
         flex-direction: column;
         white-space: wrap;
-        height: 390px;
+        min-height: 390px;
         padding-top: 100px;
         padding: 100px 24px;
     }
@@ -182,11 +210,12 @@ a{
     }
     .contactlink p{
         max-width: 850px;
-
     }
-    .contactlink a{
+    .email-input-wrapper {
+        padding: 8px 16px;
+    }
+    .email-input-wrapper input {
         font-size: 12px;
-        margin-top: 16px;
     }
     .contactsocials{
         position: relative;
@@ -208,7 +237,8 @@ a{
     }
     .contact h6 {
         width: 100%;
-        max-width: 110px;
+        font-size: 50px;
+        max-width: 150px;
         margin-bottom: 64px;
     }
     .contact {
@@ -216,7 +246,7 @@ a{
         display: flex;
         flex-direction: column;
         white-space: wrap;
-        height: 390px;
+        min-height: 390px;
         padding-top: 100px;
         padding: 100px 24px;
     }
@@ -227,11 +257,13 @@ a{
         max-width: 900px;
         padding: 0;
     }
-    .contactlink a{
+    .email-input-wrapper {
+        padding: 8px 16px;
+    }
+    .email-input-wrapper input {
         font-size: 12px;
-        margin-top: 16px;
     }
     .signatureH {
-    font-size: 21.5vw;
+        font-size: 21.5vw;
     }
 }
