@@ -1,7 +1,7 @@
 footer{
     font-family: 'Neue', sans-serif;
     background: black;
-    padding: 36px 36px 0px;
+    overflow: hidden;
 }
 .contact {
     font-family: 'Neue', sans-serif;
@@ -14,7 +14,7 @@ footer{
     margin: auto;
     background: #000;
     color: #9A9A9A;
-    margin-bottom: 190px;
+    margin-bottom: 100px;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -52,14 +52,14 @@ footer{
     width: 100%;
     max-width: 155px;
 }
-.email-input-wrapper {
-    display: flex;
+.email-input-wrapper,
+.bntemail {
     align-items: center;
-    gap: 16px;
     border: 1px solid #9A9A9A;
     border-radius: 20px;
     padding: 10px 20px;
     background: transparent;
+    width: 120px;
     transition: border-color 0.3s ease;
 }
 .email-input-wrapper:hover,
@@ -86,6 +86,21 @@ footer{
 .email-input-wrapper input:focus::placeholder {
     color: transparent;
 }
+.bntemail, 
+.bntemail a{
+    background-color: transparent; 
+    color: #9A9A9A;
+    font-family: 'Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.bntemail a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .signatureH {
     display: block;
     text-transform: uppercase;
@@ -99,6 +114,8 @@ footer{
     background: black;
     font-size: 21vw;
     text-align: center;
+    line-height: 0.75;
+    transform: translateY(1%);
 }
 .h6footer2{display: none;}
 /* swiper pag works - //OUTROS PROJETOS */
@@ -227,12 +244,12 @@ a{
     .signatureH {
         display: block !important;
         font-size: 22vw;
-        padding: 0 20px;
         width: 100%;
         max-width: 100%;
         text-align: center;
         visibility: visible !important;
         opacity: 1 !important;
+        line-height: 0.75;
     }
     .swiper1 {
       width: 340px;
@@ -280,5 +297,6 @@ a{
         text-align: center;
         visibility: visible !important;
         opacity: 1 !important;
+        line-height: 0.75;
     }
 }

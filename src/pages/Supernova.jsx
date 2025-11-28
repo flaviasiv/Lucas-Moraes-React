@@ -57,11 +57,13 @@ const Supernova = () => {
         <div className="about">
           <div className="aboutgrid about1">
             <h6>// DESAFIO</h6>
+            <h5>(PT/BR)</h5>
             <p className="about1" id="about1">
               O inicio desse trabalho parte do objetivo claro da gravadora de profissionalizar a marca e transparecer o quanto suas produções são capazes de lapidar e impulsionar jovens talentos do trap brasileiro.
             </p>
           </div>
           <div className="aboutgrid about2">
+            <h5>(ENG)</h5>
             <p>
               The beginning of this work is part of the label's clear objective of professionalizing the brand and showing how its productions are capable of polishing and boosting young Brazilian trap talents.
             </p>
@@ -73,6 +75,7 @@ const Supernova = () => {
         </div>
         <div className="about">
           <div className="aboutgrid about1">
+            <h5>(PT/BR)</h5>
             <p className="about1" id="about1">
               Ascensão e dimensão são as palavras-chave nesse momento
               <br /> <br />
@@ -80,6 +83,7 @@ const Supernova = () => {
             </p>
           </div>
           <div className="aboutgrid about2">
+            <h5>(ENG)</h5>
             <p>
               Ascension and dimension are the key words at this moment.
               <br /> <br />

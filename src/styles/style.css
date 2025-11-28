@@ -239,7 +239,6 @@ font-family: 'Neue', sans-serif;
     }
     .home-page .sobreT6-m video{
         width: 100%;
-        max-width: 100%;
         display: block;
     }
     .logoimg img{
@@ -424,6 +423,12 @@ line-height: normal;
     width: 340px;
 }
 .home-page .imgwork-m{display: none;}
+
+/* css em comum */
+#aboutgrid1 {
+    column-gap: 20px;
+}
+
 @media screen and (max-width:900px) {
     .home-page .worksgrid{
         padding: 0 !important;

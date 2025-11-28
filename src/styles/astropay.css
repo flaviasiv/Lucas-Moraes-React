@@ -69,7 +69,11 @@
     padding-left: 50px;
     padding-right: 50px;
 }
-
+@media screen and (max-width:1200px) {
+    .astropay-page .aboutgrid {
+        column-gap: 20px;
+    }
+}
 .astropay-page #aboutgrid1 {
     grid-template-columns: 1.8fr 0.2fr 1fr;
 }

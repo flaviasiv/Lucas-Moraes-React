@@ -192,59 +192,52 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    gap: 40px;
+}
+.printsgrid .grid1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 675px;
+}
+.printsgrid .grid1 img {
+    width: 100%;
+    height: auto;
 }
 .printsgrid .grid2{
     display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin: 40px auto 200px;
-    align-items: flex-end;
-}
-.grid1 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-bottom: 50px;
+    flex-direction: row;
+    gap: 8px;
+    height: auto;
 }
 @media screen and (max-width:1200px) {
     .printsgrid{
         width: 100%;
-        max-width: 1500px;
+        max-width: 100%;
         margin: auto;
+        padding: 0 16px;
+    }
+    .printsgrid .grid1 {
+        max-width: 100%;
     }
     .printsgrid .grid2{
-        float: right;
-        height: 100%;
-        margin: auto 16px;
-        margin-top: 16px;
-        margin-bottom: 30px;
-    }
-    .grid1 {
-        margin: auto;
-    }
-    .grid1 img{
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-direction: column;
         width: 100%;
+        gap: 8px;
+    }
+    .printsgrid .grid2 img {
+        height: 100%;
+        width: 100%;
+        max-width: 280px;
+        flex-shrink: 0;
     }
     .img-mr {
+        margin: 0;
+    }
+    .img-mr, .grid2 img:first-child {
         float: right;
         margin: auto;
-        margin-bottom: 5px;
     }
-
-}
-
-.frames1 {
-    width: 100%;
-    max-width: 9999px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
-.frames1 img{
-    width: 100%;
-    max-width: 9999px;
-    margin: auto;
-}
-.frames1 .img1 {
-    margin-top: 110px;
 }
