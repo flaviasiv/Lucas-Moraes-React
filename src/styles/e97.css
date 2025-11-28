@@ -204,7 +204,6 @@ flex-shrink: 0;
         display: flex !important;
         flex-direction: column !important;
         grid-template-columns: none !important;
-        margin: 40px auto;
         padding: 0 24px;
     }
     #aboutgrid1 h1{
@@ -226,7 +225,7 @@ flex-shrink: 0;
     #aboutgrid1 h5, .about h6{
         margin-bottom: 32px;
     }
-    .about2 {
+    .e97-page .about2 {
         margin-top: 48px;
     }
     #aboutgrid1 h5 {

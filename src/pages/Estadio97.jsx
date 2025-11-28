@@ -5,7 +5,7 @@ import '../styles/font.css';
 
 const Estadio97 = () => {
   return (
-    <div>
+    <div  className='e97-page'>
       <div className="cover">
         <video src="/assets/estadio97/01-e97.mp4" autoPlay playsInline muted loop></video>
       </div>

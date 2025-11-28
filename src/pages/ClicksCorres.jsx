@@ -4,7 +4,7 @@ import '../styles/font.css';
 
 const ClicksCorres = () => {
   return (
-    <div>
+    <div className='corresclicks-page'>
       <div className="cover">
         <video src="/assets/corres/01-cc.mp4" autoPlay playsInline muted loop></video>
       </div>

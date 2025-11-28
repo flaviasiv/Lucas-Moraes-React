@@ -187,8 +187,8 @@
         font-weight: 600;
         margin-bottom: 40px;
     }
-    #aboutgrid1 h5, .about h6{
-        margin-bottom: 32px;
+    #aboutgrid1 h5, .about h6, .lata-page .aboutgrid h5{
+        margin-bottom: 24px;
     }
     .about2 {
         margin-top: 48px;

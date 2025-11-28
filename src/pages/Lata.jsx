@@ -4,7 +4,7 @@ import '../styles/font.css';
 
 const Lata = () => {
   return (
-    <div>
+    <div className='lata-page'>
       <div className="cover">
         <video src="/assets/lata/01-lata05.mp4" autoPlay playsInline muted loop></video>
       </div>
@@ -40,7 +40,7 @@ const Lata = () => {
           <video src="/assets/lata/03-lata05.mp4" autoPlay playsInline muted loop></video>
         </div>
         <div className="frames2">
-          <img src="/assets/lata/Frame1.png" alt="" draggable="false" />
+          <img src="\assets\lata\frame1.png" alt="" draggable="false" />
         </div>
         <div className="about desafiogrid container">
           <div className="aboutgrid about1">
