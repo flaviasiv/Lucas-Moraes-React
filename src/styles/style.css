@@ -53,6 +53,15 @@ swiper-container {
 margin-left: auto;
 margin-right: auto;
 }
+@keyframes scroll-continuous {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-33.333%);
+    }
+}
+
 .home-page .mySwiper2{
     position:relative;
     display: flex;
@@ -63,6 +72,11 @@ margin-right: auto;
     scroll-behavior: smooth;
     cursor: grab;
     padding-bottom: 80px;
+}
+
+.home-page .mySwiper2 .swiper-wrapper {
+    animation: scroll-continuous 20s linear infinite;
+    will-change: transform;
 }
 .home-page .swiper2 {
   text-align: center;

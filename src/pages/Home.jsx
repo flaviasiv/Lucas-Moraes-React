@@ -111,13 +111,8 @@ const Home = () => {
           spaceBetween={0}
           loop={true}
           slidesPerView="auto"
-          speed={1000}
-          autoplay={{
-            delay: 0,
-            disableOnInteraction: false,
-          }}
-          freeMode={true}
-          modules={[Autoplay, FreeMode]}
+          allowTouchMove={false}
+          modules={[]}
         >
           {[...skills, ...skills, ...skills].map((skill, index) => (
             <SwiperSlide key={index} className="swiper2">
