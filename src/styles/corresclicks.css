@@ -287,6 +287,9 @@
     #aboutgrid1 h5, .about h6{
         margin-bottom: 32px;
     }
+    .about2 {
+        margin-top: 48px;
+    }
     #aboutgrid1 p, .about p{
         font-family: 'Neue', sans-serif;
         font-size: 26px;

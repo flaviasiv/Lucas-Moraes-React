@@ -61,11 +61,13 @@ const ProjectsSlider = () => {
         className="mySwiper1"
         spaceBetween={0}
         loop={true}
+        speed={1200}
         autoplay={{
-          delay: 1000,
+          delay: 2000,
           disableOnInteraction: false,
         }}
         slidesPerView="auto"
+        centeredSlides={true}
         modules={[Autoplay]}
       >
         {/* Render projects twice for seamless loop */}

@@ -91,7 +91,6 @@
 .astropay-page .about1 {
     grid-column-start: 3;
     color: #000;
-    font-size: 12px;
     font-weight: 400;
     line-height: 150%;
     margin: 0 auto;
@@ -99,7 +98,6 @@
 
 .astropay-page .about2 {
     color: #909090;
-    font-size: 12px;
     grid-column-start: 3;
     grid-row-start: 4;
 }
@@ -109,8 +107,9 @@
 }
 
 .astropay-page h5 {
-    font-size: 12px;
-    font-weight: 500;
+    font-family: 'CommitMono', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 150%;
     text-transform: uppercase;
     margin: 0;
@@ -293,12 +292,14 @@
 /* Responsive */
 @media (max-width: 1400px) {
     .astropay-page #h6-w {
-        display: block;
+        display: none;
     }
 
     .astropay-page #h6-m {
-        display: none;
+        display: block;
+        padding-top: 10px;
     }
+    .about2 h5{padding: 0;margin: 0;}
 }
 
 @media (max-width: 768px) {
@@ -306,7 +307,6 @@
     .astropay-page #aboutgrid1 {
         display: flex !important;
         flex-direction: column !important;
-        grid-template-columns: none !important;
         padding: 0 24px;
         height: 100%;
 
@@ -315,12 +315,41 @@
     .astropay-page #aboutgrid1 h1 {
         font-size: 48px;
     }
-    .astropay-page .frames1.f-mt{flex-direction: column !important;padding: 0 24px;}
+    .mw {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 0 24px;
+    }
+    .mw .frames1 {
+        display: contents;
+    }
+    .astropay-page .frames1.gridimgs{
+        flex-direction: row !important;
+    }
+    .mw .frames1 video,
+    .mw .frames1 img,
+    .videosm,
+    .videosx{
+        width: 100% !important;
+        max-width: calc(50% - 10px) !important;
+        height: auto !important;
+        object-fit: cover;
+    }
+    /* .astropay-page .frames1.f-mt{flex-direction: column !important;padding: 0 24px;} */
     .frameimg{width: 100%; padding: 0 24px;}
     .frameimg img{width: 100%;}
     .astropay-page .about1,
     .astropay-page .about2 {
         grid-column-start: 1;
+    }
+
+    .astropay-page .about2 {
+        margin-top: 48px;
+    }
+
+    .astropay-page #aboutgrid1 h5 {
+        text-align: left;
     }
 
     .astropay-page .about2 h5,
@@ -336,8 +365,11 @@
     }
 
     .astropay-page .frames1 {
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
         display: flex !important;
-        flex-direction: column !important;
+        flex-direction: row !important;
         grid-template-columns: none !important;
         padding-left: 0;
         padding-right: 0;
@@ -351,10 +383,10 @@
 
     .astropay-page .frames1.grid-left,
     .astropay-page .frames1.grid-right {
-        padding: 0 24px;
-        margin-bottom: 20px;
+        padding: 0;
+        margin-bottom: 0;
     }
-
+    .astropay-page .frames1.grid-t{flex-direction: row !important;}
     .astropay-page .about {
         padding: 60px 0;
         gap: 0;
@@ -363,8 +395,9 @@
     .astropay-page .cover {
         max-height: 400px;
     }
+    .frames4-f{padding: 0 24px; gap: 10px;}
+    .astropay-page .frames1.f-mt{flex-direction: column !important;padding: 0 24px;}
 }
-
 @media (max-width: 480px) {
     .astropay-page #aboutgrid1 h1 {
         font-size: 36px;

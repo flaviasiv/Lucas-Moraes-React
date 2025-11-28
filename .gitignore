@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# MCP (Model Context Protocol) files and folders
+.playwright-mcp/
+*-mcp/
+.mcp/
+.claude/settings.local.json

@@ -105,7 +105,7 @@ const AstroPay = () => {
             <video src="/assets/astropay/hero13.mp4" autoPlay playsInline muted loop></video>
             <video src="/assets/astropay/hero14.mp4" autoPlay playsInline muted loop></video>
           </div>
-          <div className="frames1 grid-left">
+          <div className="frames1 grid-left gridimgs">
             <img src="/assets/astropay/hero15.png" alt="" />
             <img src="/assets/astropay/hero16.png" alt="" />
           </div>

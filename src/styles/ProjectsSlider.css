@@ -104,9 +104,22 @@ swiper-container {
 }
 
 @media screen and (max-width:900px) {
-  .others h1{padding-left: 24px;}
+  .others h1{padding-left: 24px;padding-top: 80px;}
     .swiper1 {
-      width: 340px;
-      padding: 0 10px
+      width: 280px;
+      padding: 0;
+    }
+    .mySwiper1 {
+      overflow-x: hidden;
+      padding: 0 20px;
+    }
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .seta{
+        margin-top: 80px;
+        border-top: 1px solid #292929;
     }
 }
