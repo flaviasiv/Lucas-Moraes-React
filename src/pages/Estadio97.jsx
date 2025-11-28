@@ -50,7 +50,7 @@ const Estadio97 = () => {
           </div>
         </div>
         <div className="frames1">
-          <img src="/assets/estadio97/Frame1.png" alt="" draggable="false" />
+          <img src="/assets/estadio97/frame1.png" alt="" draggable="false" />
         </div>
         <div className="about tipografia container">
           <div className="aboutgrid about1">
@@ -71,7 +71,7 @@ const Estadio97 = () => {
         </div>
         <div className="about tipografia container">
           <div className="aboutgrid about1">
-            <h6></h6>
+            <blank></blank>
             <h5>(PT/BR)</h5>
             <p className="about1" id="about1">
               Representando o triunfo da longevidade da marca, a coroa de louros indica grande mérito, tradicionalmente simbolizava a glória de quem a usava.

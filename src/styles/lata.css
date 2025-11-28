@@ -140,22 +140,22 @@
 .grid1 {
     margin: auto 50px;
 }
-.frames1 {
+.lata-page .frames1 {
     width: 100%;
     max-width: 9999px;
     margin: auto;
     display: flex;
     flex-direction: column;
 }
-.frames1 img, .frames1 video, .frames3 video{
+.lata-page .frames1 img, .lata-page .frames1 video, .lata-page .frames3 video{
     width: 100%;
     max-width: 9999px;
     margin: auto;
 }
-.frames1 .img1 {
+.lata-page.frames1 .img1 {
     margin-top: 110px;
 }
-.frames2{
+.lata-page .frames2{
     display: flex;
     flex-direction: column;
     justify-content: center;

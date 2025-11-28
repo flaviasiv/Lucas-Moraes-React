@@ -303,7 +303,7 @@
         display: block;
         padding-top: 10px;
     }
-    .about2 h5{padding: 0;margin: 0;}
+    .astropay-page .about2 h5{padding: 0;margin: 0;}
 }
 
 @media (max-width: 768px) {

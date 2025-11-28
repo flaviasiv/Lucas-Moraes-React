@@ -7,7 +7,7 @@
     max-height:600px;
     object-position: center;
 }
-.about{
+.e97-page .about{
     max-width: 100%;
     width: 100%;
     max-width: 1500px;
@@ -225,9 +225,6 @@ flex-shrink: 0;
     #aboutgrid1 h5, .about h6{
         margin-bottom: 32px;
     }
-    .e97-page .about2 {
-        margin-top: 48px;
-    }
     #aboutgrid1 h5 {
         text-align: left;
     }
@@ -248,8 +245,8 @@ flex-shrink: 0;
         font-size: 14px;
         margin-bottom: 24px;
     }
-    .aboutgrid h6{
-        margin-bottom: 32px;
+    .e97-page .aboutgrid h6{
+        margin-bottom: 64px;
         text-align: right;
     }
     #aboutgrid1 #p2-1{
@@ -283,9 +280,16 @@ flex-shrink: 0;
         object-fit: cover;
     }
     .vd-br-phone, .vd-br{
-        padding: 80px 10px;
+        padding: 0 10px;
     }
     .vd-br{
         margin: auto;
     }
+    .e97-page .about{
+        padding: 80px 0;
+    }
+    .e97-page .frames3{
+        margin: 50px auto;
+    }
+    .framesgap{gap: 50px;}
 }
