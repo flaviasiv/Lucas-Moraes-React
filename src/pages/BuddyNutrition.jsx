@@ -7,7 +7,7 @@ import '../styles/font.css';
 
 const BuddyNutrition = () => {
   return (
-    <div>
+    <div className='buddy-page'>
       <div className="cover">
         <video src="/assets/buddy/01-buddy.mp4" autoPlay playsInline muted loop></video>
       </div>
@@ -20,17 +20,17 @@ const BuddyNutrition = () => {
                 NUTRITION
               </h1>
               <h6 id="h6-m">2022 / BRANDING / PACKAGING / WEBSITE / DESIGN SYSTEM / ART DIRECTION</h6>
-              <h5>(PT/BR)</h5>
+              <h5>(ENG)</h5>
               <p className="about1" id="about1">
-                A Buddy desenvolve suplementos caninos com as melhores fórmulas possíveis e faz recomendações personalizadas para que você descubra de um jeito descomplicado como cuidar da saúde e bem estar do seu bichinho, levando em conta a sua raça, idade, histórico de saúde e o que os donos mais gostam de fazer juntos.
+                Buddy develops canine supplements with the best possible formulas and makes personalized recommendations so you can easily learn how to take care of your pet's health and well-being, his takes into account their breed, age, health history, and what their owners most enjoy doing together.
               </p>
             </div>
           </div>
           <div className="aboutgrid about2" id="aboutgrid1">
             <h6 id="h6-w">2022 / BRANDING / PACKAGING / WEBSITE / DESIGN SYSTEM / ART DIRECTION</h6>
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p id="p2-1">
-              Buddy develops canine supplements with the best possible formulas and makes personalized recommendations so you can easily learn how to take care of your pet's health and well-being, his takes into account their breed, age, health history, and what their owners most enjoy doing together.
+              A Buddy desenvolve suplementos caninos com as melhores fórmulas possíveis e faz recomendações personalizadas para que você descubra de um jeito descomplicado como cuidar da saúde e bem estar do seu bichinho, levando em conta a sua raça, idade, histórico de saúde e o que os donos mais gostam de fazer juntos.
             </p>
           </div>
         </div>
@@ -40,7 +40,7 @@ const BuddyNutrition = () => {
         <div className="frames1">
           <video className="img1" src="/assets/buddy/03-buddy.mp4" autoPlay playsInline muted loop></video>
         </div>
-        <div className="about desafiogrid container">
+        <div className="about tipografia container">
           <div className="aboutgrid about1">
             <h6>// DESAFIO</h6>
             <p className="about1" id="about1">
@@ -59,15 +59,15 @@ const BuddyNutrition = () => {
         <div className="about tipografia container">
           <div className="aboutgrid about1">
             <h6>// SOLUÇÃO</h6>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
-              Parti da hipótese de que se tivéssemos um visual simples e didático no DNA da marca, reduziríamos em certa fração esse bloqueio de credibilidade. Essas características estão presente nos tons, elementos e nome dos produtos.
+              I started with the hypothesis that if we had a simple and educational visual in the brand's DNA, we could reduce this credibility barrier to some extent. These characteristics are present in the colors, elements, and product names.
             </p>
           </div>
           <div className="aboutgrid about2">
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p>
-              I started with the hypothesis that if we had a simple and educational visual in the brand's DNA, we could reduce this credibility barrier to some extent. These characteristics are present in the colors, elements, and product names.
+              Parti da hipótese de que se tivéssemos um visual simples e didático no DNA da marca, reduziríamos em certa fração esse bloqueio de credibilidade. Essas características estão presente nos tons, elementos e nome dos produtos.
             </p>
           </div>
         </div>
@@ -107,22 +107,22 @@ const BuddyNutrition = () => {
             <img src="/assets/buddy/swip6.png" alt="" />
           </SwiperSlide>
         </Swiper>
-        <div className="about tipografia container">
+        <div className="about tipografia tipo-m container">
           <div className="aboutgrid about1">
             <h6 className="h-i" id="h-i">
               <video src="/assets/buddy/06-buddy.mp4" autoPlay playsInline muted loop></video>
               <br />
               <label htmlFor="h-i">(maus exemplos vigentes no mercado)</label>
             </h6>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
-              Nomenclatura de produtos 100% clara que facilita o entendimento do que se trata o produto - principalmente em comparação com produtos de saúde pet vigentes no mercado.
+              Product naming is 100% clear, which facilitates understanding of what the product is—especially compared to existing pet health products on the market.
             </p>
           </div>
           <div className="aboutgrid about2">
             <h6></h6>
-            <h5>(ENG)</h5>
-            <p>Product naming is 100% clear, which facilitates understanding of what the product is—especially compared to existing pet health products on the market.</p>
+            <h5>(PT/BR)</h5>
+            <p>Nomenclatura de produtos 100% clara que facilita o entendimento do que se trata o produto - principalmente em comparação com produtos de saúde pet vigentes no mercado.</p>
           </div>
         </div>
         <div className="frames1">
@@ -143,19 +143,19 @@ const BuddyNutrition = () => {
         <div className="about tipografia container about-m-bd">
           <div className="aboutgrid about-m-bd">
             <h6></h6>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
+              Consistency in the colors of each product and their specificities is crucial to maintaining the concept of identification intact. This requires careful and close monitoring with all parties involved in the project. <br />
+              <br />A dominant color for each product organically results in a cheerful and friendly color palette.
+            </p>
+          </div>
+          <div className="aboutgrid about2">
+            <h5>(PT/BR)</h5>
+            <p>
               A fidelidade nos tons de cada produto e suas especificidades é fundamental para que o conceito de identificação se mantenha intacto. Isso demanda um acompanhamento cauteloso e em proximidade com todas as pontas envolvidas no projeto.
               <br />
               <br />
               Uma cor mandante para cada produto resulta organicamente uma paleta de cores alegre e amigável.
-            </p>
-          </div>
-          <div className="aboutgrid about2">
-            <h5>(ENG)</h5>
-            <p>
-              Consistency in the colors of each product and their specificities is crucial to maintaining the concept of identification intact. This requires careful and close monitoring with all parties involved in the project. <br />
-              <br />A dominant color for each product organically results in a cheerful and friendly color palette.
             </p>
           </div>
         </div>
@@ -200,15 +200,15 @@ const BuddyNutrition = () => {
         <div className="about container">
           <div className="aboutgrid about1">
             <h6>//VISUAL SYSTEM</h6>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
-              Baseado nas estruturas mais comuns de design system voltado para interfaces, desenvolvi um sistema visual restrito que dá autonomia para os demais setores cuja as demandas de dia-a-dia costumavam tomar grande parte do dia - apesar de simples e sem desafios visuais, tomavam tempo de execução.
+              Based on the most common design system structures for interfaces, I developed a restricted visual system that grants autonomy to other departments whose daily demands used to consume a significant amount of time—despite being simple and lacking visual challenges, they took up execution time.
             </p>
           </div>
           <div className="aboutgrid about2">
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p>
-              Based on the most common design system structures for interfaces, I developed a restricted visual system that grants autonomy to other departments whose daily demands used to consume a significant amount of time—despite being simple and lacking visual challenges, they took up execution time.
+              Baseado nas estruturas mais comuns de design system voltado para interfaces, desenvolvi um sistema visual restrito que dá autonomia para os demais setores cuja as demandas de dia-a-dia costumavam tomar grande parte do dia - apesar de simples e sem desafios visuais, tomavam tempo de execução.
             </p>
           </div>
         </div>

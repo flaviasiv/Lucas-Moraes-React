@@ -15,20 +15,20 @@ const Estadio97 = () => {
             <div className="aboutgrid about1" id="aboutgrid1">
               <h1>ESTÁDIO 97</h1>
               <h6 id="h6-m">2024 / BRANDING / ART DIRECTION</h6>
-              <h5>(PT/BR)</h5>
+              <h5>(ENG)</h5>
               <p className="about1" id="about1">
-                O{' '}
-                <a href="https://www.instagram.com/estadio97/">Estádio 97</a> é um dos mais tradicionais programas esportivos de rádio do Brasil, um produto da{' '}
-                <a href="https://www.youtube.com/@energia97">Energia 97 FM</a>, emissora de rádio que está presente no cotidiano do brasileiro nos mais diversos contextos, seja na rádio de um taxista em um curto trajeto ou a caminho do estádio em qualquer uma das principais plataformas de streaming, uma vez que a rádio se adaptou com êxito aos meios contemporâneos.
+                <a href="https://www.instagram.com/estadio97/">Estádio 97</a> is one of Brazil's most traditional sports radio programs, produced by{' '}
+                <a href="https://www.youtube.com/@energia97">Energia 97 FM</a>. This radio station is a fixture in the daily lives of Brazilians, whether it's on a taxi radio for a short trip or while heading to the stadium via major streaming platforms, as the station has successfully adapted to contemporary media.
               </p>
             </div>
           </div>
           <div className="aboutgrid about2" id="aboutgrid1">
             <h6 id="h6-w">2024 / BRANDING / ART DIRECTION</h6>
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p id="p2-1">
-              <a href="https://www.instagram.com/estadio97/">Estádio 97</a> is one of Brazil's most traditional sports radio programs, produced by{' '}
-              <a href="https://www.youtube.com/@energia97">Energia 97 FM</a>. This radio station is a fixture in the daily lives of Brazilians, whether it's on a taxi radio for a short trip or while heading to the stadium via major streaming platforms, as the station has successfully adapted to contemporary media.
+              O{' '}
+              <a href="https://www.instagram.com/estadio97/">Estádio 97</a> é um dos mais tradicionais programas esportivos de rádio do Brasil, um produto da{' '}
+              <a href="https://www.youtube.com/@energia97">Energia 97 FM</a>, emissora de rádio que está presente no cotidiano do brasileiro nos mais diversos contextos, seja na rádio de um taxista em um curto trajeto ou a caminho do estádio em qualquer uma das principais plataformas de streaming, uma vez que a rádio se adaptou com êxito aos meios contemporâneos.
             </p>
           </div>
         </div>
@@ -55,14 +55,14 @@ const Estadio97 = () => {
         <div className="about tipografia container">
           <div className="aboutgrid about1">
             <h6>// SOLUÇÃO</h6>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
-              Extremos prologandos para transimitir a sensação algo bem estabelecido, longevo, sólido. Tipografia alta para sustentar autoridade somado a um ícone independente para o numero 97 que representa a sintonia da rádio (e como ela é conhecida popularmente, 'Rádio 97').
+              The logo features bold elements to convey a sense of something well-established, enduring, and solid. The tall typography supports authority, complemented by a distinct icon for the number 97, which represents the radio's frequency (and how it's popularly known as 'Rádio 97').
             </p>
           </div>
           <div className="aboutgrid about2">
-            <h5>(ENG)</h5>
-            <p>The logo features bold elements to convey a sense of something well-established, enduring, and solid. The tall typography supports authority, complemented by a distinct icon for the number 97, which represents the radio's frequency (and how it's popularly known as 'Rádio 97').</p>
+            <h5>(PT/BR)</h5>
+            <p>Extremos prologandos para transimitir a sensação algo bem estabelecido, longevo, sólido. Tipografia alta para sustentar autoridade somado a um ícone independente para o numero 97 que representa a sintonia da rádio (e como ela é conhecida popularmente, 'Rádio 97').</p>
           </div>
         </div>
         <div className="frames2">
@@ -72,16 +72,16 @@ const Estadio97 = () => {
         <div className="about tipografia container">
           <div className="aboutgrid about1">
             <blank></blank>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
-              Representando o triunfo da longevidade da marca, a coroa de louros indica grande mérito, tradicionalmente simbolizava a glória de quem a usava.
-              <br />
-              <br />A bola está posicionada estratégicamente de maneira que sutilmente represente a origem de tudo e a motivação de toda essa tragetória.
+              Symbolizing the triumph of the brand's longevity, the laurel wreath indicates great merit, traditionally representing the glory of its bearer. The ball is strategically positioned to subtly represent the origin of everything and the motivation behind the entire journey.
             </p>
           </div>
           <div className="aboutgrid about2">
-            <h5>(ENG)</h5>
-            <p>Symbolizing the triumph of the brand's longevity, the laurel wreath indicates great merit, traditionally representing the glory of its bearer. The ball is strategically positioned to subtly represent the origin of everything and the motivation behind the entire journey.</p>
+            <h5>(PT/BR)</h5>
+            <p>Representando o triunfo da longevidade da marca, a coroa de louros indica grande mérito, tradicionalmente simbolizava a glória de quem a usava.
+              <br />
+              <br />A bola está posicionada estratégicamente de maneira que sutilmente represente a origem de tudo e a motivação de toda essa tragetória.</p>
           </div>
         </div>
         <div className="frames1 framesgap">

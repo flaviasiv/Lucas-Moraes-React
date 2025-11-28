@@ -58,7 +58,9 @@
     margin: auto;
     padding: 120px 50px;
 }
-
+.astropay-page .firstabout{
+    padding: 120px 0 50px;
+}
 .astropay-page .aboutgrid {
     display: grid;
     grid-template-columns: 1.8fr 0.2fr 1fr;
@@ -129,7 +131,10 @@
     margin: 0;
     margin-bottom: 20px;
 }
-
+.astropay-page #h6-w, .h6as{ /* ajustar a responsividade ao alcançar o width da tela a partir de 1400px */
+    font-size: 16px !important;
+    margin: -130px auto;
+} 
 .astropay-page #h6-m {
     display: block;
 }
@@ -168,7 +173,7 @@
 /* Frames/Media sections */
 .astropay-page .frames1 {
     display: grid;
-    max-width: 1400px;
+    max-width: 100%;
     gap: 20px;
 }
 

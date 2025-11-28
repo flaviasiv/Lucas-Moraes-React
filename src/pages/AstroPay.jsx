@@ -16,18 +16,18 @@ const AstroPay = () => {
               <h1>
                 ASTROPAY
               </h1>
-              <h6 id="h6-m">2025 / MOTION GRAPHICS / SENIOR DESIGNER</h6>
-              <h5>(PT/BR)</h5>
+              <h6 className='h6as' id="h6-m">2025 / MOTION GRAPHICS / SENIOR DESIGNER</h6>
+              <h5>(ENG)</h5>
               <p className="about1" id="about1">
-                A AstroPay é uma empresa global de pagamentos digitais, com presença em diversos mercados e usuários em mais de 150 países. Sediada em Londres, oferece soluções como cartões pré-pagos, pagamentos locais e carteiras digitais. Seu foco é conectar pessoas e negócios por meio de transações rápidas, seguras e acessíveis.
+                AstroPay is a global digital payments company with users across more than 150 countries. Headquartered in London, it offers solutions like prepaid cards, local payment methods and a digital wallet. The brand focuses on connecting people and businesses through fast, secure and accessible transactions.
               </p>
             </div>
           </div>
           <div className="aboutgrid about2" id="aboutgrid1">
             <h6 id="h6-w">2025 / MOTION GRAPHICS / SENIOR DESIGNER</h6>
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p id="p2-1">
-              AstroPay is a global digital payments company with users across more than 150 countries. Headquartered in London, it offers solutions like prepaid cards, local payment methods and a digital wallet. The brand focuses on connecting people and businesses through fast, secure and accessible transactions.
+              A AstroPay é uma empresa global de pagamentos digitais, com presença em diversos mercados e usuários em mais de 150 países. Sediada em Londres, oferece soluções como cartões pré-pagos, pagamentos locais e carteiras digitais. Seu foco é conectar pessoas e negócios por meio de transações rápidas, seguras e acessíveis.
             </p>
           </div>
         </div>
@@ -39,15 +39,15 @@ const AstroPay = () => {
         <div className="about container section-motion-playbook">
           <div className="aboutgrid about1">
             <h6>//MOTION PLAYBOOK</h6>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
-              O Motion Playbook nasceu da necessidade de atender múltiplos setores da AstroPay, garantindo consistência visual e agilidade. Ele reúne templates e microcenas pré-montadas; animações de texto, intros, transições, encerramentos, que permitem produzir vídeos em escala sempre em três idiomas, mantendo padrão, velocidade e qualidade.
+              The Motion Playbook was created to support multiple departments at AstroPay while keeping visual consistency and speed. It includes templates and small prebuilt scenes such as text animations, intros, transitions and outros. This system makes it possible to produce videos at scale in three languages with quality and efficiency.
             </p>
           </div>
           <div className="aboutgrid about2">
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p>
-              The Motion Playbook was created to support multiple departments at AstroPay while keeping visual consistency and speed. It includes templates and small prebuilt scenes such as text animations, intros, transitions and outros. This system makes it possible to produce videos at scale in three languages with quality and efficiency.
+              O Motion Playbook nasceu da necessidade de atender múltiplos setores da AstroPay, garantindo consistência visual e agilidade. Ele reúne templates e microcenas pré-montadas; animações de texto, intros, transições, encerramentos, que permitem produzir vídeos em escala sempre em três idiomas, mantendo padrão, velocidade e qualidade.
             </p>
           </div>
         </div>
@@ -76,15 +76,15 @@ const AstroPay = () => {
         <div className="about container">
           <div className="aboutgrid about1">
             <h6>//SOCIAL & PAID MEDIA</h6>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
-              Algumas das minhas animações favoritas produzidas em 2025. São peças criadas para diferentes plataformas, combinando dinamismo, clareza e identidade visual. O objetivo é entregar vídeos curtos, impactantes e otimizados para performance, ampliando o alcance da marca em campanhas globais.
+              Some of my favorite animations produced in 2025. These pieces were created for different platforms, combining dynamism, clarity and strong visual identity. The goal is to deliver short, impactful and performance-driven videos that help expand the brand's reach in global campaigns.
             </p>
           </div>
           <div className="aboutgrid about2">
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p>
-              Some of my favorite animations produced in 2025. These pieces were created for different platforms, combining dynamism, clarity and strong visual identity. The goal is to deliver short, impactful and performance-driven videos that help expand the brand's reach in global campaigns.
+              Algumas das minhas animações favoritas produzidas em 2025. São peças criadas para diferentes plataformas, combinando dinamismo, clareza e identidade visual. O objetivo é entregar vídeos curtos, impactantes e otimizados para performance, ampliando o alcance da marca em campanhas globais.
             </p>
           </div>
         </div>
@@ -121,15 +121,15 @@ const AstroPay = () => {
         <div className="about container">
           <div className="aboutgrid about1">
             <h6>//EDUCATIONAL BRAND TUTORIALS</h6>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
-              A AstroPay possui um forte compromisso educacional com seus usuários. Sempre que uma nova funcionalidade é lançada, criamos tutoriais claros e diretos que explicam o passo a passo. Esses conteúdos ajudam a reduzir dúvidas, melhorar a experiência e tornar o uso do app mais intuitivo para todos os públicos.
+              AstroPay has a strong educational approach to support its users. Every time a new feature is released, we create tutorials that guide people step by step. These videos help reduce questions, improve the overall experience and make the app easier to understand for all audiences.
             </p>
           </div>
           <div className="aboutgrid about2">
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p>
-              AstroPay has a strong educational approach to support its users. Every time a new feature is released, we create tutorials that guide people step by step. These videos help reduce questions, improve the overall experience and make the app easier to understand for all audiences.
+              A AstroPay possui um forte compromisso educacional com seus usuários. Sempre que uma nova funcionalidade é lançada, criamos tutoriais claros e diretos que explicam o passo a passo. Esses conteúdos ajudam a reduzir dúvidas, melhorar a experiência e tornar o uso do app mais intuitivo para todos os públicos.
             </p>
           </div>
         </div>
@@ -145,15 +145,15 @@ const AstroPay = () => {
         <div className="about container">
           <div className="aboutgrid about1">
             <h6>//SALES TEAM & GROWTH</h6>
-            <h5>(PT/BR)</h5>
+            <h5>(ENG)</h5>
             <p className="about1" id="about1">
-              Vídeos institucionais para estandes e eventos, além de materiais promocionais voltados ao B2B. São conteúdos estratégicos que apresentam produtos, cases e oportunidades de negócio com clareza, impacto e alinhamento visual.
+              Institutional videos for booths and events, along with promotional materials tailored for B2B. These are strategic pieces designed to present products, use cases and business opportunities with clarity, impact and consistent visual alignment.
             </p>
           </div>
           <div className="aboutgrid about2">
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p>
-              Institutional videos for booths and events, along with promotional materials tailored for B2B. These are strategic pieces designed to present products, use cases and business opportunities with clarity, impact and consistent visual alignment.
+              Vídeos institucionais para estandes e eventos, além de materiais promocionais voltados ao B2B. São conteúdos estratégicos que apresentam produtos, cases e oportunidades de negócio com clareza, impacto e alinhamento visual.
             </p>
           </div>
         </div>

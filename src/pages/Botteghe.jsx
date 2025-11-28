@@ -17,41 +17,41 @@ const Botteghe = () => {
                 DEL CAFFÈ
               </h1>
               <h6 id="h6-m">2023 / BRANDING / ART DIRECTION</h6>
-              <h5>(PT/BR)</h5>
+              <h5>(ENG)</h5>
               <p className="about1" id="about1">
-                Com uma inclinação natural pela proteção ao meio ambiente – Botteghe Del Caffè é uma marca de cosméticos com produtos a base do óleo extraído do café verde em uma fazenda familiar no sul de Minas Gerais.
+                Botteghe Del Caffè is an environmentally conscious cosmetics brand that utilizes green coffee oil from a family farm in southern Minas Gerais.
                 <br />
                 <br />
-                Em parceria com produtores locais de azeite, seus produtos, respaldados por um{' '}
+                Collaborating with local olive oil producers, their products, backed by a{' '}
                 <a
                   style={{ textDecoration: 'underline' }}
                   href="https://www.teses.usp.br/teses/disponiveis/60/60137/tde-06092013-092132/publico/Tese_Completa.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  estudo realizado pela Faculdade de Ciências Farmacêuticas da USP
+                  study from USP
                 </a>
-                , oferecem hidratação, proteção, manutenção, cicatrização e melhoria da barreira cutânea, com propriedades antioxidantes e fotoprotetoras aprimoradas para uso terapêutico e cosmético.
+                , offer hydration, protection, maintenance, healing, and improved cutaneous barrier, with heightened antioxidant and photoprotective properties for therapeutic and cosmetic use.
               </p>
             </div>
           </div>
           <div className="aboutgrid about2" id="aboutgrid1">
             <h6 id="h6-w">2023 / BRANDING / ART DIRECTION</h6>
-            <h5>(ENG)</h5>
+            <h5>(PT/BR)</h5>
             <p className="about1" id="p2-1">
-              Botteghe Del Caffè is an environmentally conscious cosmetics brand that utilizes green coffee oil from a family farm in southern Minas Gerais.
+              Com uma inclinação natural pela proteção ao meio ambiente – Botteghe Del Caffè é uma marca de cosméticos com produtos a base do óleo extraído do café verde em uma fazenda familiar no sul de Minas Gerais.
               <br />
               <br />
-              Collaborating with local olive oil producers, their products, backed by a{' '}
+              Em parceria com produtores locais de azeite, seus produtos, respaldados por um{' '}
               <a
                 style={{ textDecoration: 'underline' }}
                 href="https://www.teses.usp.br/teses/disponiveis/60/60137/tde-06092013-092132/publico/Tese_Completa.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
-                study from USP
+                estudo realizado pela Faculdade de Ciências Farmacêuticas da USP
               </a>
-              , offer hydration, protection, maintenance, healing, and improved cutaneous barrier, with heightened antioxidant and photoprotective properties for therapeutic and cosmetic use.
+              , oferecem hidratação, proteção, manutenção, cicatrização e melhoria da barreira cutânea, com propriedades antioxidantes e fotoprotetoras aprimoradas para uso terapêutico e cosmético.
             </p>
           </div>
         </div>
@@ -68,18 +68,6 @@ const Botteghe = () => {
           <div className="aboutgrid about1">
             <h6>// DESAFIO</h6>
             <p className="about1" id="about1">
-              A fazenda São Luís do Palmela, com mais de 40 anos de dedicação à cafeicultura em Campanha-MG, destaca-se por seus 140 hectares, que incluem a sede e amplas áreas de preservação.
-              <br />
-              <br />
-              A família proprietária sempre priorizou produtos que agregam valor, cuidam das plantações e respeitam a natureza local e a saúde dos colaboradores.
-              <br />
-              <br />
-              Diante desse comprometimento, surge a necessidade de uma marca vibrante que reflita claramente esses princípios, representando a excelência e os potenciais científicos na cafeicultura, o respeito ao meio ambiente e à saúde da equipe
-            </p>
-          </div>
-          <br />
-          <div className="aboutgrid about2">
-            <p>
               The São Luís do Palmela farm, with over 40 years dedicated to coffee cultivation in Campanha-MG, stands out for its 140 hectares, encompassing the headquarters and extensive preservation areas.
               <br />
               <br />
@@ -87,6 +75,18 @@ const Botteghe = () => {
               <br />
               <br />
               Given this commitment, there arises the need for a vibrant brand that clearly reflects these principles, representing excellence and scientific potential in coffee cultivation, as well as a commitment to environmental conservation and the well-being of the team.
+            </p>
+          </div>
+          <br />
+          <div className="aboutgrid about2">
+            <p>
+              A fazenda São Luís do Palmela, com mais de 40 anos de dedicação à cafeicultura em Campanha-MG, destaca-se por seus 140 hectares, que incluem a sede e amplas áreas de preservação.
+              <br />
+              <br />
+              A família proprietária sempre priorizou produtos que agregam valor, cuidam das plantações e respeitam a natureza local e a saúde dos colaboradores.
+              <br />
+              <br />
+              Diante desse comprometimento, surge a necessidade de uma marca vibrante que reflita claramente esses princípios, representando a excelência e os potenciais científicos na cafeicultura, o respeito ao meio ambiente e à saúde da equipe
             </p>
           </div>
         </div>
@@ -105,21 +105,21 @@ const Botteghe = () => {
         <div className="about tipografia container">
           <div className="aboutgrid about1">
             <h6>// SOLUÇÃO</h6>
-            <h5>(PT/BR)</h5>
-            <p className="about1" id="about1">
-              O ícone foi projetado para refletir e reforçar os princípios fundamentais da marca, valores como saúde e responsabilidade ambiental. Foi concebido de forma a ser facilmente aplicado em diferentes contextos, como em materiais de marketing, embalagens, mídias sociais, etc.
-              <br />
-              <br />
-              A escolha de elementos específicos, como saúde, brilho da pele e raízes, sugere uma conexão com a responsabilidade ambiental e sugere um compromisso com práticas sustentáveis.
-            </p>
-          </div>
-          <div className="aboutgrid about2">
             <h5>(ENG)</h5>
-            <p>
+            <p className="about1" id="about1">
               The icon was designed to reflect and reinforce the fundamental principles of the brand, values such as health, and environmental responsibility. It was conceived to be easily applied in various contexts, such as marketing materials, packaging, social media, etc.
               <br />
               <br />
               The selection of specific elements, such as health, skin radiance, and roots, implies a connection to environmental responsibility and suggests a commitment to sustainable practices.
+            </p>
+          </div>
+          <div className="aboutgrid about2">
+            <h5>(PT/BR)</h5>
+            <p>
+              O ícone foi projetado para refletir e reforçar os princípios fundamentais da marca, valores como saúde e responsabilidade ambiental. Foi concebido de forma a ser facilmente aplicado em diferentes contextos, como em materiais de marketing, embalagens, mídias sociais, etc.
+              <br />
+              <br />
+              A escolha de elementos específicos, como saúde, brilho da pele e raízes, sugere uma conexão com a responsabilidade ambiental e sugere um compromisso com práticas sustentáveis.
             </p>
           </div>
         </div>

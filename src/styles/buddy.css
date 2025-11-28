@@ -7,18 +7,17 @@
     max-height: 600px;
     object-position: center;
 }
-.about{
+.buddy-page .about{
     max-width: 100%;
     width: 100%;
     max-width: 1500px;
     margin: auto;
     margin-top: 120px;
-    margin-bottom: 60px;
 }
+.aboutcontainer{padding-bottom: 80px;}
 .aboutgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    ;
     max-width: 100%;
     width: 100%;
     max-width: 1500px;
@@ -32,7 +31,6 @@
 }
 #aboutgrid1{
     grid-template-columns: 1.8fr 0.2fr 1fr;
-    ;
 }
 #aboutgrid1 h1{
     grid-column-start: 1;
@@ -99,6 +97,14 @@
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+}
+.buddy-page .tipografia{
+    margin: 0 auto !important;
+    padding: 100px 0;
+    gap: 30px;
+}
+.buddy-page .tipo-m{
+    gap: 0;
 }
 .tipografia h6{
     color: #292929;

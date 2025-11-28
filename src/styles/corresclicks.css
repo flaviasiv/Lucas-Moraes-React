@@ -7,13 +7,12 @@
     max-height: 600px;
     object-position: center;
 }
-.about{
+.corresclicks-page .about{
     max-width: 100%;
     width: 100%;
     max-width: 1500px;
     margin: auto;
     margin-top: 120px;
-    margin-bottom: 60px;
 }
 .aboutgrid {
     display: grid;
@@ -118,6 +117,11 @@
     line-height: normal;
     text-transform: uppercase;
 }
+.tipografia{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 .tipografia h6{    
     color: #292929;
     font-family: 'Neue';
@@ -147,6 +151,11 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.corresclicks-page .desafiogrid{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 80px;
 }
 .aboutgrid p a{text-decoration: underline;}
 #h6-m{display: none;}
