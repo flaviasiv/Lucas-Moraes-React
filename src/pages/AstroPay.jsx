@@ -102,8 +102,9 @@ const AstroPay = () => {
             <video src="/assets/astropay/hero12.mp4" autoPlay playsInline muted loop></video>
           </div>
           <div className="frames1 grid-right">
-            <video src="/assets/astropay/hero13.mp4" autoPlay playsInline muted loop></video>
             <video src="/assets/astropay/hero14.mp4" autoPlay playsInline muted loop></video>
+            {/* download novo */}
+            <video src="/assets/astropay/hero13.mp4" autoPlay playsInline muted loop></video>
           </div>
           <div className="frames1 grid-left gridimgs">
             <img src="/assets/astropay/hero15.png" alt="" />
@@ -135,10 +136,10 @@ const AstroPay = () => {
         </div>
 
           <div className="frames4-f">
-            <video src="/assets/astropay/hero7.mp4" autoPlay playsInline muted loop></video>
-            <video src="/assets/astropay/hero8.mp4" autoPlay playsInline muted loop></video>
-            <video src="/assets/astropay/hero8.mp4" autoPlay playsInline muted loop></video>
-            <video src="/assets/astropay/hero8.mp4" autoPlay playsInline muted loop></video>
+            <video src="/public\assets\astropay\ASTROPAY_DEEL_WITHDRAW_9x16_COP (2).mp4" autoPlay playsInline muted loop></video>
+            <video src="/public\assets\astropay\TRANSFER_USDT_9x16_ES.mp4" autoPlay playsInline muted loop></video>
+            <video src="/public\assets\astropay\LAUNCHING_CRYPTO_GLOBAL_9x16_6s.mp4" autoPlay playsInline muted loop></video>
+            <video src="/public\assets\astropay\USDT_TUTORIAL_9x16_LATAM.mp4" autoPlay playsInline muted loop></video>
           </div>
 
         {/* SALES TEAM & GROWTH */}
@@ -157,13 +158,12 @@ const AstroPay = () => {
             </p>
           </div>
         </div>
-
-        <div className="frameimg">
-          <img src="/assets/astropay/img_1531.jpg" alt="" />
-        </div>
         <div className="frames1 f-mt">
             <video src="/assets/astropay/hero20.mp4" autoPlay playsInline muted loop></video>
-            <video src="/assets/astropay/hero21.mp4" autoPlay playsInline muted loop></video>
+        </div>
+        <div className="frameimg">
+          <img className='frameimgimg' src="/assets/astropay/img_1531.jpg" alt="" />
+          <video src="/assets/astropay/hero21.mp4" autoPlay playsInline muted loop></video>
         </div>
 
         {/* OUTROS PROJETOS - Essa seção normalmente fica no ProjectsSlider */}

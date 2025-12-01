@@ -56,7 +56,7 @@ const ProjectsSlider = () => {
           </div>
         </button>
     <div className="others">
-      <h1>// OUTROS PROJETOS</h1>
+      <h1>// OTHER PROJECTS</h1>
       <Swiper
         className="mySwiper1"
         spaceBetween={0}
