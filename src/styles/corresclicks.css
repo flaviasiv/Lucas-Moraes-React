@@ -1,11 +1,11 @@
-.covervideo{
+.corresclicks-page .cover video{
     width: 100%;
     max-width: 9909px;
     margin: auto;
     object-fit: cover;
     height: 100%;
-    max-height: 600px;
-    object-position: center;
+    max-height: 700px;
+    object-position: 50% 90%;
 }
 .corresclicks-page .about{
     max-width: 100%;
