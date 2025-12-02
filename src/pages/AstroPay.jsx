@@ -6,7 +6,7 @@ const AstroPay = () => {
   return (
     <div className="astropay-page">
       <div className="cover">
-        <video src="/assets/astropay/ASTROPAY_INTRO.mp4" autoPlay preload="auto" playsInline muted loop></video>
+        <video src="/assets/astropay/ASTROPAY_INTRO.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </div>
       <main>
         {/* INTRODUÇÃO */}
@@ -33,7 +33,7 @@ const AstroPay = () => {
         </div>
 
         <div className="frames1">
-          <video src="/assets/astropay/ap-portifa-hero2.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/astropay/ap-portifa-hero2.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         {/* MOTION PLAYBOOK */}
         <div className="about container section-motion-playbook">
@@ -68,7 +68,7 @@ const AstroPay = () => {
         {/* Row 2: Full width dividido em 2 */}
         <div className="frames1 grid-full">
           <img src="/assets/astropay/hero5.gif" alt="Motion playbook animation" />
-          <video src="/assets/astropay/hero6.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/astropay/hero6.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
 
         {/* SOCIAL & PAID MEDIA */}
@@ -90,32 +90,32 @@ const AstroPay = () => {
         </div>
         <div className="mw">
           <div className="frames1 grid-left">
-            <video src="/assets/astropay/hero7.mp4" autoPlay playsInline muted loop></video>
-            <video src="/assets/astropay/hero8.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero7.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+            <video src="/assets/astropay/hero8.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </div>
           <div className="frames1 grid-right">
-            <video src="/assets/astropay/hero9.mp4" autoPlay playsInline muted loop></video>
-            <video src="/assets/astropay/hero10.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero9.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+            <video src="/assets/astropay/hero10.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </div>
           <div className="frames1 grid-left">
-            <video src="/assets/astropay/hero11.mp4" autoPlay playsInline muted loop></video>
-            <video src="/assets/astropay/hero12.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero11.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+            <video src="/assets/astropay/hero12.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </div>
           <div className="frames1 grid-right">
-            <video src="/assets/astropay/hero14.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero14.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
             {/* download novo */}
-            <video src="/assets/astropay/hero13.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero13.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </div>
           <div className="frames1 grid-left gridimgs">
             <img src="/assets/astropay/hero15.png" alt="" />
             <img src="/assets/astropay/hero16.png" alt="" />
           </div>
           <div className="frames1 grid-right vfull">
-            <video src="/assets/astropay/hero17.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero17.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </div>
           <div className="frames1 grid-left grid-t">
-            <video className='videosm' src="/assets/astropay/hero18.mp4" autoPlay playsInline muted loop></video>
-            <video className='videosx' src="/assets/astropay/hero19.mp4" autoPlay playsInline muted loop></video>
+            <video className='videosm' src="/assets/astropay/hero18.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+            <video className='videosx' src="/assets/astropay/hero19.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </div>
         </div>
         {/* EDUCATIONAL BRAND TUTORIALS */}
@@ -136,10 +136,10 @@ const AstroPay = () => {
         </div>
 
           <div className="frames4-f">
-            <video src="/public\assets\astropay\ASTROPAY_DEEL_WITHDRAW_9x16_COP (2).mp4" autoPlay playsInline muted loop></video>
-            <video src="/public\assets\astropay\TRANSFER_USDT_9x16_ES.mp4" autoPlay playsInline muted loop></video>
-            <video src="/public\assets\astropay\LAUNCHING_CRYPTO_GLOBAL_9x16_6s.mp4" autoPlay playsInline muted loop></video>
-            <video src="/public\assets\astropay\USDT_TUTORIAL_9x16_LATAM.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/ASTROPAY_DEEL_WITHDRAW_9x16_COP (2).mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+            <video src="/assets/astropay/TRANSFER_USDT_9x16_ES.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+            <video src="/assets/astropay/LAUNCHING_CRYPTO_GLOBAL_9x16_6s.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+            <video src="/assets/astropay/USDT_TUTORIAL_9x16_LATAM.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </div>
 
         {/* SALES TEAM & GROWTH */}
@@ -159,11 +159,11 @@ const AstroPay = () => {
           </div>
         </div>
         <div className="frames1 f-mt">
-            <video src="/assets/astropay/hero20.mp4" autoPlay playsInline muted loop></video>
+            <video src="/assets/astropay/hero20.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="frameimg">
           <img className='frameimgimg' src="/assets/astropay/img_1531.jpg" alt="" />
-          <video src="/assets/astropay/hero21.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/astropay/hero21.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
 
         {/* OUTROS PROJETOS - Essa seção normalmente fica no ProjectsSlider */}

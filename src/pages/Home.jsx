@@ -135,9 +135,15 @@ const Home = () => {
               <video
                 src="/assets/home/0a03b9c5f67bfd1c2a257fe6fc25feba.mp4"
                 autoPlay
+                preload="auto"
                 playsInline
+                webkit-playsinline="true"
+                x-webkit-airplay="allow"
                 muted
                 loop
+                controls={false}
+                disablePictureInPicture
+                style={{ WebkitTransform: 'translateZ(0)' }}
               ></video>
             </div>
           </h2>
@@ -151,9 +157,15 @@ com mais de 10 anos de experiência colaborando em agências, estúdios e marcas
               <video
                 src="/assets/home/0a03b9c5f67bfd1c2a257fe6fc25feba.mp4"
                 autoPlay
+                preload="auto"
                 playsInline
+                webkit-playsinline="true"
+                x-webkit-airplay="allow"
                 muted
                 loop
+                controls={false}
+                disablePictureInPicture
+                style={{ WebkitTransform: 'translateZ(0)' }}
               ></video>
             </div>
           </h2>
@@ -170,13 +182,13 @@ com mais de 10 anos de experiência colaborando em agências, estúdios e marcas
               className={`work${index === 0 || index === 2 ? 'T1' : index + 1} workcard`}
             >
               <Link to={project.link} className="imgwork">
-                <video src={project.video} autoPlay playsInline muted loop></video>
+                <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
               </Link>
               <div className="cardsinfo">
                 <h2>{project.title}</h2>
                 <h5>{project.category}</h5>
                 <Link to={project.link} className="imgwork-m">
-                  <video src={project.video} autoPlay playsInline muted loop></video>
+                  <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
                 </Link>
                 <p>
                   {project.description}

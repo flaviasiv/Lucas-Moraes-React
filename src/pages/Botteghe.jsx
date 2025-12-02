@@ -6,7 +6,7 @@ const Botteghe = () => {
   return (
     <div>
       <div className="cover">
-        <video src="/assets/botteghe/01-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+        <video src="/assets/botteghe/01-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </div>
       <main>
         <div className="aboutcontainer container">
@@ -56,7 +56,7 @@ const Botteghe = () => {
           </div>
         </div>
         <div className="frames1 frames1-1">
-          <video src="/assets/botteghe/02-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+          <video src="/assets/botteghe/02-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="frames1">
           <img className="img1" src="/assets/botteghe/Frame3.png" alt="imagem capa botteghe" draggable="false" />
@@ -95,11 +95,11 @@ const Botteghe = () => {
         </div>
         <div className="frame2-2">
           <img src="/assets/botteghe/gif3.gif" alt="imagem capa botteghe" draggable="false" />
-          <video src="/assets/botteghe/03-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+          <video src="/assets/botteghe/03-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="frames1"></div>
         <div className="frames3">
-          <video src="/assets/botteghe/04-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+          <video src="/assets/botteghe/04-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           <img src="/assets/botteghe/frame8.png" alt="imagem capa botteghe" draggable="false" />
         </div>
         <div className="about tipografia container">
@@ -126,7 +126,7 @@ const Botteghe = () => {
         <div className="frames1">
           <img src="/assets/botteghe/08ec6a2c417565846ce6d744ebc776fd.gif" alt="" />
           <img src="/assets/botteghe/frame9.png" alt="" draggable="false" />
-          <video src="/assets/botteghe/05-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+          <video src="/assets/botteghe/05-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           <img className="img-sm" src="/assets/botteghe/frame10.png" alt="" draggable="false" />
           <img src="/assets/botteghe/frame11.png" alt="" draggable="false" />
         </div>
@@ -135,7 +135,7 @@ const Botteghe = () => {
           <img className="img-4-2" src="/assets/botteghe/frame13.png" alt="" draggable="false" />
         </div>
         <div className="frames1">
-          <video src="/assets/botteghe/06-botteghe.mp4" autoPlay preload="auto" playsInline muted loop></video>
+          <video src="/assets/botteghe/06-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <ProjectsSlider />
       </main>

@@ -6,7 +6,7 @@ const Lata = () => {
   return (
     <div className='lata-page'>
       <div className="cover">
-        <video src="/assets/lata/01-lata05.mp4" autoPlay playsInline muted loop></video>
+        <video src="/assets/lata/01-lata05.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </div>
       <main>
         <div className="aboutcontainer container">
@@ -34,10 +34,10 @@ const Lata = () => {
           </div>
         </div>
         <div className="frames1 frames1-1">
-          <video className="img1" src="/assets/lata/02-lata05.mp4" autoPlay playsInline muted loop></video>
+          <video className="img1" src="/assets/lata/02-lata05.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="frames1">
-          <video src="/assets/lata/03-lata05.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/lata/03-lata05.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="frames2">
           <img src="\assets\lata\frame1.png" alt="" draggable="false" />
@@ -59,7 +59,7 @@ const Lata = () => {
           </div>
         </div>
         <div className="frames1 frames1-1">
-          <video src="/assets/lata/04-lata05.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/lata/04-lata05.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="about tipografia container">
           <div className="aboutgrid about1">
@@ -84,11 +84,11 @@ const Lata = () => {
           </div>
         </div>
         <div className="frames1">
-          <video src="/assets/lata/05-lata05.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/lata/05-lata05.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           <img src="/assets/lata/frame2.jpg" alt="imagem capa lata 05" draggable="false" />
           <img src="/assets/lata/frame3.jpg" alt="imagem capa lata 05" draggable="false" />
           <img src="/assets/lata/frame4.jpg" alt="imagem capa lata 05" draggable="false" />
-          <video src="/assets/lata/06-lata05.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/lata/06-lata05.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="about tipografia container">
           <div className="aboutgrid about1">
@@ -104,9 +104,9 @@ const Lata = () => {
           </div>
         </div>
         <div className="frames1">
-          <video src="/assets/lata/07-lata05.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/lata/07-lata05.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           <img src="/assets/lata/frame5.jpg" alt="imagem capa lata 05" draggable="false" />
-          <video src="/assets/lata/08-lata05.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/lata/08-lata05.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           <img src="/assets/lata/frame6.jpg" alt="imagem capa lata 05" draggable="false" />
         </div>
         <ProjectsSlider />

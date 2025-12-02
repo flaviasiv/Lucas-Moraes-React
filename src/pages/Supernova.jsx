@@ -6,7 +6,7 @@ const Supernova = () => {
   return (
     <div className="supernova-page">
       <div className="cover">
-        <video src="/assets/supernova/01-spnv.mp4" autoPlay playsInline muted loop></video>
+        <video src="/assets/supernova/01-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </div>
       <main>
         <div className="about">
@@ -52,7 +52,7 @@ const Supernova = () => {
           </p>
         </div>
         <div className="frames1">
-          <video src="/assets/supernova/02-spnv.mp4" className="img1" autoPlay playsInline muted loop></video>
+          <video src="/assets/supernova/02-spnv.mp4" className="img1" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="about">
           <div className="aboutgrid about1">
@@ -71,7 +71,7 @@ const Supernova = () => {
         </div>
         <div className="frames1">
           <img src="/assets/supernova/Frame2.png" alt="imagem capa supernova" draggable="false" />
-          <video src="/assets/supernova/03-spnv.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/supernova/03-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="about">
           <div className="aboutgrid about1">
@@ -118,9 +118,9 @@ const Supernova = () => {
           </div>
         </div>
         <div className="frames1">
-          <video src="/assets/supernova/04-spnv.mp4" autoPlay playsInline muted loop></video>
-          <video src="/assets/supernova/05-spnv.mp4" autoPlay playsInline muted loop></video>
-          <video src="/assets/supernova/06-spnv.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/supernova/04-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+          <video src="/assets/supernova/05-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+          <video src="/assets/supernova/06-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="about tipografia solucao">
           <div className="aboutgrid about1">
@@ -157,8 +157,8 @@ const Supernova = () => {
           </div>
         </div>
         <div className="frames1">
-          <video src="/assets/supernova/07-spnv.mp4" autoPlay playsInline muted loop></video>
-          <video src="/assets/supernova/08-spnv.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/supernova/07-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+          <video src="/assets/supernova/08-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <ProjectsSlider />
       </main>

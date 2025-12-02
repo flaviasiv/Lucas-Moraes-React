@@ -9,7 +9,7 @@ const BuddyNutrition = () => {
   return (
     <div className='buddy-page'>
       <div className="cover">
-        <video src="/assets/buddy/01-buddy.mp4" autoPlay playsInline muted loop></video>
+        <video src="/assets/buddy/01-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </div>
       <main>
         <div className="aboutcontainer container">
@@ -35,10 +35,10 @@ const BuddyNutrition = () => {
           </div>
         </div>
         <div className="frames1 frames1-sm">
-          <video className="vd-br" src="/assets/buddy/02-buddy.mp4" autoPlay playsInline muted loop></video>
+          <video className="vd-br" src="/assets/buddy/02-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="frames1">
-          <video className="img1" src="/assets/buddy/03-buddy.mp4" autoPlay playsInline muted loop></video>
+          <video className="img1" src="/assets/buddy/03-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="about tipografia container">
           <div className="aboutgrid about1">
@@ -54,7 +54,7 @@ const BuddyNutrition = () => {
           </div>
         </div>
         <div className="frames1 frames1-1">
-          <video src="/assets/buddy/04-buddy.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/buddy/04-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="about tipografia container">
           <div className="aboutgrid about1">
@@ -72,7 +72,7 @@ const BuddyNutrition = () => {
           </div>
         </div>
         <div className="frames-l">
-          <video className="video-r" src="/assets/buddy/05-buddy.mp4" autoPlay playsInline muted loop></video>
+          <video className="video-r" src="/assets/buddy/05-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <Swiper
           className="mySwiper2"
@@ -110,7 +110,7 @@ const BuddyNutrition = () => {
         <div className="about tipografia tipo-m container">
           <div className="aboutgrid about1">
             <h6 className="h-i" id="h-i">
-              <video src="/assets/buddy/06-buddy.mp4" autoPlay playsInline muted loop></video>
+              <video src="/assets/buddy/06-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
               <br />
               <label htmlFor="h-i">(maus exemplos vigentes no mercado)</label>
             </h6>
@@ -126,19 +126,19 @@ const BuddyNutrition = () => {
           </div>
         </div>
         <div className="frames1">
-          <video src="/assets/buddy/07-buddy.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/buddy/07-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="frames3">
           <img src="/assets/buddy/frame1.png" alt="" draggable="false" />
           <img src="/assets/buddy/frame2.png" alt="" draggable="false" />
         </div>
         <div className="frames3">
-          <video className="gif-b" src="/assets/buddy/08-buddy.mp4" autoPlay playsInline muted loop></video>
+          <video className="gif-b" src="/assets/buddy/08-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           <img src="/assets/buddy/frame4.png" alt="" draggable="false" />
         </div>
         <div className="frames3">
           <img src="/assets/buddy/frame5.png" alt="" draggable="false" />
-          <video className="gif-b" src="/assets/buddy/09-buddy.mp4" autoPlay playsInline muted loop></video>
+          <video className="gif-b" src="/assets/buddy/09-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="about tipografia container about-m-bd">
           <div className="aboutgrid about-m-bd">
@@ -213,11 +213,11 @@ const BuddyNutrition = () => {
           </div>
         </div>
         <div className="frames1 frames2">
-          <video src="/assets/buddy/10-buddy.mp4" autoPlay playsInline muted loop></video>
-          <video src="/assets/buddy/11-buddy.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/buddy/10-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+          <video src="/assets/buddy/11-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="frames4">
-          <video src="/assets/buddy/12-buddy.mp4" autoPlay playsInline muted loop></video>
+          <video src="/assets/buddy/12-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
         </div>
         <div className="cred">
           <p>
