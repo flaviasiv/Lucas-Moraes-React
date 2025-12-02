@@ -86,15 +86,21 @@ footer{
 .email-input-wrapper input:focus::placeholder {
     color: transparent;
 }
-.bntemail, 
+.bntemail,
 .bntemail a{
-    background-color: transparent; 
+    background-color: transparent;
     color: #9A9A9A;
     font-family: 'Neue', sans-serif;
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease, transform 0.3s ease;
+}
+.bntemail:hover,
+.bntemail a:hover{
+    transform: scale(1.02);
 }
 .bntemail a{
     display: flex;

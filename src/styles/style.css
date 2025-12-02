@@ -281,6 +281,10 @@ font-family: 'Neue', sans-serif;
 .home-page .workcard a {
     color: #292929;
     text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+.home-page .workcard a:hover {
+    opacity: 0.8;
 }
 .home-page .workcard a button{
     cursor: pointer;
@@ -298,11 +302,16 @@ font-family: 'Neue', sans-serif;
     font-family: 'Neue', sans-serif;
     font-size: 12px;
     font-weight: 600;
-    line-height: 120%; 
+    line-height: 120%;
     margin-top: 30px;
     margin-bottom: 5px;
     padding: 8px 24px;
     height: 30px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.home-page .workcard a button:hover{
+    opacity: 0.9;
+    transform: scale(1.01);
 }
 .home-page .workcard a button svg{
     max-height: 15px;

@@ -38,6 +38,10 @@ header{
     font-size: 32px;
     line-height: normal;
     z-index: 999;
+    transition: opacity 0.3s ease;
+}
+.nav-links li a:hover{
+    opacity: 0.7;
 }
 .btn-toggle{display: none;}
 @media only screen and (max-width: 1000px) {
