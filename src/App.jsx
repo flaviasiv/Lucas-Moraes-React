@@ -29,10 +29,11 @@ function AppContent() {
   useEffect(() => {
     // Initialize Lenis for smooth scroll
     const lenis = new Lenis({
-      duration: 1.2,
+      duration: 1.5,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
       smoothTouch: false,
+      wheelMultiplier: 0.8,
       touchMultiplier: 2,
     });
 
