@@ -17,7 +17,7 @@ const Lata = () => {
           <div className="firstabout about">
             <div className="aboutgrid about1" id="aboutgrid1">
               <h1>LATA 05</h1>
-              <h6 id="h6-w">2023 / BRANDING / ART DIRECTION</h6>
+              <h6 id="h6-m">2023 / BRANDING / ART DIRECTION</h6>
               <h5>(ENG)</h5>
               <p className="about1" id="about1">
                 Lata 05 is an unconventional artistic movement that will bring an overlap of musical genres to energize national art. Creating a habitat with new musical flavors in a laboratory format, where the crafting of a new Brazilian art will take place.
@@ -27,7 +27,7 @@ const Lata = () => {
             </div>
           </div>
           <div className="aboutgrid about2" id="aboutgrid1">
-            <h6 id="h6-m">2023 / BRANDING / ART DIRECTION</h6>
+            <h6 id="h6-w">2023 / BRANDING / ART DIRECTION</h6>
             <h5>(PT/BR)</h5>
             <p className="about1" id="p2-1">
               Lata 05 é um movimento artístico nada convencional, que trará uma sobreposição de gêneros musicais para movimentar a arte nacional. Criar um habitat com novos sabores musicais em um formato de laboratório, onde irá acontecer a confecção de uma nova arte brasileira.

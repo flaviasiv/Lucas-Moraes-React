@@ -56,7 +56,7 @@
     margin: 0 auto;
     color: #000;
 }
-#h6-w{ /* ajustar a responsividade ao alcançar o width da tela a partir de 1400px */
+.corresclicks-page #h6-w{ /* ajustar a responsividade ao alcançar o width da tela a partir de 1400px */
     color: #000;
     grid-column-start: 1;
     grid-row-start: 1;
