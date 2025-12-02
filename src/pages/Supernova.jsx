@@ -1,13 +1,17 @@
+import { motion, useScroll, useTransform } from 'framer-motion';
 import ProjectsSlider from '../components/ProjectsSlider';
 import '../styles/supernova.css';
 import '../styles/font.css';
 
 const Supernova = () => {
+  const { scrollY } = useScroll();
+  const yHero = useTransform(scrollY, [0, 500], [0, 75]);
+
   return (
     <div className="supernova-page">
-      <div className="cover">
+      <motion.div className="cover" style={{ y: yHero }}>
         <video src="/assets/supernova/01-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
-      </div>
+      </motion.div>
       <main>
         <div className="about">
           <div className="aboutgrid about1" id="aboutgrid1">

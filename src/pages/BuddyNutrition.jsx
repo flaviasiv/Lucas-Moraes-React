@@ -1,3 +1,4 @@
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
 import 'swiper/css';
@@ -6,11 +7,14 @@ import '../styles/buddy.css';
 import '../styles/font.css';
 
 const BuddyNutrition = () => {
+  const { scrollY } = useScroll();
+  const yHero = useTransform(scrollY, [0, 500], [0, 75]);
+
   return (
     <div className='buddy-page'>
-      <div className="cover">
+      <motion.div className="cover" style={{ y: yHero }}>
         <video src="/assets/buddy/01-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
-      </div>
+      </motion.div>
       <main>
         <div className="aboutcontainer container">
           <div className="firstabout about">
