@@ -20,7 +20,8 @@
       "mcp__playwright__browser_console_messages",
       "Bash(dir /S *.mp4)",
       "Bash(findstr:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
