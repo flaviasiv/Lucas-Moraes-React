@@ -127,7 +127,7 @@
     line-height: normal;
 }
 .aboutgrid p a{text-decoration: underline;}
-#h6-m{display: none;}
+.supernova-page #h6-m{display: none;}
 @media screen and (max-width:900px) {
     .aboutgrid {
         display: flex !important;
@@ -136,14 +136,14 @@
         margin: 40px auto;
         padding: 0 24px;
     }
-    #aboutgrid1 h1{
+.supernova-page    #aboutgrid1 h1{
         font-size: 32px;
         font-weight: 500;
         margin: 0;
         margin-bottom: 16px;
     }
-    #h6-w{display: none;}
-    #h6-m{
+    .supernova-page #h6-w{display: none;}
+    .supernova-page #h6-m{
         display: block;
         font-size: 16px;
         margin: 0px auto;
