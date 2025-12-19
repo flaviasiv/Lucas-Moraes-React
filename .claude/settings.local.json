@@ -21,7 +21,9 @@
       "Bash(dir /S *.mp4)",
       "Bash(findstr:*)",
       "WebSearch",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(dir /S /B \"D:\\\\Fla\\\\Copia_codes_pendrive\\\\codes\\\\Lucas-Moraes\\\\lucas-moraes-react\\\\public\\\\assets\")",
+      "Bash(dir /B:*)"
     ],
     "deny": [],
     "ask": []
