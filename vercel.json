@@ -18,7 +18,13 @@
   ],
   "redirects": [
     {
-      "source": "https://www.lucaslucas.work/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.lucaslucas.work"
+        }
+      ],
       "destination": "https://lucaslucas.work/:path*",
       "permanent": true
     }
