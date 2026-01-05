@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import ProjectsSlider from '../components/ProjectsSlider';
 import '../styles/supernova.css';
 import '../styles/font.css';
@@ -8,8 +9,21 @@ const Supernova = () => {
   const yHero = useTransform(scrollY, [0, 500], [0, 75]);
 
   return (
-    <div className="supernova-page">
-      <motion.div className="cover" style={{ y: yHero }}>
+    <>
+      <Helmet>
+        <title>Supernova Entertainment - Branding & Art Direction | Lucas Moraes</title>
+        <meta name="description" content="Branding and Art Direction for Supernova Entertainment, a music label in São Paulo marked by the astronomical rise of its artists, including Thiago Veigh who reached global top 1 on Spotify." />
+        <meta property="og:title" content="Supernova Entertainment - Branding & Art Direction" />
+        <meta property="og:description" content="Branding and Art Direction for Supernova Entertainment, a music label in São Paulo marked by the astronomical rise of its artists." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://lucasmoraes.design/supernova" />
+        <meta property="og:image" content="https://lucasmoraes.design/assets/supernova/Frame2.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://lucasmoraes.design/supernova" />
+      </Helmet>
+
+      <div className="supernova-page">
+        <motion.div className="cover" style={{ y: yHero }}>
         <video src="/assets/supernova/01-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </motion.div>
       <main>
@@ -166,7 +180,8 @@ const Supernova = () => {
         </div>
         <ProjectsSlider />
       </main>
-    </div>
+      </div>
+    </>
   );
 };
 

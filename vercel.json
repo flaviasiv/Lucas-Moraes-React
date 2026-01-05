@@ -15,5 +15,12 @@
       "source": "/((?!.*\\.xml$).*)",
       "destination": "/index.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "https://www.lucaslucas.work/:path*",
+      "destination": "https://lucaslucas.work/:path*",
+      "permanent": true
+    }
   ]
 }

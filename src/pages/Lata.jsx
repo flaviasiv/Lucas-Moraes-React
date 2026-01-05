@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import ProjectsSlider from '../components/ProjectsSlider';
 import '../styles/lata.css';
 import '../styles/font.css';
@@ -8,8 +9,20 @@ const Lata = () => {
   const yHero = useTransform(scrollY, [0, 500], [0, 75]);
 
   return (
-    <div className='lata-page'>
-      <motion.div className="cover" style={{ y: yHero }}>
+    <>
+      <Helmet>
+        <title>Lata 05 - Secret Event Branding & Art Direction | Lucas Moraes</title>
+        <meta name="description" content="Branding and Art Direction for Lata 05, a secret event with no fixed location, date or theme, featuring invitation-only first editions and surprise performances as the main way to spark curiosity." />
+        <meta property="og:title" content="Lata 05 - Secret Event Branding & Art Direction" />
+        <meta property="og:description" content="Branding for Lata 05, a secret artistic movement bringing an overlap of musical genres to energize national art." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://lucasmoraes.design/lata" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://lucasmoraes.design/lata" />
+      </Helmet>
+
+      <div className='lata-page'>
+        <motion.div className="cover" style={{ y: yHero }}>
         <video src="/assets/lata/01-lata05.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </motion.div>
       <main>
@@ -115,7 +128,8 @@ const Lata = () => {
         </div>
         <ProjectsSlider />
       </main>
-    </div>
+      </div>
+    </>
   );
 };
 

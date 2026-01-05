@@ -1,12 +1,25 @@
 import 'swiper/css';
+import { Helmet } from 'react-helmet-async';
 import ProjectsSlider from '../components/ProjectsSlider';
 import '../styles/e97.css';
 import '../styles/font.css';
 
 const Estadio97 = () => {
   return (
-    <div  className='e97-page'>
-      <div className="cover">
+    <>
+      <Helmet>
+        <title>Estádio 97 - Sports Radio Branding & Art Direction | Lucas Moraes</title>
+        <meta name="description" content="Branding and Art Direction for Estádio 97, one of Brazil's most traditional sports radio shows, a product of Energia 97 FM, celebrating 25 years of leading sports radio audiences." />
+        <meta property="og:title" content="Estádio 97 - Sports Radio Branding & Art Direction" />
+        <meta property="og:description" content="Branding for Estádio 97, one of Brazil's most traditional sports radio programs celebrating 25 years." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://lucasmoraes.design/estadio97" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://lucasmoraes.design/estadio97" />
+      </Helmet>
+
+      <div  className='e97-page'>
+        <div className="cover">
         <video src="/assets/estadio97/01-e97.mp4" autoPlay playsInline muted loop></video>
       </div>
       <main>
@@ -107,7 +120,8 @@ const Estadio97 = () => {
         </div>
         <ProjectsSlider />
       </main>
-    </div>
+      </div>
+    </>
   );
 };
 

@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
 import 'swiper/css';
@@ -11,8 +12,20 @@ const BuddyNutrition = () => {
   const yHero = useTransform(scrollY, [0, 500], [0, 75]);
 
   return (
-    <div className='buddy-page'>
-      <motion.div className="cover" style={{ y: yHero }}>
+    <>
+      <Helmet>
+        <title>Buddy Nutrition - Branding, Packaging & Design System | Lucas Moraes</title>
+        <meta name="description" content="Branding, Packaging, and Design System for Buddy Nutrition, a canine supplement brand that creates high-quality formulas with personalized recommendations for pet health and well-being." />
+        <meta property="og:title" content="Buddy Nutrition - Branding, Packaging & Design System" />
+        <meta property="og:description" content="Complete branding project for Buddy Nutrition, a canine supplement brand with personalized recommendations." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://lucasmoraes.design/buddynutrition" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://lucasmoraes.design/buddynutrition" />
+      </Helmet>
+
+      <div className='buddy-page'>
+        <motion.div className="cover" style={{ y: yHero }}>
         <video src="/assets/buddy/01-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </motion.div>
       <main>
@@ -236,7 +249,8 @@ const BuddyNutrition = () => {
         </div>
         <ProjectsSlider />
       </main>
-    </div>
+      </div>
+    </>
   );
 };
 

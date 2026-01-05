@@ -1,11 +1,24 @@
+import { Helmet } from 'react-helmet-async';
 import ProjectsSlider from '../components/ProjectsSlider';
 import '../styles/corresclicks.css';
 import '../styles/font.css';
 
 const ClicksCorres = () => {
   return (
-    <div className='corresclicks-page'>
-      <div className="cover">
+    <>
+      <Helmet>
+        <title>Clicks & Corres - Personal Photography Project | Lucas Moraes</title>
+        <meta name="description" content="Personal photography project documenting running during COVID-19 pandemic. All footage was captured on a phone over months of running the same route in the north side of São Paulo." />
+        <meta property="og:title" content="Clicks & Corres - Personal Photography Project" />
+        <meta property="og:description" content="Photography project documenting running during COVID-19 pandemic in São Paulo." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://lucasmoraes.design/clickscorres" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://lucasmoraes.design/clickscorres" />
+      </Helmet>
+
+      <div className='corresclicks-page'>
+        <div className="cover">
         <video src="/assets/corres/01-cc.mp4" autoPlay playsInline muted loop></video>
       </div>
       <main>
@@ -157,7 +170,8 @@ const ClicksCorres = () => {
         </div>
         <ProjectsSlider />
       </main>
-    </div>
+      </div>
+    </>
   );
 };
 

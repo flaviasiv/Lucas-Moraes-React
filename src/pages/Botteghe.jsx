@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import ProjectsSlider from '../components/ProjectsSlider';
 import '../styles/botteghe.css';
 import '../styles/font.css';
@@ -8,8 +9,20 @@ const Botteghe = () => {
   const yHero = useTransform(scrollY, [0, 500], [0, 75]);
 
   return (
-    <div>
-      <motion.div className="cover" style={{ y: yHero }}>
+    <>
+      <Helmet>
+        <title>Botteghe Del Caffè - Branding & Art Direction | Lucas Moraes</title>
+        <meta name="description" content="Branding and Art Direction for Botteghe Del Caffè, an environmentally conscious cosmetics brand utilizing green coffee oil from a family farm in southern Minas Gerais." />
+        <meta property="og:title" content="Botteghe Del Caffè - Branding & Art Direction" />
+        <meta property="og:description" content="Branding for Botteghe Del Caffè, an environmentally conscious cosmetics brand utilizing green coffee oil." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://lucasmoraes.design/botteghe" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://lucasmoraes.design/botteghe" />
+      </Helmet>
+
+      <div>
+        <motion.div className="cover" style={{ y: yHero }}>
         <video src="/assets/botteghe/01-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </motion.div>
       <main>
@@ -143,7 +156,8 @@ const Botteghe = () => {
         </div>
         <ProjectsSlider />
       </main>
-    </div>
+      </div>
+    </>
   );
 };
 

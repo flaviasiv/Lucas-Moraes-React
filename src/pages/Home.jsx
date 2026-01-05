@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
 import 'swiper/css';
@@ -91,7 +92,22 @@ const Home = () => {
   ];
 
   return (
-    <main className="home-page">
+    <>
+      <Helmet>
+        <title>Lucas Moraes - Designer & Art Director | São Paulo, Brazil</title>
+        <meta name="description" content="Multidisciplinary designer and art director with over 10 years of experience collaborating with agencies, studios, and brands on visual identity, strategic design, product development, and more." />
+        <meta property="og:title" content="Lucas Moraes - Designer & Art Director" />
+        <meta property="og:description" content="Multidisciplinary designer and art director with over 10 years of experience in visual identity, strategic design, and product development." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://lucasmoraes.design/" />
+        <meta property="og:image" content="https://lucasmoraes.design/assets/profile-lucas-moraes.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Lucas Moraes - Designer & Art Director" />
+        <meta name="twitter:description" content="Multidisciplinary designer and art director with over 10 years of experience." />
+        <link rel="canonical" href="https://lucasmoraes.design/" />
+      </Helmet>
+
+      <main className="home-page">
         <div className="logoimg">
           <img
             src="/assets/profile-lucas-moraes.jpg"
@@ -232,7 +248,8 @@ com mais de 10 anos de experiência colaborando em agências, estúdios e marcas
             </svg>
           </a>
         </div>
-    </main>
+      </main>
+    </>
   );
 };
 

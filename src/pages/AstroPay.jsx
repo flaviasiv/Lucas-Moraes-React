@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import ProjectsSlider from '../components/ProjectsSlider';
 import '../styles/astropay.css';
 import '../styles/font.css';
@@ -8,8 +9,20 @@ const AstroPay = () => {
   const yHero = useTransform(scrollY, [0, 500], [0, 75]);
 
   return (
-    <div className="astropay-page">
-      <motion.div className="cover" style={{ y: yHero }}>
+    <>
+      <Helmet>
+        <title>AstroPay - Motion Graphics & Art Direction | Lucas Moraes</title>
+        <meta name="description" content="Motion Graphics and Art Direction for AstroPay, a global digital payments company based in London with users across more than 150 countries, known for connecting people and businesses through fast, secure and accessible solutions." />
+        <meta property="og:title" content="AstroPay - Motion Graphics & Art Direction" />
+        <meta property="og:description" content="Motion Graphics for AstroPay, a global digital payments company connecting people and businesses through secure solutions." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://lucasmoraes.design/astropay" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://lucasmoraes.design/astropay" />
+      </Helmet>
+
+      <div className="astropay-page">
+        <motion.div className="cover" style={{ y: yHero }}>
         <video src="/assets/astropay/ASTROPAY_INTRO.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </motion.div>
       <main>
@@ -173,7 +186,8 @@ const AstroPay = () => {
         {/* OUTROS PROJETOS - Essa seção normalmente fica no ProjectsSlider */}
         <ProjectsSlider />
       </main>
-    </div>
+      </div>
+    </>
   );
 };
 
