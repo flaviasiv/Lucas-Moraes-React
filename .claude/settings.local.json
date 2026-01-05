@@ -23,7 +23,8 @@
       "WebSearch",
       "Bash(cat:*)",
       "Bash(dir /S /B \"D:\\\\Fla\\\\Copia_codes_pendrive\\\\codes\\\\Lucas-Moraes\\\\lucas-moraes-react\\\\public\\\\assets\")",
-      "Bash(dir /B:*)"
+      "Bash(dir /B:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
