@@ -16,9 +16,9 @@ const AstroPay = () => {
         <meta property="og:title" content="AstroPay - Motion Graphics & Art Direction" />
         <meta property="og:description" content="Motion Graphics for AstroPay, a global digital payments company connecting people and businesses through secure solutions." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://lucasmoraes.design/astropay" />
+        <meta property="og:url" content="https://lucaslucas.work/astropay" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://lucasmoraes.design/astropay" />
+        <link rel="canonical" href="https://lucaslucas.work/astropay" />
       </Helmet>
 
       <div className="astropay-page">

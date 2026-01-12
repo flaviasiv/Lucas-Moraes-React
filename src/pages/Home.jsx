@@ -99,12 +99,12 @@ const Home = () => {
         <meta property="og:title" content="Lucas Moraes - Designer & Art Director" />
         <meta property="og:description" content="Multidisciplinary designer and art director with over 10 years of experience in visual identity, strategic design, and product development." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://lucasmoraes.design/" />
-        <meta property="og:image" content="https://lucasmoraes.design/assets/profile-lucas-moraes.jpg" />
+        <meta property="og:url" content="https://lucaslucas.work/" />
+        <meta property="og:image" content="https://lucaslucas.work/assets/profile-lucas-moraes.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Lucas Moraes - Designer & Art Director" />
         <meta name="twitter:description" content="Multidisciplinary designer and art director with over 10 years of experience." />
-        <link rel="canonical" href="https://lucasmoraes.design/" />
+        <link rel="canonical" href="https://lucaslucas.work/" />
       </Helmet>
 
       <main className="home-page">

@@ -13,9 +13,9 @@ const Estadio97 = () => {
         <meta property="og:title" content="Estádio 97 - Sports Radio Branding & Art Direction" />
         <meta property="og:description" content="Branding for Estádio 97, one of Brazil's most traditional sports radio programs celebrating 25 years." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://lucasmoraes.design/estadio97" />
+        <meta property="og:url" content="https://lucaslucas.work/estadio97" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://lucasmoraes.design/estadio97" />
+        <link rel="canonical" href="https://lucaslucas.work/estadio97" />
       </Helmet>
 
       <div  className='e97-page'>

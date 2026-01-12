@@ -16,9 +16,9 @@ const Lata = () => {
         <meta property="og:title" content="Lata 05 - Secret Event Branding & Art Direction" />
         <meta property="og:description" content="Branding for Lata 05, a secret artistic movement bringing an overlap of musical genres to energize national art." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://lucasmoraes.design/lata" />
+        <meta property="og:url" content="https://lucaslucas.work/lata" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://lucasmoraes.design/lata" />
+        <link rel="canonical" href="https://lucaslucas.work/lata" />
       </Helmet>
 
       <div className='lata-page'>

@@ -19,9 +19,9 @@ const BuddyNutrition = () => {
         <meta property="og:title" content="Buddy Nutrition - Branding, Packaging & Design System" />
         <meta property="og:description" content="Complete branding project for Buddy Nutrition, a canine supplement brand with personalized recommendations." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://lucasmoraes.design/buddynutrition" />
+        <meta property="og:url" content="https://lucaslucas.work/buddynutrition" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://lucasmoraes.design/buddynutrition" />
+        <link rel="canonical" href="https://lucaslucas.work/buddynutrition" />
       </Helmet>
 
       <div className='buddy-page'>

@@ -16,10 +16,10 @@ const Supernova = () => {
         <meta property="og:title" content="Supernova Entertainment - Branding & Art Direction" />
         <meta property="og:description" content="Branding and Art Direction for Supernova Entertainment, a music label in São Paulo marked by the astronomical rise of its artists." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://lucasmoraes.design/supernova" />
-        <meta property="og:image" content="https://lucasmoraes.design/assets/supernova/Frame2.png" />
+        <meta property="og:url" content="https://lucaslucas.work/supernova" />
+        <meta property="og:image" content="https://lucaslucas.work/assets/supernova/Frame2.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://lucasmoraes.design/supernova" />
+        <link rel="canonical" href="https://lucaslucas.work/supernova" />
       </Helmet>
 
       <div className="supernova-page">

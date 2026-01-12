@@ -16,9 +16,9 @@ const Botteghe = () => {
         <meta property="og:title" content="Botteghe Del Caffè - Branding & Art Direction" />
         <meta property="og:description" content="Branding for Botteghe Del Caffè, an environmentally conscious cosmetics brand utilizing green coffee oil." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://lucasmoraes.design/botteghe" />
+        <meta property="og:url" content="https://lucaslucas.work/botteghe" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://lucasmoraes.design/botteghe" />
+        <link rel="canonical" href="https://lucaslucas.work/botteghe" />
       </Helmet>
 
       <div>

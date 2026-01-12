@@ -12,9 +12,9 @@ const ClicksCorres = () => {
         <meta property="og:title" content="Clicks & Corres - Personal Photography Project" />
         <meta property="og:description" content="Photography project documenting running during COVID-19 pandemic in São Paulo." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://lucasmoraes.design/clickscorres" />
+        <meta property="og:url" content="https://lucaslucas.work/clickscorres" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://lucasmoraes.design/clickscorres" />
+        <link rel="canonical" href="https://lucaslucas.work/clickscorres" />
       </Helmet>
 
       <div className='corresclicks-page'>
