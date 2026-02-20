@@ -25,7 +25,10 @@
     padding-left: 50px;
     padding-right: 50px;
 }
-.supernova-page .firstabout{padding-bottom: 80px;}
+.supernova-page .firstabout{padding-bottom: 0px;margin-bottom: 40px;}
+.supernova-page .firstabout2{
+    margin-bottom: 80px;
+}
 .supernova-page .about2{
     color: #909090;
     font-size: 12px;
@@ -54,7 +57,7 @@
     grid-row-start: 1;
     font-size: 16px;
     font-style: normal;
-    margin: -70px auto;
+    margin: -40px auto;
     margin-left: 5px;
     font-weight: 600;
     line-height: normal;

@@ -27,7 +27,7 @@ const Supernova = () => {
         <video src="/assets/supernova/01-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
       </motion.div>
       <main>
-        <div className="about">
+        <div className="about firstabout">
           <div className="aboutgrid about1" id="aboutgrid1">
             <h1>
               SUPERNOVA <br />
@@ -51,7 +51,7 @@ const Supernova = () => {
             </p>
           </div>
         </div>
-        <div className="aboutgrid about2 firstabout" id="aboutgrid1">
+        <div className="aboutgrid about2 firstabout2" id="aboutgrid1">
           <h6 id="h6-w">2023 / BRANDING / ART DIRECTION</h6>
           <h5>(PT/BR)</h5>
           <p id="p2-1">
