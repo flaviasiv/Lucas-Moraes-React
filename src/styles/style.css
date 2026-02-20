@@ -161,6 +161,11 @@ margin-right: auto;
 .home-page .Th1{
 font-family: 'Neue', sans-serif;
 }
+
+
+.firstabout{
+    margin-bottom: 40px !important;
+}
 @media screen and (max-width:900px) {
     .home-page
     .logo {
