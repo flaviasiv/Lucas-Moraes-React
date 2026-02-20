@@ -52,12 +52,14 @@
 }
 /* About sections */
 .astropay-page .about {
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     width: 100%;
     max-width: 1500px;
     margin: auto;
     padding: 120px 50px;
-    gap: 30px;
+    gap: 40px;
 }
 .astropay-page .firstabout{
     padding: 120px 0 0;

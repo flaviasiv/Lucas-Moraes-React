@@ -23,7 +23,7 @@ const Estadio97 = () => {
         <video src="/assets/estadio97/01-e97.mp4" autoPlay playsInline muted loop></video>
       </div>
       <main>
-        <div className="aboutcontainer about container">
+        <div className="aboutcontainer container">
           <div className="firstabout">
             <div className="aboutgrid about1" id="aboutgrid1">
               <h1>ESTÁDIO 97</h1>
