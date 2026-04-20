@@ -26,7 +26,7 @@
     column-gap: 20px;
 }
 .about2{
-    color: #909090;
+    color: var(--text-muted);
     font-size: 12px;
 }
 #aboutgrid1{
@@ -54,10 +54,10 @@
     white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
     white-space: pre-wrap;     
     margin: 0 auto;
-    color: #000;
+    color: var(--text-dark);
 }
 .corresclicks-page #h6-w{ /* ajustar a responsividade ao alcançar o width da tela a partir de 1400px */
-    color: #000;
+    color: var(--text-dark);
     grid-column-start: 1;
     grid-row-start: 1;
     font-size: 16px;
@@ -106,7 +106,7 @@
     white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
     white-space: pre-wrap;     
     margin: 80px auto;
-    color: #000;
+    color: var(--text-dark);
 }
 .aboutgrid h6{
     grid-column-start: 1;
@@ -123,7 +123,7 @@
     gap: 30px;
 }
 .tipografia h6{    
-    color: #292929;
+    color: var(--text);
     font-family: 'Neue';
     font-size: 10px;
     font-weight: 600;

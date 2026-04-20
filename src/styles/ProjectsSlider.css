@@ -3,16 +3,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: var(--bg);
     width: 100%;
     padding: 30px 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--border);
 }
 .seta img{
     display: block;
 }
 .setah{
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--border);
 }
 
 swiper-container {
@@ -53,7 +53,7 @@ swiper-container {
   gap: 10px;
   cursor: pointer;
   padding: 0 20px;
-  color: #292929;
+  color: var(--text);
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ swiper-container {
   line-height: 120%;
   margin-top: 16px;
   margin-bottom: 8px;
-  color: #292929;
+  color: var(--text);
   text-transform: uppercase;
 }
 
@@ -80,7 +80,7 @@ swiper-container {
   font-size: 12px;
   font-weight: 500;
   line-height: 120%;
-  color: #9A9A9A;
+  color: var(--text-muted);
   margin: 0;
 }
 

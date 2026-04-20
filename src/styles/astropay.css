@@ -28,11 +28,11 @@
 .astropay-page .video-placeholder {
     width: 100%;
     height: 400px;
-    background: #f0f0f0;
+    background: var(--bg-secondary);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #909090;
+    color: var(--text-muted);
     font-size: 14px;
     border-radius: 8px;
 }
@@ -94,19 +94,19 @@
     white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
     white-space: pre-wrap;     
     margin: 0;
-    color: #000;
+    color: var(--text-dark);
 }
 
 .astropay-page .about1 {
     grid-column-start: 3;
-    color: #000;
+    color: var(--text-dark);
     font-weight: 400;
     line-height: 150%;
     margin: 0 auto;
 }
 
 .astropay-page .about2 {
-    color: #909090;
+    color: var(--text-muted);
     grid-column-start: 3;
     grid-row-start: 4;
 }

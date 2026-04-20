@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Lenis from 'lenis';
@@ -26,7 +26,7 @@ function ScrollToTop() {
   return null;
 }
 
-function AppContent() {
+function AppContent({ theme, toggleTheme }) {
   useEffect(() => {
     // Initialize Lenis for smooth scroll
     const lenis = new Lenis({
@@ -53,7 +53,7 @@ function AppContent() {
   return (
     <>
       <ScrollToTop />
-      <Header />
+      <Header theme={theme} toggleTheme={toggleTheme} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/supernova" element={<Supernova />} />
@@ -70,10 +70,23 @@ function AppContent() {
 }
 
 function App() {
+  const [theme, setTheme] = useState(() => {
+    const saved = localStorage.getItem('theme');
+    if (saved) return saved;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+
   return (
     <HelmetProvider>
       <Router>
-        <AppContent />
+        <AppContent theme={theme} toggleTheme={toggleTheme} />
       </Router>
     </HelmetProvider>
   );

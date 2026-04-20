@@ -14,10 +14,10 @@
 body{
     font-family: "Neue";
     font-family: 'Neue', sans-serif;
-    background: white;
+    background: var(--bg);
 }
 main{
-    background: white;
+    background: var(--bg);
 }
 .home-page .logoimg {
     padding-top: 160px;
@@ -46,7 +46,7 @@ main{
     line-height: 120%;
     text-align: center;
     text-transform: uppercase;
-    color: #9A9A9A;
+    color: var(--text-muted);
     font-family: 'Neue', sans-serif;
 }
 swiper-container {
@@ -91,7 +91,7 @@ margin-right: auto;
 .home-page .swiper2 li::before {
   content: "•"; /* Insert content that looks like bullets */
   padding-right: 8px;
-  color: #000; /* Or a color you prefer */
+  color: var(--text-dark); /* Or a color you prefer */
 }
 
 .home-page .sobre {
@@ -111,7 +111,7 @@ margin-right: auto;
 
 .home-page .sobreT1{
     font-family: 'Neue', sans-serif;
-    color: #292929;
+    color: var(--text);
     display: inline;
     grid-column-start: 1;
     font-size: 24px;
@@ -120,7 +120,7 @@ margin-right: auto;
 }
 
 .home-page .sobreT3 {
-    color: #292929;
+    color: var(--text);
     grid-column-start: 2;
     grid-column-end: 2;
     font-family: 'CommitMono', sans-serif;
@@ -132,7 +132,7 @@ margin-right: auto;
 
 .home-page .sobreT4, .sobreT6 {
     font-family: 'Neue', sans-serif;
-    color: #292929;
+    color: var(--text);
     grid-column-start: 3;
     grid-column-end: 3;
     font-weight: 500;
@@ -190,7 +190,7 @@ font-family: 'Neue', sans-serif;
         font-size: 24px;
         text-align: right;
         margin-bottom: 40px;
-        color: #292929;
+        color: var(--text);
         width: 100%;
         display: block;
     }
@@ -198,7 +198,7 @@ font-family: 'Neue', sans-serif;
         font-size: 14px;
         margin-bottom: 16px;
         text-align: left;
-        color: #292929;
+        color: var(--text);
         width: 100%;
         display: block;
     }
@@ -206,7 +206,7 @@ font-family: 'Neue', sans-serif;
         font-size: 26px;
         line-height: 120%;
         margin-bottom: 40px;
-        color: #292929;
+        color: var(--text);
         font-weight: 400;
         width: 100%;
         display: block;
@@ -215,14 +215,14 @@ font-family: 'Neue', sans-serif;
         font-size: 14px;
         margin-bottom: 16px;
         text-align: left;
-        color: #9A9A9A;
+        color: var(--text-muted);
         width: 100%;
         display: block;
     }
     .home-page .sobre2T4{
         font-size: 14px;
         line-height: 120%;
-        color: #9A9A9A;
+        color: var(--text-muted);
         margin-bottom: 40px;
         font-weight: 400;
         width: 100%;
@@ -262,7 +262,7 @@ font-family: 'Neue', sans-serif;
 
 .home-page .work h2{
     text-transform: uppercase;
-    color: #292929;
+    color: var(--text);
     display: inline;
     grid-column-start: 1;
     font-size: 24px;
@@ -275,7 +275,7 @@ font-family: 'Neue', sans-serif;
     width: 100%;
     max-width: 1500px;
     padding: 0 50px;
-    color: #292929;
+    color: var(--text);
     margin:auto;
 }
 .home-page .workcard img{
@@ -284,7 +284,7 @@ font-family: 'Neue', sans-serif;
     margin: auto;
 }
 .home-page .workcard a {
-    color: #292929;
+    color: var(--text);
     text-decoration: none;
     transition: opacity 0.3s ease;
 }
@@ -293,7 +293,7 @@ font-family: 'Neue', sans-serif;
 }
 .home-page .workcard a button{
     cursor: pointer;
-    color: #292929;
+    color: var(--text);
     display: flex;
     width: 100%;
     max-width: 161px;
@@ -302,7 +302,7 @@ font-family: 'Neue', sans-serif;
     justify-content: center;
     text-decoration: none;
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid var(--border);
     border-radius: 32px;
     font-family: 'Neue', sans-serif;
     font-size: 12px;
@@ -419,7 +419,7 @@ line-height: normal;
 }
 .home-page .cardsinfo h5{
     margin-top: 16px;
-    color: #9A9A9A;
+    color: var(--text-muted);
     font-weight: 500;
     line-height: 120%; 
 }
@@ -491,7 +491,7 @@ line-height: normal;
         margin-top: 8px;
         margin-bottom: 16px;
         font-size: 12px;
-        color: #9A9A9A;
+        color: var(--text-muted);
     }
     .home-page .cardsinfo p{
         position: static;

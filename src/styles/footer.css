@@ -159,7 +159,7 @@ swiper-container {
   gap: 10px;
   cursor: pointer;
   padding: 0 20px;
-  color: #292929;
+  color: var(--text);
   text-decoration: none;
 }
 .swiper1 .slide1 img{
@@ -175,7 +175,7 @@ swiper-container {
   line-height: 120%;
   margin-top: 16px;
   margin-bottom: 8px;
-  color: #292929;
+  color: var(--text);
   text-transform: uppercase;
 }
 .swiper1 .slide1 p{

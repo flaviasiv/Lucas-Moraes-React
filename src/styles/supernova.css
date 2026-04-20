@@ -30,7 +30,7 @@
     margin-bottom: 80px;
 }
 .supernova-page .about2{
-    color: #909090;
+    color: var(--text-muted);
     font-size: 12px;
     margin-top: 64px;
 }
@@ -49,10 +49,10 @@
     white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
     white-space: pre-wrap;     
     margin: 0;
-    color: #000;
+    color: var(--text-dark);
 }
 .supernova-page #h6-w{ /* ajustar a responsividade ao alcançar o width da tela a partir de 1400px */
-    color: #000;
+    color: var(--text-dark);
     grid-column-start: 1;
     grid-row-start: 1;
     font-size: 16px;
@@ -102,7 +102,7 @@
     white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
     white-space: pre-wrap;     
     margin: 80px auto;
-    color: #000;
+    color: var(--text-dark);
 }
 .aboutgrid h6{
     grid-column-start: 1;
