@@ -11,6 +11,12 @@ const ProjectsSlider = () => {
 
   const projects = [
     {
+      to: '/pura-terapia',
+      image: '/assets/Rectangle7.png',
+      title: 'PURA TERAPIA',
+      description: 'Branding, Art direction',
+    },
+    {
       to: '/supernova',
       image: '/assets/Rectangle1.jpg',
       title: 'SUPERNOVA',

@@ -14,6 +14,7 @@ import Lata from './pages/Lata';
 import ClicksCorres from './pages/ClicksCorres';
 import Estadio97 from './pages/Estadio97';
 import AstroPay from './pages/AstroPay';
+import PuraTerapia from './pages/PuraTerapia';
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -63,6 +64,7 @@ function AppContent({ theme, toggleTheme }) {
         <Route path="/clickscorres" element={<ClicksCorres />} />
         <Route path="/estadio97" element={<Estadio97 />} />
         <Route path="/astropay" element={<AstroPay />} />
+        <Route path="/pura-terapia" element={<PuraTerapia />} />
       </Routes>
       <Footer />
     </>
@@ -70,15 +72,10 @@ function AppContent({ theme, toggleTheme }) {
 }
 
 function App() {
-  const [theme, setTheme] = useState(() => {
-    const saved = localStorage.getItem('theme');
-    if (saved) return saved;
-    return 'light';
-  });
+  const [theme, setTheme] = useState('light');
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
   }, [theme]);
 
   const toggleTheme = () => setTheme(prev => prev === 'dark' ? 'light' : 'dark');

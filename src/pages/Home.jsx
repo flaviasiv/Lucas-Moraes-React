@@ -30,6 +30,16 @@ const Home = () => {
 
   const projects = [
     {
+      id: 'puraterapia',
+      title: 'PURA TERAPIA',
+      category: 'Branding, Art Direction, Web Design',
+      description:
+        'Pura Terapia® is a telemedicine platform specializing in medical cannabis. Brand identity, institutional website and WhatsApp automation — built from scratch.',
+      gif: '/assets/home/thumbnail-puraterapia.gif',
+      link: '/pura-terapia',
+      buttonText: 'VIEW CASE',
+    },
+    {
       id: 'astropay',
       title: 'ASTROPAY',
       category: 'Motion Graphics, Branding & Art Direction',
@@ -45,7 +55,7 @@ const Home = () => {
       category: 'Branding, Art direction',
       description:
         'Supernova Entertainment is a music label and production studio based in São Paulo (BRA), known for the astronomical rise of its artists.',
-      video: '/assets/home/thumb-supernova.mp4',
+      gif: '/assets/home/thumbnail-supernova.gif',
       link: '/supernova',
       buttonText: 'VIEW CASE',
     },
@@ -198,13 +208,19 @@ com mais de 10 anos de experiência colaborando em agências, estúdios e marcas
               className={`work${index === 0 || index === 2 ? 'T1' : index + 1} workcard`}
             >
               <Link to={project.link} className="imgwork">
-                <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+                {project.gif
+                  ? <img src={project.gif} alt={project.title} draggable="false" />
+                  : <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+                }
               </Link>
               <div className="cardsinfo">
                 <h2>{project.title}</h2>
                 <h5>{project.category}</h5>
                 <Link to={project.link} className="imgwork-m">
-                  <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+                  {project.gif
+                    ? <img src={project.gif} alt={project.title} draggable="false" />
+                    : <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+                  }
                 </Link>
                 <p>
                   {project.description}
