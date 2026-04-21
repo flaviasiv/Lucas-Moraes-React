@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Lenis from 'lenis';
@@ -16,20 +16,24 @@ import Estadio97 from './pages/Estadio97';
 import AstroPay from './pages/AstroPay';
 import PuraTerapia from './pages/PuraTerapia';
 
-// Component to scroll to top on route change
-function ScrollToTop() {
+function ScrollToTop({ lenisRef }) {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    if (lenisRef.current) {
+      lenisRef.current.scrollTo(0, { immediate: true });
+    } else {
+      window.scrollTo(0, 0);
+    }
   }, [pathname]);
 
   return null;
 }
 
 function AppContent({ theme, toggleTheme }) {
+  const lenisRef = useRef(null);
+
   useEffect(() => {
-    // Initialize Lenis for smooth scroll
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -38,6 +42,8 @@ function AppContent({ theme, toggleTheme }) {
       touchMultiplier: 2,
       lerp: 0.12,
     });
+
+    lenisRef.current = lenis;
 
     function raf(time) {
       lenis.raf(time);
@@ -53,7 +59,7 @@ function AppContent({ theme, toggleTheme }) {
 
   return (
     <>
-      <ScrollToTop />
+      <ScrollToTop lenisRef={lenisRef} />
       <Header theme={theme} toggleTheme={toggleTheme} />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ProjectsSlider from '../components/ProjectsSlider';
+import { fadeUp, Section, FadeUp, Frame } from '../utils/animations';
 import '../styles/puraterapia.css';
 import '../styles/font.css';
 
@@ -38,62 +39,62 @@ const PuraTerapia = () => {
         <main>
 
           {/* 2. Intro */}
-          <div className="about firstabout">
-            <div className="aboutgrid about1" id="aboutgrid1">
-              <h1>PURA TERAPIA</h1>
-              <h6 id="h6-m">2026 / BRANDING / ART DIRECTION / WEB DESIGN</h6>
-              <h5>(ENG)</h5>
-              <p className="about1" id="about1">
+          <Section className="about firstabout">
+            <FadeUp className="aboutgrid about1" id="aboutgrid1">
+              <motion.h1 variants={fadeUp}>PURA TERAPIA</motion.h1>
+              <motion.h6 id="h6-m" variants={fadeUp}>2026 / BRANDING / ART DIRECTION / WEB DESIGN</motion.h6>
+              <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
+              <motion.p className="about1" id="about1" variants={fadeUp}>
                 Pura Terapia® is a telemedicine platform specializing in medical cannabis.
                 The challenge was to build an identity that balanced clinical credibility
                 with human closeness, in a market still surrounded by stigma and misinformation.
                 <br /><br />
                 The project was born with full scope: create the brand from scratch, develop
                 the institutional website, and structure an automated service flow via WhatsApp.
-              </p>
-            </div>
-          </div>
-          <div className="aboutgrid about2 firstabout2" id="aboutgrid1">
-            <h6 id="h6-w">2026 / BRANDING / ART DIRECTION / WEB DESIGN</h6>
-            <h5>(PT/BR)</h5>
-            <p id="p2-1">
+              </motion.p>
+            </FadeUp>
+          </Section>
+          <Section className="aboutgrid about2 firstabout2" id="aboutgrid1">
+            <motion.h6 id="h6-w" variants={fadeUp}>2026 / BRANDING / ART DIRECTION / WEB DESIGN</motion.h6>
+            <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
+            <motion.p id="p2-1" variants={fadeUp}>
               A Pura Terapia® é uma plataforma de telemedicina especializada em cannabis medicinal.
               O desafio era construir uma identidade que equilibrasse credibilidade clínica e
               proximidade humana, em um mercado ainda cercado de estigma e desinformação.
               <br /><br />
               O projeto nasceu com escopo completo: criar a marca do zero, desenvolver o site
               institucional e estruturar um fluxo de atendimento automatizado via WhatsApp.
-            </p>
-          </div>
+            </motion.p>
+          </Section>
 
           {/* 3. frame1 */}
-          <div className="frames1">
+          <Frame className="frames1">
             <img src="/assets/pura-terapia/frame1.png" alt="Pura Terapia brand application" draggable="false" />
-          </div>
+          </Frame>
 
           {/* 4. // DESAFIO */}
-          <div className="about">
-            <div className="aboutgrid about1">
-              <h6>// DESAFIO</h6>
-              <h5>(ENG)</h5>
-              <p className="about1" id="about1">
+          <Section className="about">
+            <FadeUp className="aboutgrid about1">
+              <motion.h6 variants={fadeUp}>// DESAFIO</motion.h6>
+              <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
+              <motion.p className="about1" id="about1" variants={fadeUp}>
                 Building a brand that could simultaneously convey medical authority and
                 genuine human warmth — in a category where trust is everything and prejudice
                 is still the default response.
-              </p>
-            </div>
-            <div className="aboutgrid about2">
-              <h5>(PT/BR)</h5>
-              <p>
+              </motion.p>
+            </FadeUp>
+            <FadeUp className="aboutgrid about2">
+              <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
+              <motion.p variants={fadeUp}>
                 Construir uma marca capaz de transmitir simultaneamente autoridade médica e
                 acolhimento humano genuíno — em uma categoria onde confiança é tudo e o
                 preconceito ainda é a resposta padrão.
-              </p>
-            </div>
-          </div>
+              </motion.p>
+            </FadeUp>
+          </Section>
 
           {/* 5. logo-grid */}
-          <div className="frames1">
+          <Frame className="frames1">
             <video
               src="/assets/pura-terapia/logo-grid-ezgif.com-gif-to-webm-converter.webm"
               autoPlay preload="auto" playsInline
@@ -101,14 +102,14 @@ const PuraTerapia = () => {
               muted loop controls={false} disablePictureInPicture
               style={{ WebkitTransform: 'translateZ(0)' }}
             />
-          </div>
+          </Frame>
 
           {/* 6. // SÍMBOLO */}
-          <div className="about">
-            <div className="aboutgrid about1">
-              <h6>// SÍMBOLO</h6>
-              <h5>(ENG)</h5>
-              <p className="about1" id="about1">
+          <Section className="about">
+            <FadeUp className="aboutgrid about1">
+              <motion.h6 variants={fadeUp}>// SÍMBOLO</motion.h6>
+              <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
+              <motion.p className="about1" id="about1" variants={fadeUp}>
                 The symbol is formed by two overlapping circles to express welcome, care and
                 closeness. The softness of the curves conveys lightness and empathy, reinforcing
                 the feeling of privacy and safety — essential pillars in the brand's health experience.
@@ -117,11 +118,11 @@ const PuraTerapia = () => {
                 as equals, where patient and professional share a common journey. Together, the
                 elements subtly evoke a flower — blooming as a metaphor for care that nurtures
                 and transforms.
-              </p>
-            </div>
-            <div className="aboutgrid about2">
-              <h5>(PT/BR)</h5>
-              <p>
+              </motion.p>
+            </FadeUp>
+            <FadeUp className="aboutgrid about2">
+              <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
+              <motion.p variants={fadeUp}>
                 O símbolo é formado por dois círculos sobrepostos para expressar acolhimento,
                 cuidado e proximidade. A suavidade das curvas transmite leveza e empatia,
                 reforçando a sensação de privacidade e segurança — pilares essenciais na
@@ -131,104 +132,116 @@ const PuraTerapia = () => {
                 de igual para igual, onde paciente e profissional compartilham uma jornada comum.
                 Combinados, os elementos remetem sutilmente a uma flor — o florescimento como
                 metáfora de um cuidado que nutre e transforma.
-              </p>
-            </div>
-          </div>
+              </motion.p>
+            </FadeUp>
+          </Section>
 
           {/* 7. Taglines */}
-          <div className="pt-taglines">
-            <div className="pt-tagline">
+          <motion.div
+            className="pt-taglines"
+            variants={stagger}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+          >
+            <motion.div className="pt-tagline" variants={fadeUp}>
               <img src="/assets/pura-terapia/primary-logo-icon.png" alt="" draggable="false" />
               <div className="pt-tagline-texts">
                 <span className="pt-tagline-en">Curves that embrace before speaking.</span>
                 <span className="pt-tagline-pt">Curvas que abraçam antes de falar.</span>
               </div>
-            </div>
-            <div className="pt-tagline">
+            </motion.div>
+            <motion.div className="pt-tagline" variants={fadeUp}>
               <img src="/assets/pura-terapia/primary-logo-icon-1.png" alt="" draggable="false" />
               <div className="pt-tagline-texts">
                 <span className="pt-tagline-en">Two sides, one journey only.</span>
                 <span className="pt-tagline-pt">Dois lados, uma jornada só.</span>
               </div>
-            </div>
-            <div className="pt-tagline">
+            </motion.div>
+            <motion.div className="pt-tagline" variants={fadeUp}>
               <img src="/assets/pura-terapia/primary-logo-icon-2.png" alt="" draggable="false" />
               <div className="pt-tagline-texts">
                 <span className="pt-tagline-en">Together, it flourishes.</span>
                 <span className="pt-tagline-pt">Junto, floresce.</span>
               </div>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
 
           {/* 8. frame2-1 */}
-          <div className="frames1">
+          <Frame className="frames1">
             <img src="/assets/pura-terapia/frame2-1.png" alt="Pura Terapia" draggable="false" />
-          </div>
+          </Frame>
 
           {/* 9. frame2 */}
-          <div className="frames1">
+          <Frame className="frames1">
             <img src="/assets/pura-terapia/frame2.png" alt="Pura Terapia" draggable="false" />
-          </div>
+          </Frame>
 
           {/* 10. // TIPOGRAFIA */}
-          <div className="about">
-            <div className="aboutgrid about1">
-              <h6>// TIPOGRAFIA</h6>
-              <h5>(ENG)</h5>
-              <p className="about1" id="about1">
+          <Section className="about">
+            <FadeUp className="aboutgrid about1">
+              <motion.h6 variants={fadeUp}>// TIPOGRAFIA</motion.h6>
+              <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
+              <motion.p className="about1" id="about1" variants={fadeUp}>
                 In the logo typography, the rounded details were designed to soften reading and
                 reinforce the sense of naturalness. This choice brings a more organic and human
                 aesthetic, aligned with the proposal of accessible care.
-              </p>
-            </div>
-            <div className="aboutgrid about2">
-              <h5>(PT/BR)</h5>
-              <p>
+              </motion.p>
+            </FadeUp>
+            <FadeUp className="aboutgrid about2">
+              <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
+              <motion.p variants={fadeUp}>
                 Na tipografia do logo, os detalhes arredondados foram pensados para suavizar a
                 leitura e reforçar a sensação de naturalidade. Essa escolha traz uma estética
                 mais orgânica e humana, alinhada à proposta de cuidado acessível.
-              </p>
-            </div>
-          </div>
+              </motion.p>
+            </FadeUp>
+          </Section>
 
           {/* 11. Swatches */}
-          <div className="pt-swatches-wrap">
+          <motion.div
+            className="pt-swatches-wrap"
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+          >
             <div className="pt-swatches">
               <img src="/assets/pura-terapia/Rectangle 12.png" alt="" draggable="false" />
               <img src="/assets/pura-terapia/Rectangle 12-1.png" alt="" draggable="false" />
               <img src="/assets/pura-terapia/Rectangle 12-2.png" alt="" draggable="false" />
               <img src="/assets/pura-terapia/Rectangle 12-3.png" alt="" draggable="false" />
             </div>
-          </div>
+          </motion.div>
 
           {/* 12. frame3 */}
-          <div className="frames1">
+          <Frame className="frames1">
             <img src="/assets/pura-terapia/frame3.png" alt="Pura Terapia brand content" draggable="false" />
-          </div>
+          </Frame>
 
           {/* 13. // PALETA */}
-          <div className="about">
-            <div className="aboutgrid about1">
-              <h6>// PALETA</h6>
-              <h5>(ENG)</h5>
-              <p className="about1" id="about1">
+          <Section className="about">
+            <FadeUp className="aboutgrid about1">
+              <motion.h6 variants={fadeUp}>// PALETA</motion.h6>
+              <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
+              <motion.p className="about1" id="about1" variants={fadeUp}>
                 The palette combines institutional dark green with vibrant lime yellow, lavender,
                 and wine — a calculated tension between authority and lightness. Benton Sans
                 anchors the headings with presence, and Inter ensures fluidity in support texts.
-              </p>
-            </div>
-            <div className="aboutgrid about2">
-              <h5>(PT/BR)</h5>
-              <p>
+              </motion.p>
+            </FadeUp>
+            <FadeUp className="aboutgrid about2">
+              <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
+              <motion.p variants={fadeUp}>
                 A paleta combina verde escuro institucional com amarelo-limão vibrante, lavanda
                 e vinho — tensão calculada entre autoridade e leveza. Benton Sans ancora os
                 títulos com presença, e a Inter garante fluidez nos textos de apoio.
-              </p>
-            </div>
-          </div>
+              </motion.p>
+            </FadeUp>
+          </Section>
 
           {/* 14. website video */}
-          <div className="frames1">
+          <Frame className="frames1">
             <video
               src="/assets/pura-terapia/pura-terapia-gif-website.webm"
               autoPlay preload="auto" playsInline
@@ -236,19 +249,19 @@ const PuraTerapia = () => {
               muted loop controls={false} disablePictureInPicture
               style={{ WebkitTransform: 'translateZ(0)' }}
             />
-          </div>
+          </Frame>
 
           {/* 15. frame4 */}
-          <div className="frames1">
+          <Frame className="frames1">
             <img src="/assets/pura-terapia/frame4.png" alt="Pura Terapia website" draggable="false" />
-          </div>
+          </Frame>
 
           {/* 16. // WEBSITE */}
-          <div className="about">
-            <div className="aboutgrid about1">
-              <h6>// WEBSITE</h6>
-              <h5>(ENG)</h5>
-              <p className="about1" id="about1">
+          <Section className="about">
+            <FadeUp className="aboutgrid about1">
+              <motion.h6 variants={fadeUp}>// WEBSITE</motion.h6>
+              <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
+              <motion.p className="about1" id="about1" variants={fadeUp}>
                 The site was developed to convert visitors into patients with minimum friction.
                 White background, bold black typography and generous spacing create clean, direct
                 reading — the aesthetic reflects the brand positioning: accessible, clear and trustworthy.
@@ -257,11 +270,11 @@ const PuraTerapia = () => {
                 start treatment — demystifying the process and reducing entry barriers. Real testimonials,
                 FAQ on medical cannabis, and lime-green CTAs distributed throughout the scroll reinforce
                 trust and drive conversion.
-              </p>
-            </div>
-            <div className="aboutgrid about2">
-              <h5>(PT/BR)</h5>
-              <p>
+              </motion.p>
+            </FadeUp>
+            <FadeUp className="aboutgrid about2">
+              <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
+              <motion.p variants={fadeUp}>
                 O site foi desenvolvido para converter visitantes em pacientes com o mínimo de atrito.
                 Fundo branco, tipografia preta em peso bold e espaçamento generoso criam uma leitura
                 limpa e direta — a estética reflete o posicionamento da marca: acessível, clara e confiável.
@@ -270,12 +283,12 @@ const PuraTerapia = () => {
                 inicie o tratamento — desmistificando o processo e reduzindo barreiras de entrada.
                 Depoimentos reais, FAQ sobre cannabis medicinal e CTAs em verde-limão distribuídos ao
                 longo do scroll reforçam confiança e direcionam a conversão.
-              </p>
-            </div>
-          </div>
+              </motion.p>
+            </FadeUp>
+          </Section>
 
           {/* 17. whatsapp video */}
-          <div className="frames1">
+          <Frame className="frames1">
             <video
               src="/assets/pura-terapia/whatsapp-flow.webm"
               autoPlay preload="auto" playsInline
@@ -283,53 +296,53 @@ const PuraTerapia = () => {
               muted loop controls={false} disablePictureInPicture
               style={{ WebkitTransform: 'translateZ(0)' }}
             />
-          </div>
+          </Frame>
 
           {/* 18. // WHATSAPP */}
-          <div className="about">
-            <div className="aboutgrid about1">
-              <h6>// WHATSAPP</h6>
-              <h5>(ENG)</h5>
-              <p className="about1" id="about1">
+          <Section className="about">
+            <FadeUp className="aboutgrid about1">
+              <motion.h6 variants={fadeUp}>// WHATSAPP</motion.h6>
+              <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
+              <motion.p className="about1" id="about1" variants={fadeUp}>
                 The project also included an automated service flow via WhatsApp, mapping the most
                 critical journeys to preserve the brand's welcoming tone even in automated interactions.
-              </p>
-            </div>
-            <div className="aboutgrid about2">
-              <h5>(PT/BR)</h5>
-              <p>
+              </motion.p>
+            </FadeUp>
+            <FadeUp className="aboutgrid about2">
+              <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
+              <motion.p variants={fadeUp}>
                 O projeto incluiu também um fluxo de atendimento automatizado via WhatsApp, mapeando
                 as jornadas mais críticas para preservar o tom acolhedor da marca mesmo nas interações
                 automatizadas.
-              </p>
-            </div>
-          </div>
+              </motion.p>
+            </FadeUp>
+          </Section>
 
           {/* 19. frame5 */}
-          <div className="frames1">
+          <Frame className="frames1">
             <img src="/assets/pura-terapia/frame5.png" alt="Pura Terapia WhatsApp" draggable="false" />
-          </div>
+          </Frame>
 
           {/* 20. // RESULTADO */}
-          <div className="about">
-            <div className="aboutgrid about1">
-              <h6>// RESULTADO</h6>
-              <h5>(ENG)</h5>
-              <p className="about1" id="about1">
+          <Section className="about">
+            <FadeUp className="aboutgrid about1">
+              <motion.h6 variants={fadeUp}>// RESULTADO</motion.h6>
+              <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
+              <motion.p className="about1" id="about1" variants={fadeUp}>
                 A complete and cohesive system — visual identity, institutional website and service
                 automation operating in the same language. Pura Terapia® went from zero to a consistent
                 brand presence at every patient touchpoint.
-              </p>
-            </div>
-            <div className="aboutgrid about2">
-              <h5>(PT/BR)</h5>
-              <p>
+              </motion.p>
+            </FadeUp>
+            <FadeUp className="aboutgrid about2">
+              <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
+              <motion.p variants={fadeUp}>
                 Um sistema completo e coeso — identidade visual, site institucional e automação de
                 atendimento operando na mesma linguagem. A Pura Terapia® foi do zero a uma presença
                 de marca consistente em todos os pontos de contato com o paciente.
-              </p>
-            </div>
-          </div>
+              </motion.p>
+            </FadeUp>
+          </Section>
 
           {/* 21. ProjectsSlider */}
           <ProjectsSlider />
