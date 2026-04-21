@@ -238,6 +238,18 @@
     display: block;
 }
 
+/* Tablet */
+@media screen and (max-width: 1200px) {
+    .pt-taglines {
+        gap: 80px;
+        padding: 0 40px;
+    }
+    .puraterapia-page .aboutgrid {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
 /* Mobile */
 @media screen and (max-width: 900px) {
     .puraterapia-page .aboutgrid {
@@ -297,6 +309,22 @@
     }
 
     .puraterapia-page #aboutgrid1 #p2-1 { font-size: 14px; }
+
+    .puraterapia-page .about {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .puraterapia-page .about2 {
+        margin-top: 32px;
+    }
+
+    .puraterapia-page .firstabout { margin-bottom: 0; }
+    .puraterapia-page .firstabout2 { margin-bottom: 48px; }
+
+    .puraterapia-page .cover video {
+        max-height: 280px;
+    }
 
     .pt-taglines {
         flex-direction: column;
