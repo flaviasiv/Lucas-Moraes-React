@@ -58,12 +58,7 @@ const PuraTerapia = () => {
             <motion.h6 id="h6-w" variants={fadeUp}>2026 / BRANDING / ART DIRECTION / WEB DESIGN</motion.h6>
             <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
             <motion.p id="p2-1" variants={fadeUp}>
-              A Pura Terapia® é uma plataforma de telemedicina especializada em cannabis medicinal.
-              O desafio era construir uma identidade que equilibrasse credibilidade clínica e
-              proximidade humana, em um mercado ainda cercado de estigma e desinformação.
-              <br /><br />
-              O projeto nasceu com escopo completo: criar a marca do zero, desenvolver o site
-              institucional e estruturar um fluxo de atendimento automatizado via WhatsApp.
+              A Pura Terapia® é uma plataforma de telemedicina especializada em cannabis medicinal. O desafio era construir uma identidade que equilibrasse credibilidade clínica e proximidade humana, em um mercado ainda cercado de estigma e desinformação.
             </motion.p>
           </Section>
 
@@ -78,17 +73,14 @@ const PuraTerapia = () => {
               <motion.h6 variants={fadeUp}>// DESAFIO</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
-                Building a brand that could simultaneously convey medical authority and
-                genuine human warmth — in a category where trust is everything and prejudice
-                is still the default response.
+                The project was born with full scope: create the brand from scratch, develop
+                the institutional website, and structure an automated service flow via WhatsApp.
               </motion.p>
             </FadeUp>
             <FadeUp className="aboutgrid about2">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
-                Construir uma marca capaz de transmitir simultaneamente autoridade médica e
-                acolhimento humano genuíno — em uma categoria onde confiança é tudo e o
-                preconceito ainda é a resposta padrão.
+                O projeto nasceu com escopo completo: criar a marca do zero, desenvolver o site institucional e estruturar um fluxo de atendimento automatizado via WhatsApp.
               </motion.p>
             </FadeUp>
           </Section>
@@ -107,7 +99,7 @@ const PuraTerapia = () => {
           {/* 6. // SÍMBOLO */}
           <Section className="about">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// SÍMBOLO</motion.h6>
+              <motion.h6 variants={fadeUp}></motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The symbol is formed by two overlapping circles to express welcome, care and
@@ -123,15 +115,9 @@ const PuraTerapia = () => {
             <FadeUp className="aboutgrid about2">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
-                O símbolo é formado por dois círculos sobrepostos para expressar acolhimento,
-                cuidado e proximidade. A suavidade das curvas transmite leveza e empatia,
-                reforçando a sensação de privacidade e segurança — pilares essenciais na
-                experiência de saúde da marca.
+                O símbolo é formado por dois círculos sobrepostos para expressar acolhimento, cuidado e proximidade. A suavidade das curvas transmite leveza e empatia, reforçando a sensação de privacidade e segurança - pilares essenciais na experiência de saúde da marca.
                 <br /><br />
-                A repetição da forma evoca equilíbrio e troca: um símbolo do cuidado construído
-                de igual para igual, onde paciente e profissional compartilham uma jornada comum.
-                Combinados, os elementos remetem sutilmente a uma flor — o florescimento como
-                metáfora de um cuidado que nutre e transforma.
+                A repetição da forma evoca equilíbrio e troca: um símbolo do cuidado construído de igual para igual, onde paciente e profissional compartilham uma jornada comum. Combinados, os elementos remetem sutilmente a uma flor,  o florescimento como metáfora de um cuidado que nutre e transforma.
               </motion.p>
             </FadeUp>
           </Section>
@@ -180,7 +166,7 @@ const PuraTerapia = () => {
           {/* 10. // TIPOGRAFIA */}
           <Section className="about">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// TIPOGRAFIA</motion.h6>
+              <motion.h6 variants={fadeUp}></motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 In the logo typography, the rounded details were designed to soften reading and
@@ -191,9 +177,7 @@ const PuraTerapia = () => {
             <FadeUp className="aboutgrid about2">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
-                Na tipografia do logo, os detalhes arredondados foram pensados para suavizar a
-                leitura e reforçar a sensação de naturalidade. Essa escolha traz uma estética
-                mais orgânica e humana, alinhada à proposta de cuidado acessível.
+                Na tipografia do logo, os detalhes arredondados na foram pensados para suavizar a leitura e reforçar a sensação de naturalidade. Essa escolha traz uma estética mais orgânica e humana, alinhada à proposta de cuidado acessível.
               </motion.p>
             </FadeUp>
           </Section>
@@ -225,17 +209,19 @@ const PuraTerapia = () => {
               <motion.h6 variants={fadeUp}>// PALETA</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
-                The palette combines institutional dark green with vibrant lime yellow, lavender,
-                and wine — a calculated tension between authority and lightness. Benton Sans
-                anchors the headings with presence, and Inter ensures fluidity in support texts.
+                The site was developed to convert visitors into patients with minimum friction.
+                White background, bold black typography and generous spacing create clean, direct
+                reading, the aesthetic reflects the brand positioning: accessible, clear and trustworthy.
+                <br /><br />The page flow guides the user in three simple steps, schedule, receive the
+                prescription, start treatment, demystifying the process and reducing entry barriers.
+                Real testimonials, FAQ on medical cannabis, and lime-green CTAs distributed throughout
+                the scroll reinforce trust and drive conversion.
               </motion.p>
             </FadeUp>
             <FadeUp className="aboutgrid about2">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
-                A paleta combina verde escuro institucional com amarelo-limão vibrante, lavanda
-                e vinho — tensão calculada entre autoridade e leveza. Benton Sans ancora os
-                títulos com presença, e a Inter garante fluidez nos textos de apoio.
+                A paleta combina verde escuro institucional com amarelo-limão vibrante, lavanda e vinho ,tensão calculada entre autoridade e leveza. Benton Sans ancora os títulos com presença, e a Inter garante fluidez nos textos de apoio.
               </motion.p>
             </FadeUp>
           </Section>
@@ -311,9 +297,7 @@ const PuraTerapia = () => {
             <FadeUp className="aboutgrid about2">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
-                O projeto incluiu também um fluxo de atendimento automatizado via WhatsApp, mapeando
-                as jornadas mais críticas para preservar o tom acolhedor da marca mesmo nas interações
-                automatizadas.
+                O projeto incluiu também um fluxo de atendimento automatizado via WhatsApp, mapeando as jornadas mais críticas para preservar o tom acolhedor da marca mesmo nas interações automatizadas.
               </motion.p>
             </FadeUp>
           </Section>
@@ -337,9 +321,7 @@ const PuraTerapia = () => {
             <FadeUp className="aboutgrid about2">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
-                Um sistema completo e coeso — identidade visual, site institucional e automação de
-                atendimento operando na mesma linguagem. A Pura Terapia® foi do zero a uma presença
-                de marca consistente em todos os pontos de contato com o paciente.
+               Um sistema completo e coeso, identidade visual, site institucional e automação de atendimento operando na mesma linguagem. A Pura Terapia® foi do zero a uma presença de marca consistente em todos os pontos de contato com o paciente.
               </motion.p>
             </FadeUp>
           </Section>
