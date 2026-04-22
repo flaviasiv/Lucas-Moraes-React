@@ -129,24 +129,24 @@ const PuraTerapia = () => {
           >
             <motion.div className="pt-tagline" variants={fadeUp}>
               <img src="/assets/pura-terapia/primary-logo-icon.png" alt="" draggable="false" />
-              <div className="pt-tagline-texts">
+              {/* <div className="pt-tagline-texts">
                 <span className="pt-tagline-en">Curves that embrace before speaking.</span>
                 <span className="pt-tagline-pt">Curvas que abraçam antes de falar.</span>
-              </div>
+              </div> */}
             </motion.div>
             <motion.div className="pt-tagline" variants={fadeUp}>
               <img src="/assets/pura-terapia/primary-logo-icon-1.png" alt="" draggable="false" />
-              <div className="pt-tagline-texts">
+              {/* <div className="pt-tagline-texts">
                 <span className="pt-tagline-en">Two sides, one journey only.</span>
                 <span className="pt-tagline-pt">Dois lados, uma jornada só.</span>
-              </div>
+              </div> */}
             </motion.div>
             <motion.div className="pt-tagline" variants={fadeUp}>
               <img src="/assets/pura-terapia/primary-logo-icon-2.png" alt="" draggable="false" />
-              <div className="pt-tagline-texts">
+              {/* <div className="pt-tagline-texts">
                 <span className="pt-tagline-en">Together, it flourishes.</span>
                 <span className="pt-tagline-pt">Junto, floresce.</span>
-              </div>
+              </div> */}
             </motion.div>
           </motion.div>
 
