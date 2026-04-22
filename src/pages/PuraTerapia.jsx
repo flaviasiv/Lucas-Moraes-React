@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ProjectsSlider from '../components/ProjectsSlider';
-import { fadeUp, Section, FadeUp, Frame } from '../utils/animations';
+import { fadeUp, stagger, Section, FadeUp, Frame } from '../utils/animations';
 import '../styles/puraterapia.css';
 import '../styles/font.css';
 
