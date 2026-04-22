@@ -2,9 +2,79 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
+import { motion, useInView } from 'framer-motion';
+import { useRef } from 'react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import '../styles/style.css';
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 40 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: 'easeOut' } },
+};
+
+
+function FadeUp({ children, className, delay = 0 }) {
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true, margin: '0px 0px -80px 0px' });
+  return (
+    <motion.div
+      ref={ref}
+      className={className}
+      variants={fadeUp}
+      initial="hidden"
+      animate={inView ? 'visible' : 'hidden'}
+      transition={{ duration: 0.7, ease: 'easeOut', delay }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+function ProjectCard({ project, index }) {
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true, margin: '0px 0px -60px 0px' });
+  const className = `work${index === 0 || index === 2 ? 'T1' : index + 1} workcard`;
+
+  return (
+    <motion.div
+      ref={ref}
+      className={className}
+      initial={{ opacity: 0, y: 50 }}
+      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+      transition={{ duration: 0.7, ease: 'easeOut', delay: (index % 2) * 0.1 }}
+    >
+      <Link to={project.link} className="imgwork">
+        {project.gif
+          ? <img src={project.gif} alt={project.title} draggable="false" />
+          : <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+        }
+      </Link>
+      <div className="cardsinfo">
+        <h2>{project.title}</h2>
+        <h5>{project.category}</h5>
+        <Link to={project.link} className="imgwork-m">
+          {project.gif
+            ? <img src={project.gif} alt={project.title} draggable="false" />
+            : <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
+          }
+        </Link>
+        <p>
+          {project.description}
+          <br />
+          <Link to={project.link}>
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16" fill="none">
+                <path d="M18.2071 8.89461C18.5976 8.50408 18.5976 7.87092 18.2071 7.48039L11.8431 1.11643C11.4526 0.725908 10.8195 0.725908 10.4289 1.11643C10.0384 1.50696 10.0384 2.14012 10.4289 2.53065L16.0858 8.1875L10.4289 13.8444C10.0384 14.2349 10.0384 14.868 10.4289 15.2586C10.8195 15.6491 11.4526 15.6491 11.8431 15.2586L18.2071 8.89461ZM0 9.1875L17.5 9.1875V7.1875L0 7.1875L0 9.1875Z" fill="currentColor" />
+              </svg>
+              {project.buttonText}
+            </button>
+          </Link>
+        </p>
+      </div>
+    </motion.div>
+  );
+}
 
 const Home = () => {
   // Calculate age based on birth year 1995
@@ -118,19 +188,29 @@ const Home = () => {
       </Helmet>
 
       <main className="home-page">
-        <div className="logoimg">
+        <motion.div
+          className="logoimg"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.9, ease: 'easeOut' }}
+        >
           <img
             src="/assets/profile-lucas-moraes.jpg"
             alt="Lucas profile picture"
             draggable="false"
           />
-        </div>
-        <div className="logo">
+        </motion.div>
+        <motion.div
+          className="logo"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: 'easeOut', delay: 0.2 }}
+        >
           <p>
             LUCAS MORAES // {age} <br />
             (BASED IN SÃO PAULO, BRAZIL)
           </p>
-        </div>
+        </motion.div>
 
         <Swiper
           className="mySwiper mySwiper2"
@@ -147,15 +227,15 @@ const Home = () => {
           ))}
         </Swiper>
 
-        <div className="sobre" id="about">
+        <FadeUp className="sobre" id="about">
           <h2 className="sobreT1 Th1">// ABOUT</h2>
           <p className="sobreT3">(ENG)</p>
           <p className="sobreT4">
             Multidisciplinary designer and art director with over 10 years of experience collaborating with agencies, studios, and brands on a variety of cool projects involving visual identity, strategic design, product development, and more.
           </p>
-        </div>
+        </FadeUp>
 
-        <div className="sobre sobre2" id="about">
+        <FadeUp className="sobre sobre2" id="about" delay={0.1}>
           <h2 className="sobreT1">
             <div className="sobreT6">
               <video
@@ -195,56 +275,19 @@ com mais de 10 anos de experiência colaborando em agências, estúdios e marcas
               ></video>
             </div>
           </h2>
-        </div>
+        </FadeUp>
 
-        <div className="work" id="works">
+        <FadeUp className="work" id="works">
           <h2 className="Th1">// WORKS</h2>
-        </div>
+        </FadeUp>
 
         <div className="worksgrid">
           {projects.map((project, index) => (
-            <div
+            <ProjectCard
               key={project.id}
-              className={`work${index === 0 || index === 2 ? 'T1' : index + 1} workcard`}
-            >
-              <Link to={project.link} className="imgwork">
-                {project.gif
-                  ? <img src={project.gif} alt={project.title} draggable="false" />
-                  : <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
-                }
-              </Link>
-              <div className="cardsinfo">
-                <h2>{project.title}</h2>
-                <h5>{project.category}</h5>
-                <Link to={project.link} className="imgwork-m">
-                  {project.gif
-                    ? <img src={project.gif} alt={project.title} draggable="false" />
-                    : <video src={project.video} autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
-                  }
-                </Link>
-                <p>
-                  {project.description}
-                  <br />
-                  <Link to={project.link}>
-                    <button>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="19"
-                        height="16"
-                        viewBox="0 0 19 16"
-                        fill="none"
-                      >
-                        <path
-                          d="M18.2071 8.89461C18.5976 8.50408 18.5976 7.87092 18.2071 7.48039L11.8431 1.11643C11.4526 0.725908 10.8195 0.725908 10.4289 1.11643C10.0384 1.50696 10.0384 2.14012 10.4289 2.53065L16.0858 8.1875L10.4289 13.8444C10.0384 14.2349 10.0384 14.868 10.4289 15.2586C10.8195 15.6491 11.4526 15.6491 11.8431 15.2586L18.2071 8.89461ZM0 9.1875L17.5 9.1875V7.1875L0 7.1875L0 9.1875Z"
-                          fill="currentColor"
-                        />
-                      </svg>
-                      {project.buttonText}
-                    </button>
-                  </Link>
-                </p>
-              </div>
-            </div>
+              project={project}
+              index={index}
+            />
           ))}
         </div>
             <br /><br /><br />

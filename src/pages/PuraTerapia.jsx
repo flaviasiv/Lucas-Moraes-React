@@ -67,7 +67,7 @@ const PuraTerapia = () => {
           {/* 4. // DESAFIO */}
           <Section className="about">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// DESAFIO</motion.h6>
+              <motion.h6 variants={fadeUp}>// CHALLENGE</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The project was born with full scope: create the brand from scratch, develop
@@ -163,7 +163,7 @@ const PuraTerapia = () => {
           {/* 10. // TIPOGRAFIA */}
           <Section className="about">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// TIPOGRAFY</motion.h6>
+              <motion.h6 variants={fadeUp}>// TYPOGRAPHY</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 In the logo typography, the rounded details were designed to soften reading and
@@ -203,7 +203,7 @@ const PuraTerapia = () => {
           {/* 13. // PALETA */}
           <Section className="about">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// PALETA</motion.h6>
+              <motion.h6 variants={fadeUp}>// PALETTE</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The palette combines institutional dark green with vibrant lime yellow, lavender and
@@ -298,7 +298,7 @@ const PuraTerapia = () => {
           {/* 20. // RESULTADO */}
           <Section className="about">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// RESULTADO</motion.h6>
+              <motion.h6 variants={fadeUp}>// RESULT</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 A complete and cohesive system, visual identity, institutional website and service

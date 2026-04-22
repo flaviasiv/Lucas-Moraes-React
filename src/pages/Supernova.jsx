@@ -69,7 +69,7 @@ const Supernova = () => {
 
           <Section className="about">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// DESAFIO</motion.h6>
+              <motion.h6 variants={fadeUp}>// CHALLENGE</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The beginning of this work is part of the label's clear objective of professionalizing the brand and showing how its productions are capable of polishing and boosting young Brazilian trap talents.
@@ -141,7 +141,7 @@ const Supernova = () => {
 
           <Section className="about tipografia solucao">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>//SOLUÇÃO</motion.h6>
+              <motion.h6 variants={fadeUp}>// SOLUTION</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The sum of the work in collaboration with the founders together with the producer's rich background resulted in visual decisions that objectively reflect the greatness present in the brand's DNA.

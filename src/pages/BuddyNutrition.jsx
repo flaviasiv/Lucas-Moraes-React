@@ -65,7 +65,7 @@ const BuddyNutrition = () => {
 
           <Section className="about tipografia container">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// DESAFIO</motion.h6>
+              <motion.h6 variants={fadeUp}>// CHALLENGE</motion.h6>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 Trabalhando em conjunto com o time de pesquisa na fundação da marca, descobrimos que embora o cuidado com os pets se equiparam aos cuidados com um membro da família o consumo de suplementação canina ainda é fortemente restrita a indicação de veterinários/profissionais da saúde.
               </motion.p>
@@ -83,7 +83,7 @@ const BuddyNutrition = () => {
 
           <Section className="about tipografia container">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// SOLUÇÃO</motion.h6>
+              <motion.h6 variants={fadeUp}>// SOLUTION</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 I started with the hypothesis that if we had a simple and educational visual in the brand's DNA, we could reduce this credibility barrier to some extent. These characteristics are present in the colors, elements, and product names.

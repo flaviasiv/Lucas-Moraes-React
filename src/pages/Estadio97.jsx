@@ -63,7 +63,7 @@ const Estadio97 = () => {
 
           <Section className="about desafiogrid container">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// DESAFIO</motion.h6>
+              <motion.h6 variants={fadeUp}>// CHALLENGE</motion.h6>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 O programa possui uma longa trajetória sendo líder de audiências nas rádios esportivas do Brasil e foi no seu aniversário de 25 anos onde se fez necessário a criação de um logo que representasse e sustentasse essa grandeza e tradição deste clássico e apaixonante meio de comunicação.
               </motion.p>
@@ -79,7 +79,7 @@ const Estadio97 = () => {
 
           <Section className="about tipografia container">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// SOLUÇÃO</motion.h6>
+              <motion.h6 variants={fadeUp}>// SOLUTION</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The logo features bold elements to convey a sense of something well-established, enduring, and solid. The tall typography supports authority, complemented by a distinct icon for the number 97, which represents the radio's frequency (and how it's popularly known as 'Rádio 97').

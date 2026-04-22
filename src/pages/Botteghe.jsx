@@ -78,7 +78,7 @@ const Botteghe = () => {
 
           <Section className="about desafiogrid container">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// DESAFIO</motion.h6>
+              <motion.h6 variants={fadeUp}>// CHALLENGE</motion.h6>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The São Luís do Palmela farm, with over 40 years dedicated to coffee cultivation in Campanha-MG, stands out for its 140 hectares, encompassing the headquarters and extensive preservation areas.
                 <br /><br />
@@ -116,7 +116,7 @@ const Botteghe = () => {
 
           <Section className="about tipografia container">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// SOLUÇÃO</motion.h6>
+              <motion.h6 variants={fadeUp}>// SOLUTION</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The icon was designed to reflect and reinforce the fundamental principles of the brand, values such as health, and environmental responsibility. It was conceived to be easily applied in various contexts, such as marketing materials, packaging, social media, etc.

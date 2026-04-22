@@ -67,7 +67,7 @@ const Lata = () => {
 
           <Section className="about desafiogrid container">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// DESAFIO</motion.h6>
+              <motion.h6 variants={fadeUp}>// CHALLENGE</motion.h6>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 A product of a post-national pandemic generation. An exaltation of the Brazilian identity in the best possible way. Good taste in music, consumption, and style, using the culture of collaborations to support national brands, showcase emerging local artists, and surprise the audience with performances by already established artists.
                 <br /><br />
@@ -87,7 +87,7 @@ const Lata = () => {
 
           <Section className="about tipografia container">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}>// SOLUÇÃO</motion.h6>
+              <motion.h6 variants={fadeUp}>// SOLUTION</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The logo was built with the intersection of the classic and the modern, providing flexibility and easy adaptation in its own space.
