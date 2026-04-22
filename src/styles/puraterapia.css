@@ -225,15 +225,14 @@
 
 .pt-swatches {
     display: flex;
-    flex-direction: row;
-    gap: 8px;
-    width: 100%;
+    max-width: 812px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .pt-swatches img {
-    flex: 1;
-    width: 0;
-    height: auto;
+    max-width: 160.08px;
+    max-height: 478.693px;
     object-fit: cover;
     display: block;
 }
@@ -339,8 +338,11 @@
     .pt-tagline-en { text-align: center; }
 
     .pt-swatches-wrap { padding: 0 24px 48px; }
-    .pt-swatches { flex-wrap: wrap; }
-    .pt-swatches img { flex: 1 1 calc(50% - 4px); width: 0; }
+    .pt-swatches { flex-wrap: wrap; width: 100%; gap: 6px; }
+    .pt-swatches img { width: 100%;
+        max-width: 20%;
+        height: 100%;
+    }
 
     .puraterapia-page .pt-frames-duo {
         flex-direction: column;
