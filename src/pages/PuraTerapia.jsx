@@ -48,9 +48,6 @@ const PuraTerapia = () => {
                 Pura Terapia® is a telemedicine platform specializing in medical cannabis.
                 The challenge was to build an identity that balanced clinical credibility
                 with human closeness, in a market still surrounded by stigma and misinformation.
-                <br /><br />
-                The project was born with full scope: create the brand from scratch, develop
-                the institutional website, and structure an automated service flow via WhatsApp.
               </motion.p>
             </FadeUp>
           </Section>
@@ -99,16 +96,16 @@ const PuraTerapia = () => {
           {/* 6. // SÍMBOLO */}
           <Section className="about">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}></motion.h6>
+              <motion.h6 variants={fadeUp}>// LOGO</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The symbol is formed by two overlapping circles to express welcome, care and
                 closeness. The softness of the curves conveys lightness and empathy, reinforcing
-                the feeling of privacy and safety — essential pillars in the brand's health experience.
+                the feeling of privacy and safety - essential pillars in the brand's health experience.
                 <br /><br />
                 The repetition of the form evokes balance and exchange: a symbol of care built
                 as equals, where patient and professional share a common journey. Together, the
-                elements subtly evoke a flower — blooming as a metaphor for care that nurtures
+                elements subtly evoke a flower, blooming as a metaphor for care that nurtures
                 and transforms.
               </motion.p>
             </FadeUp>
@@ -166,7 +163,7 @@ const PuraTerapia = () => {
           {/* 10. // TIPOGRAFIA */}
           <Section className="about">
             <FadeUp className="aboutgrid about1">
-              <motion.h6 variants={fadeUp}></motion.h6>
+              <motion.h6 variants={fadeUp}>// TIPOGRAFY</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 In the logo typography, the rounded details were designed to soften reading and
@@ -209,19 +206,15 @@ const PuraTerapia = () => {
               <motion.h6 variants={fadeUp}>// PALETA</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
-                The site was developed to convert visitors into patients with minimum friction.
-                White background, bold black typography and generous spacing create clean, direct
-                reading, the aesthetic reflects the brand positioning: accessible, clear and trustworthy.
-                <br /><br />The page flow guides the user in three simple steps, schedule, receive the
-                prescription, start treatment, demystifying the process and reducing entry barriers.
-                Real testimonials, FAQ on medical cannabis, and lime-green CTAs distributed throughout
-                the scroll reinforce trust and drive conversion.
+                The palette combines institutional dark green with vibrant lime yellow, lavender and
+                wine, a calculated tension between authority and lightness. Benton Sans anchors the
+                headings with presence, and Inter ensures fluidity in support texts.
               </motion.p>
             </FadeUp>
             <FadeUp className="aboutgrid about2">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
-                A paleta combina verde escuro institucional com amarelo-limão vibrante, lavanda e vinho ,tensão calculada entre autoridade e leveza. Benton Sans ancora os títulos com presença, e a Inter garante fluidez nos textos de apoio.
+                A paleta combina verde escuro institucional com amarelo-limão vibrante, lavanda e vinho, tensão calculada entre autoridade e leveza. Benton Sans ancora os títulos com presença, e a Inter garante fluidez nos textos de apoio.
               </motion.p>
             </FadeUp>
           </Section>
@@ -250,10 +243,10 @@ const PuraTerapia = () => {
               <motion.p className="about1" id="about1" variants={fadeUp}>
                 The site was developed to convert visitors into patients with minimum friction.
                 White background, bold black typography and generous spacing create clean, direct
-                reading — the aesthetic reflects the brand positioning: accessible, clear and trustworthy.
+                reading, the aesthetic reflects the brand positioning: accessible, clear and trustworthy.
                 <br /><br />
-                The page flow guides the user in three simple steps — schedule, receive the prescription,
-                start treatment — demystifying the process and reducing entry barriers. Real testimonials,
+                The page flow guides the user in three simple steps ,schedule, receive the prescription,
+                start treatment, demystifying the process and reducing entry barriers. Real testimonials,
                 FAQ on medical cannabis, and lime-green CTAs distributed throughout the scroll reinforce
                 trust and drive conversion.
               </motion.p>
@@ -261,14 +254,9 @@ const PuraTerapia = () => {
             <FadeUp className="aboutgrid about2">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
-                O site foi desenvolvido para converter visitantes em pacientes com o mínimo de atrito.
-                Fundo branco, tipografia preta em peso bold e espaçamento generoso criam uma leitura
-                limpa e direta — a estética reflete o posicionamento da marca: acessível, clara e confiável.
+                O site foi desenvolvido para converter visitantes em pacientes com o mínimo de atrito. Fundo branco, tipografia preta em peso bold e espaçamento generoso criam uma leitura limpa e direta, a estética reflete o posicionamento da marca: acessível, clara e confiável.
                 <br /><br />
-                O fluxo da página guia o usuário em três passos simples — agende, receba a prescrição,
-                inicie o tratamento — desmistificando o processo e reduzindo barreiras de entrada.
-                Depoimentos reais, FAQ sobre cannabis medicinal e CTAs em verde-limão distribuídos ao
-                longo do scroll reforçam confiança e direcionam a conversão.
+                O fluxo da página guia o usuário em três passos simples ,agende, receba a prescrição, inicie o tratamento, desmistificando o processo e reduzindo barreiras de entrada. Depoimentos reais, FAQ sobre cannabis medicinal e CTAs em verde-limão distribuídos ao longo do scroll reforçam confiança e direcionam a conversão.
               </motion.p>
             </FadeUp>
           </Section>
@@ -313,7 +301,7 @@ const PuraTerapia = () => {
               <motion.h6 variants={fadeUp}>// RESULTADO</motion.h6>
               <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
               <motion.p className="about1" id="about1" variants={fadeUp}>
-                A complete and cohesive system — visual identity, institutional website and service
+                A complete and cohesive system, visual identity, institutional website and service
                 automation operating in the same language. Pura Terapia® went from zero to a consistent
                 brand presence at every patient touchpoint.
               </motion.p>
