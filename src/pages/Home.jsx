@@ -14,13 +14,14 @@ const fadeUp = {
 };
 
 
-function FadeUp({ children, className, delay = 0 }) {
+function FadeUp({ children, className, id, delay = 0 }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '0px 0px -80px 0px' });
   return (
     <motion.div
       ref={ref}
       className={className}
+      id={id}
       variants={fadeUp}
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}
