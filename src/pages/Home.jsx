@@ -105,7 +105,7 @@ const Home = () => {
       title: 'PURA TERAPIA',
       category: 'Branding, Art Direction, Web Design',
       description:
-        'Pura Terapia® is a telemedicine platform specializing in medical cannabis. Brand identity, institutional website and WhatsApp automation — built from scratch.',
+        'Pura Terapia® is a telemedicine platform specializing in medical cannabis. Brand identity, institutional website and WhatsApp automation - built from scratch.',
       gif: '/assets/home/thumbnail-puraterapia.gif',
       link: '/pura-terapia',
       buttonText: 'VIEW CASE',
