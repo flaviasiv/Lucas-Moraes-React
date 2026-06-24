@@ -4,17 +4,23 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import '../styles/ProjectsSlider.css';
 
-const ProjectsSlider = () => {
+const ProjectsSlider = ({ exclude }) => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const projects = [
+  const allProjects = [
     {
       to: '/pura-terapia',
       image: '/assets/Rectangle7.png',
       title: 'PURA TERAPIA',
       description: 'Branding, Art direction',
+    },
+    {
+      to: '/astropay',
+      image: '/assets/Rectangle8.png',
+      title: 'ASTROPAY',
+      description: 'Motion, Art direction',
     },
     {
       to: '/supernova',
@@ -23,22 +29,10 @@ const ProjectsSlider = () => {
       description: 'Branding, Art direction',
     },
     {
-      to: '/botteghe',
-      image: '/assets/Rectangle2.jpg',
-      title: 'BOTTEGHE DEL CAFFÈ',
-      description: 'Branding, Packaging, Art direction',
-    },
-    {
-      to: '/lata',
-      image: '/assets/Rectangle3.jpg',
-      title: 'LATA 05',
-      description: 'Branding, Art direction',
-    },
-    {
-      to: '/clickscorres',
-      image: '/assets/Rectangle4.png',
-      title: 'CLICKS & CORRES',
-      description: 'Photography, Personal Project',
+      to: '/iridium-labs',
+      image: '/assets/Rectangle9.png',
+      title: 'IRIDIUM LABS',
+      description: 'Art direction, Packaging',
     },
     {
       to: '/buddynutrition',
@@ -53,12 +47,14 @@ const ProjectsSlider = () => {
       description: 'Branding, Art direction',
     },
     {
-      to: '/iridium-labs',
-      image: '/assets/iridium-labs/img-1.png',
-      title: 'IRIDIUM LABS',
-      description: 'Art direction, Packaging',
+      to: '/lata',
+      image: '/assets/Rectangle3.jpg',
+      title: 'LATA 05',
+      description: 'Branding, Art direction',
     },
   ];
+
+  const projects = exclude ? allProjects.filter(p => p.to !== exclude) : allProjects;
 
   return (
     <div>

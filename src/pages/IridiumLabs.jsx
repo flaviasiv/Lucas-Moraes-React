@@ -260,7 +260,7 @@ const IridiumLabs = () => {
             />
           </Frame>
 
-          <ProjectsSlider />
+          <ProjectsSlider exclude="/iridium-labs" />
         </main>
       </div>
     </>

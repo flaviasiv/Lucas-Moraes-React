@@ -59,7 +59,7 @@ swiper-container {
 
 .swiper1 .slide1 img{
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 0;
 }
