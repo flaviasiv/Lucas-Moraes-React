@@ -273,7 +273,7 @@ font-family: 'Neue', sans-serif;
     display: grid;
     row-gap: 160px;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1300px;
     padding: 0 50px;
     padding-bottom: 160px;
     color: var(--text);

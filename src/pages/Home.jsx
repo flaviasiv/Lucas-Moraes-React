@@ -281,7 +281,6 @@ com mais de 10 anos de experiência colaborando em agências, estúdios e marcas
         </FadeUp>
 
         <FadeUp className="work" id="works">
-          <h2 className="Th1">// WORKS</h2>
         </FadeUp>
 
         <div className="worksgrid">
