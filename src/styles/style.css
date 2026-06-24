@@ -420,12 +420,6 @@ grid-row-start: 1;
     grid-column: 2;
 }
 
-.home-page .iridium-card video,
-.home-page .iridium-card img {
-    height: 454px;
-    object-fit: cover;
-    object-position: center top;
-}
 .home-page .workcard .cardsinfo{
     position: relative;
     display: flex;
@@ -456,6 +450,8 @@ line-height: normal;
     display: flex;
     justify-content: end;
     width: 340px;
+    height: 454px;
+    object-fit: cover;
 }
 .home-page .imgwork-m{display: none;}
 
@@ -532,10 +528,11 @@ line-height: normal;
     .home-page .imgwork-m img{
         width: 100%;
         max-width: 100%;
-        height: auto;
+        height: 440px;
         object-fit: cover;
         display: block;
     }
+
     .home-page .imgwork{
         display: none !important;
     }
