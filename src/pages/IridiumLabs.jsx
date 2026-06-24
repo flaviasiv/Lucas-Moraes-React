@@ -65,22 +65,6 @@ const IridiumLabs = () => {
             <img src="/assets/iridium-labs/img-1.png" alt="Iridium Labs WPC packaging" draggable="false" />
           </Frame>
 
-          <Frame className="frames1">
-            <video
-              src="/assets/iridium-labs/gif-2.webm"
-              autoPlay
-              preload="auto"
-              playsInline
-              webkit-playsinline="true"
-              x-webkit-airplay="allow"
-              muted
-              loop
-              controls={false}
-              disablePictureInPicture
-              style={{ WebkitTransform: 'translateZ(0)' }}
-            />
-          </Frame>
-
           <Section className="about desafiogrid container">
             <FadeUp className="aboutgrid about1">
               <motion.h6 variants={fadeUp}>// GOAL</motion.h6>
@@ -96,10 +80,10 @@ const IridiumLabs = () => {
               </motion.p>
             </FadeUp>
           </Section>
-
+          
           <Frame className="frames1">
             <video
-              src="/assets/iridium-labs/gif-4.webm"
+              src="/assets/iridium-labs/gif-2.webm"
               autoPlay
               preload="auto"
               playsInline
@@ -128,30 +112,10 @@ const IridiumLabs = () => {
               </motion.p>
             </FadeUp>
           </Section>
-
+          
           <Frame className="frames1">
             <video
-              src="/assets/iridium-labs/gif-2.webm"
-              autoPlay
-              preload="auto"
-              playsInline
-              webkit-playsinline="true"
-              x-webkit-airplay="allow"
-              muted
-              loop
-              controls={false}
-              disablePictureInPicture
-              style={{ WebkitTransform: 'translateZ(0)' }}
-            />
-          </Frame>
-
-          <Frame className="frames1">
-            <img src="/assets/iridium-labs/img-2.png" alt="Iridium Labs elements redesign" draggable="false" />
-          </Frame>
-
-          <Frame className="frames1">
-            <video
-              src="/assets/iridium-labs/gif-5.webm"
+              src="/assets/iridium-labs/gif-4.webm"
               autoPlay
               preload="auto"
               playsInline
@@ -181,9 +145,30 @@ const IridiumLabs = () => {
             </FadeUp>
           </Section>
 
+
           <Frame className="frames1">
             <video
               src="/assets/iridium-labs/gif-3.webm"
+              autoPlay
+              preload="auto"
+              playsInline
+              webkit-playsinline="true"
+              x-webkit-airplay="allow"
+              muted
+              loop
+              controls={false}
+              disablePictureInPicture
+              style={{ WebkitTransform: 'translateZ(0)' }}
+            />
+          </Frame>
+
+          <Frame className="frames1">
+            <img src="/assets/iridium-labs/img-2.png" alt="Iridium Labs elements redesign" draggable="false" />
+          </Frame>
+
+          <Frame className="frames1">
+            <video
+              src="/assets/iridium-labs/gif-5.webm"
               autoPlay
               preload="auto"
               playsInline
@@ -226,19 +211,25 @@ const IridiumLabs = () => {
             <img src="/assets/iridium-labs/img-3.jpg" alt="Iridium Labs Creatina Juicy products" draggable="false" />
             <img src="/assets/iridium-labs/img-4.png" alt="Iridium Labs Juicy product line" draggable="false" />
             <img src="/assets/iridium-labs/img-5.png" alt="Iridium Labs Juicy flavors" draggable="false" />
-            <img src="/assets/iridium-labs/img-6.png" alt="Iridium Labs Juicy packaging" draggable="false" />
           </Frame>
-
+          
           <Section className="about tipografia container">
             <FadeUp className="aboutgrid about1">
               <motion.h6 variants={fadeUp}>// FULLTILT PRE-WORKOUT</motion.h6>
+              <br />
+              <br />
+              <br />
             </FadeUp>
           </Section>
+
+
+          <Frame className="frames1">
+            <img src="/assets/iridium-labs/img-6.png" alt="Iridium Labs Juicy packaging" draggable="false" />
+          </Frame>
 
           <Frame className="frames1">
             <img src="/assets/iridium-labs/img-7.png" alt="Iridium Labs FullTilt pre-workout" draggable="false" />
             <img src="/assets/iridium-labs/img-8.png" alt="Iridium Labs FullTilt packaging" draggable="false" />
-            <img src="/assets/iridium-labs/img-9.png" alt="Iridium Labs FullTilt line" draggable="false" />
           </Frame>
 
           <Section className="about tipografia container">
@@ -247,7 +238,9 @@ const IridiumLabs = () => {
             </FadeUp>
           </Section>
 
+          
           <Frame className="frames1">
+            <img src="/assets/iridium-labs/img-9.png" alt="Iridium Labs FullTilt line" draggable="false" />
             <img src="/assets/iridium-labs/img-10.png" alt="Iridium Labs Creatina Pro" draggable="false" />
           </Frame>
 
