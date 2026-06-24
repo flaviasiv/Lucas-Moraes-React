@@ -15,6 +15,7 @@ import ClicksCorres from './pages/ClicksCorres';
 import Estadio97 from './pages/Estadio97';
 import AstroPay from './pages/AstroPay';
 import PuraTerapia from './pages/PuraTerapia';
+import IridiumLabs from './pages/IridiumLabs';
 
 function ScrollToTop({ lenisRef }) {
   const { pathname } = useLocation();
@@ -52,7 +53,20 @@ function AppContent({ theme, toggleTheme }) {
 
     requestAnimationFrame(raf);
 
+    function handleKeyDown(e) {
+      if (e.key === 'Home') {
+        e.preventDefault();
+        lenis.scrollTo(0);
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        lenis.scrollTo(document.body.scrollHeight);
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown);
+
     return () => {
+      window.removeEventListener('keydown', handleKeyDown);
       lenis.destroy();
     };
   }, []);
@@ -71,6 +85,7 @@ function AppContent({ theme, toggleTheme }) {
         <Route path="/estadio97" element={<Estadio97 />} />
         <Route path="/astropay" element={<AstroPay />} />
         <Route path="/pura-terapia" element={<PuraTerapia />} />
+        <Route path="/iridium-labs" element={<IridiumLabs />} />
       </Routes>
       <Footer />
     </>

@@ -35,7 +35,8 @@ function FadeUp({ children, className, id, delay = 0 }) {
 function ProjectCard({ project, index }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '0px 0px -60px 0px' });
-  const className = `work${index === 0 || index === 2 ? 'T1' : index + 1} workcard`;
+  const layoutClass = index % 2 === 0 ? 'card-left' : 'card-center';
+  const className = `${layoutClass} workcard${project.extraClass ? ' ' + project.extraClass : ''}`;
 
   return (
     <motion.div
@@ -131,24 +132,15 @@ const Home = () => {
       buttonText: 'VIEW CASE',
     },
     {
-      id: 'lata',
-      title: 'LATA 05',
-      category: 'Branding, Art direction',
+      id: 'iridium',
+      title: 'IRIDIUM LABS',
+      category: 'Art direction, Packaging',
       description:
-        'A secret event with no fixed location, date or theme, featuring invitation-only first editions and surprise performances as the main way to spark curiosity and spread the brand.',
-      video: '/assets/home/thumb-lata.mp4',
-      link: '/lata',
+        "Iridium Labs is a Brazilian sports supplements brand, with a portfolio spanning creatines, whey protein, thermogenics, and high-performance lines. I worked as the project's art director, focused on packaging design and on building the brand's overall visual identity.",
+      video: '/assets/iridium-labs/gif-1.webm',
+      link: '/iridium-labs',
       buttonText: 'VIEW CASE',
-    },
-    {
-      id: 'estadio97',
-      title: 'ESTADIO 97',
-      category: 'Branding, Art direction',
-      description:
-        'Estádio 97 is one of Brazil\'s most traditional sports radio shows, a product of Energia 97 FM, a station deeply present in the everyday life of Brazilians across many contexts.',
-      video: '/assets/home/thumb-estadio97.mp4',
-      link: '/estadio97',
-      buttonText: 'VIEW CASE',
+      extraClass: 'iridium-card',
     },
     {
       id: 'buddy',
@@ -161,13 +153,23 @@ const Home = () => {
       buttonText: 'VER PROJETO',
     },
     {
-      id: 'clicks',
-      title: 'CLICKS & CORRES',
-      category: 'Photography, Personal Project',
+      id: 'estadio97',
+      title: 'ESTADIO 97',
+      category: 'Branding, Art direction',
       description:
-        'All footage was captured on a phone over months of running the same route in the north side of São Paulo during the COVID-19 pandemic.',
-      video: '/assets/home/thumb-cc.mp4',
-      link: '/clickscorres',
+        'Estádio 97 is one of Brazil\'s most traditional sports radio shows, a product of Energia 97 FM, a station deeply present in the everyday life of Brazilians across many contexts.',
+      video: '/assets/home/thumb-estadio97.mp4',
+      link: '/estadio97',
+      buttonText: 'VIEW CASE',
+    },
+    {
+      id: 'lata',
+      title: 'LATA 05',
+      category: 'Branding, Art direction',
+      description:
+        'A secret event with no fixed location, date or theme, featuring invitation-only first editions and surprise performances as the main way to spark curiosity and spread the brand.',
+      video: '/assets/home/thumb-lata.mp4',
+      link: '/lata',
       buttonText: 'VIEW CASE',
     },
   ];

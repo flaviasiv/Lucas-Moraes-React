@@ -175,7 +175,7 @@ label{
     position: relative;
     display: block;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     height: 750px;
 }
@@ -204,13 +204,13 @@ label{
 }
 .frames4{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     padding: 65px 0;
 }
 .frames5{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     padding:65px 0 130px;
     position: relative;
@@ -221,7 +221,7 @@ label{
     right: 0;
 }
 .frames2 video{
-    max-width: 1400px;
+    max-width: 1200px;
 }
 .vd-br, .frames1-sm{
     border-radius: 39px;

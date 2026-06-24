@@ -102,7 +102,7 @@ margin-right: auto;
     column-gap: 2px;
     row-gap: 40px;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 80px auto;
 }
 .home-page .sobre video{
@@ -255,7 +255,7 @@ font-family: 'Neue', sans-serif;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Neue';
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin:auto;
     padding-top: 190px;
 }
@@ -275,6 +275,7 @@ font-family: 'Neue', sans-serif;
     width: 100%;
     max-width: 1500px;
     padding: 0 50px;
+    padding-bottom: 160px;
     color: var(--text);
     margin:auto;
 }
@@ -394,12 +395,36 @@ grid-row-start: 1;
 .home-page .work7 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 160px;
 }
 
 .home-page .work7 a {
     grid-column-start: 2;
     grid-column-end: 2;
+}
+
+.home-page .card-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-page .card-left .imgwork {
+    grid-column: 1;
+}
+
+.home-page .card-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-page .card-center .imgwork {
+    grid-column: 2;
+}
+
+.home-page .iridium-card video,
+.home-page .iridium-card img {
+    height: 454px;
+    object-fit: cover;
+    object-position: center top;
 }
 .home-page .workcard .cardsinfo{
     position: relative;

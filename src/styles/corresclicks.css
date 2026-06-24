@@ -188,7 +188,7 @@
 .corresclicks-page .frames1-1{
     display: flex;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     padding: 124px 0 124px 0;
 }
@@ -201,7 +201,7 @@
     position: relative;
     display: block;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     height: 750px;
 }
@@ -217,7 +217,7 @@
     position: relative;
     height: 950px;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
 }
 .corresclicks-page .frames2 img{
@@ -232,13 +232,13 @@
 }
 .corresclicks-page .frames4{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     padding: 130px 0;
 }
 .corresclicks-page .frames5{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     padding:0 0 130px;
     position: relative;

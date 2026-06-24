@@ -52,6 +52,12 @@ const ProjectsSlider = () => {
       title: 'ESTÁDIO 97',
       description: 'Branding, Art direction',
     },
+    {
+      to: '/iridium-labs',
+      image: '/assets/iridium-labs/img-1.png',
+      title: 'IRIDIUM LABS',
+      description: 'Art direction, Packaging',
+    },
   ];
 
   return (
