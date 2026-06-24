@@ -31,11 +31,10 @@
 .iridium-page #h6-w {
     color: var(--text-dark);
     grid-column-start: 1;
-    grid-row-start: 1;
+    grid-row-start: 2;
     font-size: 16px;
     font-style: normal;
-    margin: -160px auto;
-    margin-left: 5px;
+    margin: 16px 0 0 0;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
@@ -58,19 +57,24 @@
 
 @media screen and (max-width: 900px) {
     .iridium-page .about {
-        margin-top: 48px;
-        margin-bottom: 48px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        gap: 0;
     }
 
     .iridium-page .aboutcontainer {
-        padding-bottom: 48px;
+        padding-bottom: 32px;
+    }
+
+    .iridium-page .firstabout {
+        padding-bottom: 16px !important;
     }
 
     .iridium-page .aboutgrid {
         display: flex !important;
         flex-direction: column !important;
         grid-template-columns: none !important;
-        margin: 40px auto;
+        margin: 0 auto;
         padding: 0 24px;
     }
 
@@ -89,18 +93,19 @@
         display: block;
         font-size: 16px;
         margin: 0;
-        margin-bottom: 40px;
+        margin-bottom: 24px;
         font-weight: 600;
+        text-align: left;
     }
 
     .iridium-page #aboutgrid1 h5,
     .iridium-page .about h6,
     .iridium-page .aboutgrid h5 {
-        margin-bottom: 24px;
+        margin-bottom: 16px;
     }
 
     .iridium-page .about2 {
-        margin-top: 48px;
+        margin-top: 24px;
     }
 
     .iridium-page #aboutgrid1 p,
@@ -121,12 +126,12 @@
 
     .iridium-page .aboutgrid h5 {
         font-size: 14px;
-        margin-bottom: 24px;
+        margin-bottom: 16px;
     }
 
     .iridium-page .aboutgrid h6 {
-        margin-bottom: 32px;
-        text-align: right;
+        margin-bottom: 24px;
+        text-align: left;
     }
 
     .iridium-page #aboutgrid1 #p2-1 {

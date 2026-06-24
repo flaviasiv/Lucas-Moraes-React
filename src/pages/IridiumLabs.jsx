@@ -44,6 +44,7 @@ const IridiumLabs = () => {
             <Section className="firstabout about">
               <FadeUp className="aboutgrid about1" id="aboutgrid1">
                 <motion.h1 variants={fadeUp}>IRIDIUM LABS</motion.h1>
+                <motion.h6 id="h6-w" variants={fadeUp}>2020~2024 / ART DIRECTION / PACKAGING</motion.h6>
                 <motion.h6 id="h6-m" variants={fadeUp}>2020~2024 / ART DIRECTION / PACKAGING</motion.h6>
                 <motion.h5 variants={fadeUp}>(ENG)</motion.h5>
                 <motion.p className="about1" id="about1" variants={fadeUp}>
@@ -53,7 +54,6 @@ const IridiumLabs = () => {
             </Section>
 
             <Section className="aboutgrid about2" id="aboutgrid1">
-              <motion.h6 id="h6-w" variants={fadeUp}>2020~2024 / ART DIRECTION / PACKAGING</motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p className="about1" id="p2-1" variants={fadeUp}>
                 A Iridium Labs® é uma marca brasileira de suplementos esportivos, com portfólio que abrange creatinas, whey protein, termogênicos e linhas de alta performance. Atuei como diretor de arte do projeto, com foco no design de embalagens e na construção do visual da marca como um todo.
