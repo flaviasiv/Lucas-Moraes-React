@@ -16,10 +16,23 @@ const Lata = () => {
         <meta name="description" content="Branding and Art Direction for Lata 05, a secret event with no fixed location, date or theme, featuring invitation-only first editions and surprise performances as the main way to spark curiosity." />
         <meta property="og:title" content="Lata 05 - Secret Event Branding & Art Direction" />
         <meta property="og:description" content="Branding for Lata 05, a secret artistic movement bringing an overlap of musical genres to energize national art." />
+        <meta property="og:image" content="https://lucaslucas.work/assets/lata/frame1.png" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://lucaslucas.work/lata" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://lucaslucas.work/lata" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CreativeWork',
+            name: 'Lata 05 - Secret Event Branding & Art Direction',
+            description: 'Branding and Art Direction for Lata 05, a secret event with no fixed location, date or theme, featuring invitation-only first editions and surprise performances.',
+            url: 'https://lucaslucas.work/lata',
+            image: 'https://lucaslucas.work/assets/lata/frame1.png',
+            datePublished: '2023',
+            creator: { '@type': 'Person', name: 'Lucas Moraes', url: 'https://lucaslucas.work/' },
+          })}
+        </script>
       </Helmet>
 
       <div className='lata-page'>
@@ -42,7 +55,7 @@ const Lata = () => {
               </FadeUp>
             </Section>
 
-            <Section className="aboutgrid about2" id="aboutgrid1">
+            <Section className="aboutgrid about2" id="aboutgrid1" lang="pt-BR">
               <motion.h6 id="h6-w" variants={fadeUp}>2023 / BRANDING / ART DIRECTION</motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p className="about1" id="p2-1" variants={fadeUp}>
@@ -62,7 +75,7 @@ const Lata = () => {
           </Frame>
 
           <Frame className="frames2">
-            <img src="\assets\lata\frame1.png" alt="" draggable="false" />
+            <img src="/assets/lata/frame1.png" alt="Lata 05 brand identity detail" draggable="false" />
           </Frame>
 
           <Section className="about desafiogrid container">
@@ -74,7 +87,7 @@ const Lata = () => {
                 "An unconventional way to move art" is an invitation to the development of a versatile and provocative brand. A combination of elements that subtly pay homage to Brazilian culture
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.p variants={fadeUp}>
                 Desenvolver um produto de uma geração pós pandêmica nacional. Uma exaltação da identidade brasileira da melhor forma possível. Bom gosto para música, consumo e estilo, utilizando da cultura das colaborações para apoiar marcas nacionais, expor artistas locais emergentes e surpreender o público com apresentações de artistas já consagrados.
               </motion.p>
@@ -95,7 +108,7 @@ const Lata = () => {
                 A distorted serif font is capable of evoking this sensation as it is the combination of the traditional with an unpredictable movement - like the future.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 Uma forma não convencional de movimentar a arte' é um convite para o desenvolvimento de uma marca versátil e provocativa com elementos que sutilmente homenageiam a cultura brasileira.
@@ -123,7 +136,7 @@ const Lata = () => {
                 The selection of images should be made with the aim of always conveying the feeling of people living good moments.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>A escolha de imagens deverá ser feita visando transmitir sempre a sensação de pessoas vivendo bons momentos.</motion.p>
             </FadeUp>

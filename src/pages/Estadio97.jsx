@@ -17,10 +17,23 @@ const Estadio97 = () => {
         <meta name="description" content="Branding and Art Direction for Estádio 97, one of Brazil's most traditional sports radio shows, a product of Energia 97 FM, celebrating 25 years of leading sports radio audiences." />
         <meta property="og:title" content="Estádio 97 - Sports Radio Branding & Art Direction" />
         <meta property="og:description" content="Branding for Estádio 97, one of Brazil's most traditional sports radio programs celebrating 25 years." />
+        <meta property="og:image" content="https://lucaslucas.work/assets/estadio97/frame1.png" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://lucaslucas.work/estadio97" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://lucaslucas.work/estadio97" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CreativeWork',
+            name: 'Estádio 97 - Sports Radio Branding & Art Direction',
+            description: "Branding and Art Direction for Estádio 97, one of Brazil's most traditional sports radio shows, a product of Energia 97 FM, celebrating 25 years of leading sports radio audiences.",
+            url: 'https://lucaslucas.work/estadio97',
+            image: 'https://lucaslucas.work/assets/estadio97/frame1.png',
+            datePublished: '2024',
+            creator: { '@type': 'Person', name: 'Lucas Moraes', url: 'https://lucaslucas.work/' },
+          })}
+        </script>
       </Helmet>
 
       <div className='e97-page'>
@@ -42,7 +55,7 @@ const Estadio97 = () => {
               </FadeUp>
             </Section>
 
-            <Section className="aboutgrid about2" id="aboutgrid1">
+            <Section className="aboutgrid about2" id="aboutgrid1" lang="pt-BR">
               <motion.h6 id="h6-w" variants={fadeUp}>2024 / BRANDING / ART DIRECTION</motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p id="p2-1" variants={fadeUp}>
@@ -68,13 +81,13 @@ const Estadio97 = () => {
                 O programa possui uma longa trajetória sendo líder de audiências nas rádios esportivas do Brasil e foi no seu aniversário de 25 anos onde se fez necessário a criação de um logo que representasse e sustentasse essa grandeza e tradição deste clássico e apaixonante meio de comunicação.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.p variants={fadeUp}>The program has a long history of leading sports radio audiences in Brazil, and on its 25th anniversary, it became necessary to create a logo that would represent and uphold the greatness and tradition of this classic and passionate medium of communication.</motion.p>
             </FadeUp>
           </Section>
 
           <Frame className="frames1">
-            <img src="/assets/estadio97/frame1.png" alt="" draggable="false" />
+            <img src="/assets/estadio97/frame1.png" alt="Estádio 97 logo design for 25th anniversary" draggable="false" />
           </Frame>
 
           <Section className="about tipografia container">
@@ -85,7 +98,7 @@ const Estadio97 = () => {
                 The logo features bold elements to convey a sense of something well-established, enduring, and solid. The tall typography supports authority, complemented by a distinct icon for the number 97, which represents the radio's frequency (and how it's popularly known as 'Rádio 97').
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>Extremos prologandos para transimitir a sensação algo bem estabelecido, longevo, sólido. Tipografia alta para sustentar autoridade somado a um ícone independente para o numero 97 que representa a sintonia da rádio (e como ela é conhecida popularmente, 'Rádio 97').</motion.p>
             </FadeUp>
@@ -93,7 +106,7 @@ const Estadio97 = () => {
 
           <Frame className="frames2">
             <video src="/assets/estadio97/04-e97.mp4" autoPlay playsInline muted loop></video>
-            <img src="/assets/estadio97/frame2.jpg" alt="" />
+            <img src="/assets/estadio97/frame2.jpg" alt="Estádio 97 laurel wreath and ball icon detail" />
           </Frame>
 
           <Section className="about tipografia container">
@@ -103,7 +116,7 @@ const Estadio97 = () => {
                 Symbolizing the triumph of the brand's longevity, the laurel wreath indicates great merit, traditionally representing the glory of its bearer. The ball is strategically positioned to subtly represent the origin of everything and the motivation behind the entire journey.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>Representando o triunfo da longevidade da marca, a coroa de louros indica grande mérito, tradicionalmente simbolizava a glória de quem a usava.
                 <br /><br />
@@ -113,26 +126,26 @@ const Estadio97 = () => {
 
           <Frame className="frames1 framesgap">
             <video src="/assets/estadio97/05-e97.mp4" autoPlay playsInline muted loop></video>
-            <img src="/assets/estadio97/frame3.jpg" alt="imagem capa lata 05" draggable="false" />
+            <img src="/assets/estadio97/frame3.jpg" alt="Estádio 97 logo applied to radio branding" draggable="false" />
             <video src="/assets/estadio97/06-e97.mp4" autoPlay playsInline muted loop></video>
           </Frame>
 
           <Frame className="frames1 frames3">
             <a href="https://www.youtube.com/@energia97" target="_blank" rel="noreferrer">
-              <img src="/assets/estadio97/frames6.png" alt="" />
+              <img src="/assets/estadio97/frames6.png" alt="Estádio 97 branding on Energia 97 FM channel" />
             </a>
           </Frame>
 
           <Frame className="frames1 framesgap">
-            <img src="/assets/estadio97/frames4.png" alt="" />
-            <img src="/assets/estadio97/frames5.png" alt="" />
+            <img src="/assets/estadio97/frames4.png" alt="Estádio 97 brand applications" />
+            <img src="/assets/estadio97/frames5.png" alt="Estádio 97 brand applications" />
             <div className="vd-br">
               <video src="/assets/estadio97/07-e97.mp4" autoPlay playsInline muted loop></video>
             </div>
             <div className="vd-br-phone">
               <video src="/assets/estadio97/08-e97.mp4" autoPlay playsInline muted loop></video>
             </div>
-            <img src="/assets/estadio97/frames7.png" alt="" draggable="false" />
+            <img src="/assets/estadio97/frames7.png" alt="Estádio 97 final brand identity showcase" draggable="false" />
           </Frame>
 
           <ProjectsSlider />

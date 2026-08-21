@@ -19,10 +19,23 @@ const BuddyNutrition = () => {
         <meta name="description" content="Branding, Packaging, and Design System for Buddy Nutrition, a canine supplement brand that creates high-quality formulas with personalized recommendations for pet health and well-being." />
         <meta property="og:title" content="Buddy Nutrition - Branding, Packaging & Design System" />
         <meta property="og:description" content="Complete branding project for Buddy Nutrition, a canine supplement brand with personalized recommendations." />
+        <meta property="og:image" content="https://lucaslucas.work/assets/buddy/swip1.png" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://lucaslucas.work/buddynutrition" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://lucaslucas.work/buddynutrition" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CreativeWork',
+            name: 'Buddy Nutrition - Branding, Packaging & Design System',
+            description: 'Branding, Packaging, and Design System for Buddy Nutrition, a canine supplement brand that creates high-quality formulas with personalized recommendations for pet health and well-being.',
+            url: 'https://lucaslucas.work/buddynutrition',
+            image: 'https://lucaslucas.work/assets/buddy/swip1.png',
+            datePublished: '2022',
+            creator: { '@type': 'Person', name: 'Lucas Moraes', url: 'https://lucaslucas.work/' },
+          })}
+        </script>
       </Helmet>
 
       <div className='buddy-page'>
@@ -46,7 +59,7 @@ const BuddyNutrition = () => {
               </FadeUp>
             </Section>
 
-            <Section className="aboutgrid about2" id="aboutgrid1">
+            <Section className="aboutgrid about2" id="aboutgrid1" lang="pt-BR">
               <motion.h6 id="h6-w" variants={fadeUp}>2022 / BRANDING / PACKAGING / WEBSITE / DESIGN SYSTEM / ART DIRECTION</motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p id="p2-1" variants={fadeUp}>
@@ -70,7 +83,7 @@ const BuddyNutrition = () => {
                 Trabalhando em conjunto com o time de pesquisa na fundação da marca, descobrimos que embora o cuidado com os pets se equiparam aos cuidados com um membro da família o consumo de suplementação canina ainda é fortemente restrita a indicação de veterinários/profissionais da saúde.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.p variants={fadeUp}>
                 Working together with the research team on the brand foundation, we discovered that although pet care is considered on par with family member care, the consumption of canine supplements is still strongly restricted to recommendations from veterinarians/health professionals.
               </motion.p>
@@ -89,7 +102,7 @@ const BuddyNutrition = () => {
                 I started with the hypothesis that if we had a simple and educational visual in the brand's DNA, we could reduce this credibility barrier to some extent. These characteristics are present in the colors, elements, and product names.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 Parti da hipótese de que se tivéssemos um visual simples e didático no DNA da marca, reduziríamos em certa fração esse bloqueio de credibilidade. Essas características estão presente nos tons, elementos e nome dos produtos.
@@ -112,12 +125,12 @@ const BuddyNutrition = () => {
             centeredSlides={true}
             modules={[Autoplay, FreeMode]}
           >
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip1.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip2.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip3.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip4.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip5.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip6.png" alt="" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip1.png" alt="Buddy Nutrition product naming — supplement packaging" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip2.png" alt="Buddy Nutrition product naming — supplement packaging" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip3.png" alt="Buddy Nutrition product naming — supplement packaging" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip4.png" alt="Buddy Nutrition product naming — supplement packaging" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip5.png" alt="Buddy Nutrition product naming — supplement packaging" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/swip6.png" alt="Buddy Nutrition product naming — supplement packaging" /></SwiperSlide>
           </Swiper>
 
           <Section className="about tipografia tipo-m container">
@@ -132,7 +145,7 @@ const BuddyNutrition = () => {
                 Product naming is 100% clear, which facilitates understanding of what the product is, especially compared to existing pet health products on the market.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h6 variants={fadeUp}></motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>Nomenclatura de produtos 100% clara que facilita o entendimento do que se trata o produto - principalmente em comparação com produtos de saúde pet vigentes no mercado.</motion.p>
@@ -144,17 +157,17 @@ const BuddyNutrition = () => {
           </Frame>
 
           <Frame className="frames3">
-            <img src="/assets/buddy/frame1.png" alt="" draggable="false" />
-            <img src="/assets/buddy/frame2.png" alt="" draggable="false" />
+            <img src="/assets/buddy/frame1.png" alt="Buddy Nutrition packaging design system" draggable="false" />
+            <img src="/assets/buddy/frame2.png" alt="Buddy Nutrition packaging design system" draggable="false" />
           </Frame>
 
           <Frame className="frames3">
             <video className="gif-b" src="/assets/buddy/08-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
-            <img src="/assets/buddy/frame4.png" alt="" draggable="false" />
+            <img src="/assets/buddy/frame4.png" alt="Buddy Nutrition color-coded product line" draggable="false" />
           </Frame>
 
           <Frame className="frames3">
-            <img src="/assets/buddy/frame5.png" alt="" draggable="false" />
+            <img src="/assets/buddy/frame5.png" alt="Buddy Nutrition color-coded product line" draggable="false" />
             <video className="gif-b" src="/assets/buddy/09-buddy.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </Frame>
 
@@ -167,7 +180,7 @@ const BuddyNutrition = () => {
                 <br />A dominant color for each product organically results in a cheerful and friendly color palette.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 A fidelidade nos tons de cada produto e suas especificidades é fundamental para que o conceito de identificação se mantenha intacto. Isso demanda um acompanhamento cauteloso e em proximidade com todas as pontas envolvidas no projeto.
@@ -188,12 +201,12 @@ const BuddyNutrition = () => {
             centeredSlides={true}
             modules={[Autoplay, FreeMode]}
           >
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip1.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip2.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip3.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip4.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip5.png" alt="" /></SwiperSlide>
-            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip6.png" alt="" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip1.png" alt="Buddy Nutrition illustrations by Jaqueline Zaccari" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip2.png" alt="Buddy Nutrition illustrations by Jaqueline Zaccari" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip3.png" alt="Buddy Nutrition illustrations by Jaqueline Zaccari" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip4.png" alt="Buddy Nutrition illustrations by Jaqueline Zaccari" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip5.png" alt="Buddy Nutrition illustrations by Jaqueline Zaccari" /></SwiperSlide>
+            <SwiperSlide className="swiper2"><img src="/assets/buddy/1swip6.png" alt="Buddy Nutrition illustrations by Jaqueline Zaccari" /></SwiperSlide>
           </Swiper>
 
           <div className="cred">
@@ -208,7 +221,7 @@ const BuddyNutrition = () => {
                 Based on the most common design system structures for interfaces, I developed a restricted visual system that grants autonomy to other departments whose daily demands used to consume a significant amount of time, despite being simple and lacking visual challenges, they took up execution time.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 Baseado nas estruturas mais comuns de design system voltado para interfaces, desenvolvi um sistema visual restrito que dá autonomia para os demais setores cuja as demandas de dia-a-dia costumavam tomar grande parte do dia - apesar de simples e sem desafios visuais, tomavam tempo de execução.
@@ -230,11 +243,11 @@ const BuddyNutrition = () => {
           </div>
 
           <Frame className="frames5">
-            <img src="/assets/buddy/frame6.png" alt="" draggable="false" />
+            <img src="/assets/buddy/frame6.png" alt="Buddy Nutrition visual system applied to interface design" draggable="false" />
           </Frame>
 
           <Frame className="frames1">
-            <img src="/assets/buddy/fr8.png" alt="" draggable="false" />
+            <img src="/assets/buddy/fr8.png" alt="Buddy Nutrition brand identity final application" draggable="false" />
           </Frame>
 
           <ProjectsSlider />

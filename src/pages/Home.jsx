@@ -188,6 +188,30 @@ const Home = () => {
         <meta name="twitter:title" content="Lucas Moraes - Designer & Art Director" />
         <meta name="twitter:description" content="Multidisciplinary designer and art director with over 10 years of experience." />
         <link rel="canonical" href="https://lucaslucas.work/" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            name: 'Lucas Moraes',
+            jobTitle: 'Creative Designer & Art Director',
+            url: 'https://lucaslucas.work/',
+            image: 'https://lucaslucas.work/assets/profile-lucas-moraes.jpg',
+            email: 'mailto:vaziodesignstudio@gmail.com',
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'São Paulo',
+              addressCountry: 'BR',
+            },
+            knowsAbout: [
+              'Branding',
+              'Art Direction',
+              'Motion Graphics',
+              'Packaging Design',
+              'Design Systems',
+              'Web Design',
+            ],
+          })}
+        </script>
       </Helmet>
 
       <main className="home-page">
@@ -257,7 +281,7 @@ const Home = () => {
             </div>
           </h2>
           <p className="sobreT3 sobre2T3">(PT/BR)</p>
-          <p className="sobreT4 sobre2T4">
+          <p className="sobreT4 sobre2T4" lang="pt-BR">
             Designer multidisciplinar e diretor de arte
 com mais de 10 anos de experiência colaborando em agências, estúdios e marcas desenvolvendo uma variedade de projetos legais envolvendo identidade visual, design estratégico, desenvolvimento de produtos e por aí vai.
           </p>

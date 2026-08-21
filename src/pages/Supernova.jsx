@@ -21,6 +21,18 @@ const Supernova = () => {
         <meta property="og:image" content="https://lucaslucas.work/assets/supernova/Frame2.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://lucaslucas.work/supernova" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CreativeWork',
+            name: 'Supernova Entertainment - Branding & Art Direction',
+            description: 'Branding and Art Direction for Supernova Entertainment, a music label in São Paulo marked by the astronomical rise of its artists, including Thiago Veigh who reached global top 1 on Spotify.',
+            url: 'https://lucaslucas.work/supernova',
+            image: 'https://lucaslucas.work/assets/supernova/Frame2.png',
+            datePublished: '2023',
+            creator: { '@type': 'Person', name: 'Lucas Moraes', url: 'https://lucaslucas.work/' },
+          })}
+        </script>
       </Helmet>
 
       <div className="supernova-page">
@@ -49,7 +61,7 @@ const Supernova = () => {
             </FadeUp>
           </Section>
 
-          <Section className="aboutgrid about2 firstabout2" id="aboutgrid1">
+          <Section className="aboutgrid about2 firstabout2" id="aboutgrid1" lang="pt-BR">
             <motion.h6 id="h6-w" variants={fadeUp}>2023 / BRANDING / ART DIRECTION</motion.h6>
             <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
             <motion.p id="p2-1" variants={fadeUp}>
@@ -75,7 +87,7 @@ const Supernova = () => {
                 The beginning of this work is part of the label's clear objective of professionalizing the brand and showing how its productions are capable of polishing and boosting young Brazilian trap talents.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 O inicio desse trabalho parte do objetivo claro da gravadora de profissionalizar a marca e transparecer o quanto suas produções são capazes de lapidar e impulsionar jovens talentos do trap brasileiro.
@@ -84,7 +96,7 @@ const Supernova = () => {
           </Section>
 
           <Frame className="frames1">
-            <img src="/assets/supernova/Frame2.png" alt="imagem capa supernova" draggable="false" />
+            <img src="/assets/supernova/Frame2.png" alt="Supernova Entertainment brand identity — rising star mark" draggable="false" />
             <video src="/assets/supernova/03-spnv.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </Frame>
 
@@ -97,7 +109,7 @@ const Supernova = () => {
                 I opted for a typography that would go unnoticed in no application. Impactful and dense enough to allow for the internalization of the brand's rising star design.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 Ascensão e dimensão são as palavras-chave nesse momento
@@ -108,7 +120,7 @@ const Supernova = () => {
           </Section>
 
           <Frame className="frames1">
-            <img src="/assets/supernova/frame4.jpg" alt="imagem capa supernova" draggable="false" />
+            <img src="/assets/supernova/frame4.jpg" alt="Supernova Entertainment typography design" draggable="false" />
           </Frame>
 
           <Section className="about tipografia">
@@ -123,7 +135,7 @@ const Supernova = () => {
                 To support this path of development, I represented the idea of expansion and amplification in a playful way through 'waves'.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 A família tipográfica Humane possui flexibilidade determinante para sustentar a ideia de ascensão devido a sua variedade de peso.
@@ -149,7 +161,7 @@ const Supernova = () => {
                 An intentionally impactful brand like itself astronomical event.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 A soma do trabalho em colaboração com os fundadores juntamente ao rico background da produtora resultou em decisões visuais que refletem objetivamente a grandeza presente no DNA da marca.
@@ -162,13 +174,13 @@ const Supernova = () => {
           <Frame className="prints">
             <div className="printsgrid">
               <div className="grid1">
-                <img src="/assets/supernova/frame3.png" alt="" draggable="false" />
+                <img src="/assets/supernova/frame3.png" alt="Supernova Entertainment brand elements and wave motif" draggable="false" />
               </div>
               <div className="grid2">
-                <img className="img-mr" src="/assets/supernova/frame1-1.png" alt="" draggable="false" />
-                <img src="/assets/supernova/frame1-2.png" alt="" draggable="false" />
-                <img className="img-mr" src="/assets/supernova/frame1-3.png" alt="" draggable="false" />
-                <img src="/assets/supernova/frame1-4.png" alt="" draggable="false" />
+                <img className="img-mr" src="/assets/supernova/frame1-1.png" alt="Supernova Entertainment brand collateral" draggable="false" />
+                <img src="/assets/supernova/frame1-2.png" alt="Supernova Entertainment brand collateral" draggable="false" />
+                <img className="img-mr" src="/assets/supernova/frame1-3.png" alt="Supernova Entertainment brand collateral" draggable="false" />
+                <img src="/assets/supernova/frame1-4.png" alt="Supernova Entertainment brand collateral" draggable="false" />
               </div>
             </div>
           </Frame>

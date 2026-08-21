@@ -16,10 +16,23 @@ const ClicksCorres = () => {
         <meta name="description" content="Personal photography project documenting running during COVID-19 pandemic. All footage was captured on a phone over months of running the same route in the north side of São Paulo." />
         <meta property="og:title" content="Clicks & Corres - Personal Photography Project" />
         <meta property="og:description" content="Photography project documenting running during COVID-19 pandemic in São Paulo." />
+        <meta property="og:image" content="https://lucaslucas.work/assets/corres/frames2.png" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://lucaslucas.work/clickscorres" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://lucaslucas.work/clickscorres" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CreativeWork',
+            name: 'Clicks & Corres - Personal Photography Project',
+            description: 'Personal photography project documenting running during COVID-19 pandemic. All footage was captured on a phone over months of running the same route in the north side of São Paulo.',
+            url: 'https://lucaslucas.work/clickscorres',
+            image: 'https://lucaslucas.work/assets/corres/frames2.png',
+            datePublished: '2020',
+            creator: { '@type': 'Person', name: 'Lucas Moraes', url: 'https://lucaslucas.work/' },
+          })}
+        </script>
       </Helmet>
 
       <div className='corresclicks-page'>
@@ -47,7 +60,7 @@ const ClicksCorres = () => {
               </FadeUp>
             </Section>
 
-            <Section className="aboutgrid about2" id="aboutgrid1">
+            <Section className="aboutgrid about2" id="aboutgrid1" lang="pt-BR">
               <motion.h6 id="h6-w" variants={fadeUp}>2020 / PERSONAL PROJECT / PHOTOGRAPHY</motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p className="about1" id="p2-1" variants={fadeUp}>
@@ -61,12 +74,12 @@ const ClicksCorres = () => {
           </div>
 
           <Frame className="frames1-1">
-            <img src="/assets/corres/frames2.png" alt="" draggable="false" />
+            <img src="/assets/corres/frames2.png" alt="Corres & Clicks photography — running route in São Paulo's north zone" draggable="false" />
           </Frame>
 
           <Frame className="frames1">
-            <img className="img1" src="/assets/corres/frames3.png" alt="imagem capa lata 05" draggable="false" />
-            <img className="img1" src="/assets/corres/frames4.png" alt="imagem capa lata 05" draggable="false" />
+            <img className="img1" src="/assets/corres/frames3.png" alt="Corres & Clicks photography — street running in São Paulo" draggable="false" />
+            <img className="img1" src="/assets/corres/frames4.png" alt="Corres & Clicks photography — street running in São Paulo" draggable="false" />
           </Frame>
 
           <Section className="about desafiogrid container" id="aboutgrid1">
@@ -77,7 +90,7 @@ const ClicksCorres = () => {
                 As a result of this anxiety, I developed some compulsions. To cope, I began practicing sports, adopting daily street running as a strict routine.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h6 variants={fadeUp}></motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>Como resultado dessas ansiedades, desenvolvi algumas compulsões. <br />
@@ -90,9 +103,9 @@ const ClicksCorres = () => {
           </Frame>
 
           <Frame className="frames1 frames1-2">
-            <img src="/assets/corres/frames5.png" alt="" draggable="false" />
-            <img src="/assets/corres/frames6.png" alt="" draggable="false" />
-            <img src="/assets/corres/frames7.png" alt="" draggable="false" />
+            <img src="/assets/corres/frames5.png" alt="Corres & Clicks photography — daily street scenes during lockdown" draggable="false" />
+            <img src="/assets/corres/frames6.png" alt="Corres & Clicks photography — daily street scenes during lockdown" draggable="false" />
+            <img src="/assets/corres/frames7.png" alt="Corres & Clicks photography — daily street scenes during lockdown" draggable="false" />
           </Frame>
 
           <Section className="about desafiogrid container" id="aboutgrid1">
@@ -105,7 +118,7 @@ const ClicksCorres = () => {
                 By repeating the same route, my focus began to shift to the routine aspects of a now strange, empty, and cold everyday life.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h6 variants={fadeUp}></motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
@@ -117,19 +130,19 @@ const ClicksCorres = () => {
           </Section>
 
           <Frame className="frames1">
-            <img src="/assets/corres/frames8.png" alt="imagem capa lata 05" draggable="false" />
+            <img src="/assets/corres/frames8.png" alt="Corres & Clicks photography — phone snapshot of the daily route" draggable="false" />
           </Frame>
 
           <Frame className="frames1-1 frames1-3">
-            <img src="/assets/corres/frames9.png" alt="imagem capa lata 05" draggable="false" />
+            <img src="/assets/corres/frames9.png" alt="Corres & Clicks photography — north zone of São Paulo" draggable="false" />
           </Frame>
 
           <Frame className="frames2">
-            <img src="/assets/corres/frames10.png" alt="" draggable="false" />
+            <img src="/assets/corres/frames10.png" alt="Corres & Clicks photography — everyday details captured mid-run" draggable="false" />
           </Frame>
 
           <Frame className="frames1">
-            <img src="/assets/corres/frames11.png" alt="" draggable="false" />
+            <img src="/assets/corres/frames11.png" alt="Corres & Clicks photography — everyday details captured mid-run" draggable="false" />
           </Frame>
 
           <Section className="about tipografia container" id="aboutgrid1">
@@ -143,7 +156,7 @@ const ClicksCorres = () => {
                 This experiment allowed me to connect with these subtle details.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2" id="aboutgrid2">
+            <FadeUp className="aboutgrid about2" id="aboutgrid2" lang="pt-BR">
               <motion.h6 variants={fadeUp}>
                 <video src="/assets/corres/03-cc.mp4" autoPlay playsInline muted loop></video>
               </motion.h6>
@@ -159,8 +172,8 @@ const ClicksCorres = () => {
           </Section>
 
           <Frame className="frames1 frames1-2">
-            <img src="/assets/corres/frames12.png" alt="" draggable="false" />
-            <img src="/assets/corres/frames13.png" alt="" draggable="false" />
+            <img src="/assets/corres/frames12.png" alt="Corres & Clicks photography — São Paulo street life" draggable="false" />
+            <img src="/assets/corres/frames13.png" alt="Corres & Clicks photography — São Paulo street life" draggable="false" />
           </Frame>
 
           <Section className="about container" id="aboutgrid3">
@@ -173,15 +186,15 @@ const ClicksCorres = () => {
                 The world is in constant flux, and it is essential to stay attentive.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>O mundo está em constante mutação e é preciso estar atento.</motion.p>
             </FadeUp>
           </Section>
 
           <Frame className="frames3">
-            <img src="/assets/corres/frames14.png" alt="" draggable="false" />
-            <img src="/assets/corres/frames15.png" alt="" draggable="false" />
+            <img src="/assets/corres/frames14.png" alt="Corres & Clicks photography — closing frames of the project" draggable="false" />
+            <img src="/assets/corres/frames15.png" alt="Corres & Clicks photography — closing frames of the project" draggable="false" />
           </Frame>
 
           <ProjectsSlider />

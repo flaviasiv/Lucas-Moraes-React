@@ -16,10 +16,23 @@ const AstroPay = () => {
         <meta name="description" content="Motion Graphics and Art Direction for AstroPay, a global digital payments company based in London with users across more than 150 countries, known for connecting people and businesses through fast, secure and accessible solutions." />
         <meta property="og:title" content="AstroPay - Motion Graphics & Art Direction" />
         <meta property="og:description" content="Motion Graphics for AstroPay, a global digital payments company connecting people and businesses through secure solutions." />
+        <meta property="og:image" content="https://lucaslucas.work/assets/astropay/hero15.png" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://lucaslucas.work/astropay" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://lucaslucas.work/astropay" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CreativeWork',
+            name: 'AstroPay - Motion Graphics & Art Direction',
+            description: 'Motion Graphics and Art Direction for AstroPay, a global digital payments company based in London with users across more than 150 countries.',
+            url: 'https://lucaslucas.work/astropay',
+            image: 'https://lucaslucas.work/assets/astropay/hero15.png',
+            datePublished: '2025',
+            creator: { '@type': 'Person', name: 'Lucas Moraes', url: 'https://lucaslucas.work/' },
+          })}
+        </script>
       </Helmet>
 
       <div className="astropay-page">
@@ -41,7 +54,7 @@ const AstroPay = () => {
               </FadeUp>
             </Section>
 
-            <Section className="aboutgrid about2" id="aboutgrid1">
+            <Section className="aboutgrid about2" id="aboutgrid1" lang="pt-BR">
               <motion.h6 id="h6-w" variants={fadeUp}>2025 / MOTION GRAPHICS / SENIOR DESIGNER</motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p id="p2-1" variants={fadeUp}>
@@ -63,7 +76,7 @@ const AstroPay = () => {
                 The Motion Playbook was created to support multiple departments at AstroPay while keeping visual consistency and speed. It includes templates and small prebuilt scenes such as text animations, intros, transitions and outros. This system makes it possible to produce videos at scale in three languages with quality and efficiency.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 O Motion Playbook nasceu da necessidade de atender múltiplos setores da AstroPay, garantindo consistência visual e agilidade. Ele reúne templates e microcenas pré-montadas; animações de texto, intros, transições, encerramentos, que permitem produzir vídeos em escala sempre em três idiomas, mantendo padrão, velocidade e qualidade.
@@ -98,7 +111,7 @@ const AstroPay = () => {
                 Some of my favorite animations produced in 2025. These pieces were created for different platforms, combining dynamism, clarity and strong visual identity. The goal is to deliver short, impactful and performance-driven videos that help expand the brand's reach in global campaigns.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 Algumas das minhas animações favoritas produzidas em 2025. São peças criadas para diferentes plataformas, combinando dinamismo, clareza e identidade visual. O objetivo é entregar vídeos curtos, impactantes e otimizados para performance, ampliando o alcance da marca em campanhas globais.
@@ -124,8 +137,8 @@ const AstroPay = () => {
               <video src="/assets/astropay/hero13.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
             </Frame>
             <Frame className="frames1 grid-left gridimgs">
-              <img src="/assets/astropay/hero15.png" alt="" />
-              <img src="/assets/astropay/hero16.png" alt="" />
+              <img src="/assets/astropay/hero15.png" alt="AstroPay social media campaign visual" />
+              <img src="/assets/astropay/hero16.png" alt="AstroPay social media campaign visual" />
             </Frame>
             <Frame className="frames1 grid-right vfull">
               <video src="/assets/astropay/hero17.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
@@ -145,7 +158,7 @@ const AstroPay = () => {
                 AstroPay has a strong educational approach to support its users. Every time a new feature is released, we create tutorials that guide people step by step. These videos help reduce questions, improve the overall experience and make the app easier to understand for all audiences.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 A AstroPay possui um forte compromisso educacional com seus usuários. Sempre que uma nova funcionalidade é lançada, criamos tutoriais claros e diretos que explicam o passo a passo. Esses conteúdos ajudam a reduzir dúvidas, melhorar a experiência e tornar o uso do app mais intuitivo para todos os públicos.
@@ -169,7 +182,7 @@ const AstroPay = () => {
                 Institutional videos for booths and events, along with promotional materials tailored for B2B. These are strategic pieces designed to present products, use cases and business opportunities with clarity, impact and consistent visual alignment.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 Vídeos institucionais para estandes e eventos, além de materiais promocionais voltados ao B2B. São conteúdos estratégicos que apresentam produtos, cases e oportunidades de negócio com clareza, impacto e alinhamento visual.
@@ -182,7 +195,7 @@ const AstroPay = () => {
           </Frame>
 
           <Frame className="frameimg">
-            <img className='frameimgimg' src="/assets/astropay/img_1531.jpg" alt="" />
+            <img className='frameimgimg' src="/assets/astropay/img_1531.jpg" alt="AstroPay institutional booth material" />
             <video src="/assets/astropay/hero21.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </Frame>
 

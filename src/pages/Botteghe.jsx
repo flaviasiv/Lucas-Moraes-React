@@ -16,10 +16,23 @@ const Botteghe = () => {
         <meta name="description" content="Branding and Art Direction for Botteghe Del Caffè, an environmentally conscious cosmetics brand utilizing green coffee oil from a family farm in southern Minas Gerais." />
         <meta property="og:title" content="Botteghe Del Caffè - Branding & Art Direction" />
         <meta property="og:description" content="Branding for Botteghe Del Caffè, an environmentally conscious cosmetics brand utilizing green coffee oil." />
+        <meta property="og:image" content="https://lucaslucas.work/assets/botteghe/Frame3.png" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://lucaslucas.work/botteghe" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://lucaslucas.work/botteghe" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CreativeWork',
+            name: 'Botteghe Del Caffè - Branding & Art Direction',
+            description: 'Branding and Art Direction for Botteghe Del Caffè, an environmentally conscious cosmetics brand utilizing green coffee oil from a family farm in southern Minas Gerais.',
+            url: 'https://lucaslucas.work/botteghe',
+            image: 'https://lucaslucas.work/assets/botteghe/Frame3.png',
+            datePublished: '2023',
+            creator: { '@type': 'Person', name: 'Lucas Moraes', url: 'https://lucaslucas.work/' },
+          })}
+        </script>
       </Helmet>
 
       <div>
@@ -49,7 +62,7 @@ const Botteghe = () => {
               </FadeUp>
             </Section>
 
-            <Section className="aboutgrid about2" id="aboutgrid1">
+            <Section className="aboutgrid about2" id="aboutgrid1" lang="pt-BR">
               <motion.h6 id="h6-w" variants={fadeUp}>2023 / BRANDING / ART DIRECTION</motion.h6>
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p className="about1" id="p2-1" variants={fadeUp}>
@@ -69,11 +82,11 @@ const Botteghe = () => {
           </Frame>
 
           <Frame className="frames1">
-            <img className="img1" src="/assets/botteghe/Frame3.png" alt="imagem capa botteghe" draggable="false" />
+            <img className="img1" src="/assets/botteghe/Frame3.png" alt="Botteghe Del Caffè brand identity — logo and packaging" draggable="false" />
           </Frame>
 
           <Frame className="frames2">
-            <img src="/assets/botteghe/Frame4.png" alt="" draggable="false" />
+            <img src="/assets/botteghe/Frame4.png" alt="Botteghe Del Caffè packaging design detail" draggable="false" />
           </Frame>
 
           <Section className="about desafiogrid container">
@@ -87,7 +100,7 @@ const Botteghe = () => {
                 Given this commitment, there arises the need for a vibrant brand that clearly reflects these principles, representing excellence and scientific potential in coffee cultivation, as well as a commitment to environmental conservation and the well-being of the team.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.p variants={fadeUp}>
                 A fazenda São Luís do Palmela, com mais de 40 anos de dedicação à cafeicultura em Campanha-MG, destaca-se por seus 140 hectares, que incluem a sede e amplas áreas de preservação.
                 <br /><br />
@@ -99,11 +112,11 @@ const Botteghe = () => {
           </Section>
 
           <Frame className="frames1 frames1-1">
-            <img src="/assets/botteghe/Frame5.png" alt="imagem capa botteghe" draggable="false" />
+            <img src="/assets/botteghe/Frame5.png" alt="Botteghe Del Caffè brand visual identity applied to coffee farm packaging" draggable="false" />
           </Frame>
 
           <Frame className="frame2-2">
-            <img src="/assets/botteghe/gif3.gif" alt="imagem capa botteghe" draggable="false" />
+            <img src="/assets/botteghe/gif3.gif" alt="Botteghe Del Caffè animated packaging showcase" draggable="false" />
             <video src="/assets/botteghe/03-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
           </Frame>
 
@@ -111,7 +124,7 @@ const Botteghe = () => {
 
           <Frame className="frames3">
             <video src="/assets/botteghe/04-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
-            <img src="/assets/botteghe/frame8.png" alt="imagem capa botteghe" draggable="false" />
+            <img src="/assets/botteghe/frame8.png" alt="Botteghe Del Caffè icon design applied across brand materials" draggable="false" />
           </Frame>
 
           <Section className="about tipografia container">
@@ -124,7 +137,7 @@ const Botteghe = () => {
                 The selection of specific elements, such as health, skin radiance, and roots, implies a connection to environmental responsibility and suggests a commitment to sustainable practices.
               </motion.p>
             </FadeUp>
-            <FadeUp className="aboutgrid about2">
+            <FadeUp className="aboutgrid about2" lang="pt-BR">
               <motion.h5 variants={fadeUp}>(PT/BR)</motion.h5>
               <motion.p variants={fadeUp}>
                 O ícone foi projetado para refletir e reforçar os princípios fundamentais da marca, valores como saúde e responsabilidade ambiental. Foi concebido de forma a ser facilmente aplicado em diferentes contextos, como em materiais de marketing, embalagens, mídias sociais, etc.
@@ -135,16 +148,16 @@ const Botteghe = () => {
           </Section>
 
           <Frame className="frames1">
-            <img src="/assets/botteghe/08ec6a2c417565846ce6d744ebc776fd.gif" alt="" />
-            <img src="/assets/botteghe/frame9.png" alt="" draggable="false" />
+            <img src="/assets/botteghe/08ec6a2c417565846ce6d744ebc776fd.gif" alt="Botteghe Del Caffè animated brand application" />
+            <img src="/assets/botteghe/frame9.png" alt="Botteghe Del Caffè packaging mockup" draggable="false" />
             <video src="/assets/botteghe/05-botteghe.mp4" autoPlay preload="auto" playsInline webkit-playsinline="true" x-webkit-airplay="allow" muted loop controls={false} disablePictureInPicture style={{ WebkitTransform: 'translateZ(0)' }}></video>
-            <img className="img-sm" src="/assets/botteghe/frame10.png" alt="" draggable="false" />
-            <img src="/assets/botteghe/frame11.png" alt="" draggable="false" />
+            <img className="img-sm" src="/assets/botteghe/frame10.png" alt="Botteghe Del Caffè label detail" draggable="false" />
+            <img src="/assets/botteghe/frame11.png" alt="Botteghe Del Caffè product packaging" draggable="false" />
           </Frame>
 
           <Frame className="frames4">
-            <img className="img-4-1" src="/assets/botteghe/frame12.png" alt="" draggable="false" />
-            <img className="img-4-2" src="/assets/botteghe/frame13.png" alt="" draggable="false" />
+            <img className="img-4-1" src="/assets/botteghe/frame12.png" alt="Botteghe Del Caffè brand collateral" draggable="false" />
+            <img className="img-4-2" src="/assets/botteghe/frame13.png" alt="Botteghe Del Caffè brand collateral" draggable="false" />
           </Frame>
 
           <Frame className="frames1">
