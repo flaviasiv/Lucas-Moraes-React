@@ -28,3 +28,6 @@ dist-ssr
 *-mcp/
 .mcp/
 .claude/
+
+# Unused media assets kept locally, not needed in build/deploy
+/unused-assets/

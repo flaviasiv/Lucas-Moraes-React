@@ -112,7 +112,7 @@ const Botteghe = () => {
           </Section>
 
           <Frame className="frames1 frames1-1">
-            <img src="/assets/botteghe/Frame5.png" alt="Botteghe Del Caffè brand visual identity applied to coffee farm packaging" draggable="false" />
+            <img src="/assets/botteghe/frame5.png" alt="Botteghe Del Caffè brand visual identity applied to coffee farm packaging" draggable="false" />
           </Frame>
 
           <Frame className="frame2-2">
